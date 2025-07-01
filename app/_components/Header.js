@@ -1,15 +1,30 @@
 "use client";
-import { useState, useEffect, useRef } from "react";
-import { Book, Calculator, Menu, X } from "lucide-react";
+
+import { useState } from "react";
+import {
+  Book,
+  Briefcase,
+  Calculator,
+  ChevronDown,
+  ConciergeBell,
+  Menu,
+  MessageSquare,
+  MoreHorizontal,
+  Newspaper,
+  Percent,
+  Shield,
+  TrendingUp,
+  User2Icon,
+  X,
+} from "lucide-react";
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import Image from "next/image";
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
-  const [isOpen, setIsOpen] = useState(false);
-  const dropdownRef = useRef(null);
-  const [language, setLanguage] = useState("EN"); // 'EN' or 'HI'
+  const [isOpenService, setIsOpenService] = useState(false);
+  const [isOpenMore, setIsOpenMore] = useState(false);
 
   const path = usePathname();
   const router = useRouter();
@@ -29,17 +44,6 @@ export default function Header() {
 
   const currentLang = path.startsWith("/hi") ? "hi" : "en";
 
-  useEffect(() => {
-    const handleClickOutside = (event) => {
-      if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
-        setIsOpen(false);
-      }
-    };
-    document.addEventListener("mousedown", handleClickOutside);
-    return () => {
-      document.removeEventListener("mousedown", handleClickOutside);
-    };
-  }, []);
   return (
     <header className="sticky top-0 z-50 backdrop-blur-md bg-white/95 border-b border-gray-200 shadow-lg">
       <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
@@ -64,17 +68,16 @@ export default function Header() {
           </div>
         </Link>
 
-        {/* Desktop Nav */}
+        {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-6 text-sm font-medium">
           <Link
             href="/schemes"
-            className={`flex items-center space-x-2 px-4 py-2 rounded-lg transition-all duration-300 font-medium gap-2  ${
-              path === "/scheme"
+            className={`flex items-center space-x-2 px-4 py-2 rounded-lg transition-all duration-300 font-medium gap-2 ${
+              path === "/schemes"
                 ? "bg-red-100 text-red-700 shadow-md"
                 : "text-gray-700 hover:bg-gray-100 hover:text-red-600"
             }`}
           >
-            {" "}
             <Book size={18} />
             Schemes
           </Link>
@@ -91,28 +94,49 @@ export default function Header() {
           </Link>
           <Link
             href="/interest-rates"
-            className={`flex items-center space-x-2 px-4 py-2 rounded-lg transition-all duration-300 font-medium gap-2 ${
+            className={`flex items-center gap-3 space-x-2 px-4 py-2 rounded-lg transition-all duration-300 font-medium gap-2 ${
               path === "/interest-rates"
                 ? "bg-red-100 text-red-700 shadow-md"
                 : "text-gray-700 hover:bg-gray-100 hover:text-red-600"
             }`}
           >
-            {" "}
-            <span className="text-lg">📈</span>
-            Interest rates
+            <span>
+              <TrendingUp size={18} />
+            </span>{" "}
+            Interest Rates
+          </Link>
+          <Link
+            href="/blog"
+            className={`flex items-center gap-3 space-x-2 px-4 py-2 rounded-lg transition-all duration-300 font-medium ${
+              path === "/blog"
+                ? "bg-red-100 text-red-700 shadow-md"
+                : "text-gray-700 hover:bg-gray-100 hover:text-red-600"
+            }`}
+          >
+            <span>
+              <Newspaper size={18} />
+            </span>{" "}
+            Blog
           </Link>
 
-          <div className="relative" ref={dropdownRef}>
+          {/* Services Dropdown */}
+          <div className="relative">
             <button
-              onClick={() => setIsOpen((prev) => !prev)}
+              onClick={() => setIsOpenService((prev) => !prev)}
               className="flex items-center space-x-2 px-4 py-2 rounded-lg gap-2 transition-all duration-300 font-medium text-gray-700 hover:bg-gray-100 hover:text-red-600"
             >
-              🛠️ Services
+              <span>
+                <ConciergeBell size={18} />
+              </span>{" "}
+              Services
             </button>
-
-            {isOpen && (
+            {isOpenService && (
               <div className="absolute left-0 w-64 bg-white text-gray-800 rounded-md shadow-lg mt-2 p-4 z-50 space-y-4">
-                <Link href="/insurance" className="block hover:text-red-600">
+                <Link
+                  href="/insurance"
+                  className="block hover:text-red-600"
+                  onClick={() => setIsOpenService(false)}
+                >
                   <div className="flex items-start space-x-2">
                     <span>🛡️</span>
                     <div>
@@ -123,23 +147,32 @@ export default function Header() {
                     </div>
                   </div>
                 </Link>
-                <Link href="/tracking" className="block hover:text-red-600">
+                <Link
+                  href="/tracking"
+                  className="block hover:text-red-600"
+                  onClick={() => setIsOpenService(false)}
+                >
                   <div className="flex items-start space-x-2">
                     <span>📦</span>
                     <div>
                       <p className="font-semibold">Tracking</p>
-                      <p className="text-xs text-gray-600">Track articles</p>
+                      <p className="text-xs text-gray-600">
+                        Track articles and parcels.
+                      </p>
                     </div>
                   </div>
                 </Link>
-
-                <Link href="/gds-corner" className="block hover:text-red-600">
+                <Link
+                  href="/gds-corner"
+                  className="block hover:text-red-600"
+                  onClick={() => setIsOpenService(false)}
+                >
                   <div className="flex items-start space-x-2">
                     <span>👨‍💼</span>
                     <div>
                       <p className="font-semibold">GDS Corner</p>
                       <p className="text-xs text-gray-600">
-                        Access important tools and resources for GDS employees.
+                        Access tools for GDS employees.
                       </p>
                     </div>
                   </div>
@@ -148,19 +181,49 @@ export default function Header() {
             )}
           </div>
 
-          <Link
-            href="/blog"
-            className={`flex items-center space-x-2 px-4 py-2 rounded-lg transition-all duration-300 font-medium ${
-              path === "/blog"
-                ? "bg-red-100 text-red-700 shadow-md"
-                : "text-gray-700 hover:bg-gray-100 hover:text-red-600"
-            }`}
-          >
-            Blog
-          </Link>
+          {/* More Dropdown */}
+          <div className="relative">
+            <button
+              onClick={() => setIsOpenMore((prev) => !prev)}
+              className="flex items-center space-x-2 px-4 py-2 rounded-lg gap-2 transition-all duration-300 font-medium text-gray-700 hover:bg-gray-100 hover:text-red-600"
+            >
+              <span>
+                <ChevronDown size={18} />
+              </span>{" "}
+              More...
+            </button>
+            {isOpenMore && (
+              <div className="absolute left-0 w-40 bg-white text-gray-800 rounded-md shadow-lg mt-2 p-4 z-50 space-y-4">
+                <Link
+                  href="/privacy-policy"
+                  className="flex gap-2 hover:text-red-600"
+                  onClick={() => setIsOpenMore(false)}
+                >
+                  <Shield size={16} />
+                  Privacy Policy
+                </Link>
+                <Link
+                  href="/about-us"
+                  className="flex gap-2 hover:text-red-600"
+                  onClick={() => setIsOpenMore(false)}
+                >
+                  <User2Icon size={16} />
+                  About Us
+                </Link>
+                <Link
+                  href="/contact-us"
+                  className="flex gap-2 hover:text-red-600"
+                  onClick={() => setIsOpenMore(false)}
+                >
+                  <MessageSquare size={16} />
+                  Contact Us
+                </Link>
+              </div>
+            )}
+          </div>
 
-          {/* Language Switch - Desktop Only */}
-          <div className="border-l border-red-400 pl-4 ml-4 flex space-x-2 text-xs">
+          {/* Language Switch */}
+          {/* <div className="border-l border-red-400 pl-4 ml-4 flex space-x-2 text-xs">
             <button
               onClick={() => switchLanguage("en")}
               className={`px-2 py-1 rounded-full ${
@@ -181,85 +244,41 @@ export default function Header() {
             >
               HI
             </button>
-          </div>
+          </div> */}
         </nav>
 
-        {/* Mobile: Language toggle + Hamburger */}
         <div className="md:hidden flex items-center space-x-3">
-          <div className="flex border border-red-300 rounded-full overflow-hidden bg-white shadow-inner text-xs">
-            <button
-              onClick={() => switchLanguage("EN")}
-              className={`px-3 py-1 transition-all ${
-                language === "EN"
-                  ? "bg-red-600 text-white font-semibold"
-                  : "text-red-700 hover:bg-red-100"
-              }`}
-            >
-              EN
-            </button>
-            <button
-              onClick={() => switchLanguage("HI")}
-              className={`px-3 py-1 transition-all ${
-                language === "HI"
-                  ? "bg-red-600 text-white font-semibold"
-                  : "text-red-700 hover:bg-red-100"
-              }`}
-            >
-              HI
-            </button>
-          </div>
-
           <button onClick={() => setMenuOpen(!menuOpen)}>
             {menuOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
         </div>
       </div>
 
-      {/* Mobile Menu */}
       {menuOpen && (
-        <div className="md:hidden bg-white/90 backdrop-blur-md px-4 py-4 rounded-b-xl shadow-xl border-t border-red-200 text-sm font-medium space-y-2">
-          <Link
-            href="/schemes"
-            className="block w-full rounded-lg px-4 py-2 text-red-700 hover:bg-red-50 hover:text-red-800 transition-all duration-200 shadow-sm"
-          >
-            Schemes
-          </Link>
-          <Link
-            href="/calculator"
-            className="block w-full rounded-lg px-4 py-2 text-red-700 hover:bg-red-50 hover:text-red-800 transition-all duration-200 shadow-sm"
-          >
-            Calculator
-          </Link>
-          <Link
-            href="/tracking"
-            className="block w-full rounded-lg px-4 py-2 text-red-700 hover:bg-red-50 hover:text-red-800 transition-all duration-200 shadow-sm"
-          >
-            Tracking
-          </Link>
-          <Link
-            href="/insurance"
-            className="block w-full rounded-lg px-4 py-2 text-red-700 hover:bg-red-50 hover:text-red-800 transition-all duration-200 shadow-sm"
-          >
-            Insurance
-          </Link>
-          <Link
-            href="/gds-corner"
-            className="block w-full rounded-lg px-4 py-2 text-red-700 hover:bg-red-50 hover:text-red-800 transition-all duration-200 shadow-sm"
-          >
-            GDS Corner
-          </Link>
-          <Link
-            href="/resources"
-            className="block w-full rounded-lg px-4 py-2 text-red-700 hover:bg-red-50 hover:text-red-800 transition-all duration-200 shadow-sm"
-          >
-            Educational Resources
-          </Link>
-          <Link
-            href="/blog"
-            className="block w-full rounded-lg px-4 py-2 text-red-700 hover:bg-red-50 hover:text-red-800 transition-all duration-200 shadow-sm"
-          >
-            Blog
-          </Link>
+        <div className="md:hidden bg-white/95 backdrop-blur-md px-4 py-4 rounded-b-xl shadow-xl border-t border-red-200 text-sm font-medium space-y-2">
+          {[
+            { icon: Shield, href: "/insurance", label: "Insurance" },
+            { icon: User2Icon, href: "/gds-corner", label: "GDS Corner" },
+            {
+              icon: Book,
+              href: "/resources",
+              label: "Educational Resources",
+            },
+            { icon: Newspaper, href: "/blog", label: "Blog" },
+          ].map((item) => {
+            let Icon = item.icon;
+            return (
+              <Link
+                key={item.href}
+                href={item.href}
+                className="flex gap-2 w-full rounded-lg px-4 py-2 text-red-700 hover:bg-red-50 hover:text-red-800 transition-all duration-200 shadow-sm"
+                onClick={() => setMenuOpen(false)}
+              >
+                <Icon size={18} />
+                {item.label}
+              </Link>
+            );
+          })}
         </div>
       )}
     </header>

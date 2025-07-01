@@ -2,8 +2,7 @@
 
 import { useState } from "react";
 import { Calendar, Bell, Clock, AlertCircle } from "lucide-react";
-import { Button } from "@/app/_components/_ui/Button";
-import { Input } from "@/app/_components/_ui/Input";
+
 import {
   Dialog,
   DialogContent,
@@ -11,6 +10,8 @@ import {
   DialogTitle,
 } from "@/app/_components/_ui/dialog";
 import { Alert, AlertDescription } from "@/app/_components/_ui/alert";
+import Input from "./_ui/Input";
+import Button from "./_ui/Button";
 
 const MaturityReminderTool = () => {
   const [schemeName, setSchemeName] = useState("");

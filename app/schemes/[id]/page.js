@@ -20,7 +20,7 @@ export default function SchemeDetail({ params }) {
   if (!scheme) return notFound();
 
   const schemeToBlogMap = {
-    rd: "rd-guide",
+    rd: "rd-scheme",
     td: "td-guide",
     ssa: "ssa-guide",
     nsc: "nsc-guide",
@@ -78,8 +78,8 @@ export default function SchemeDetail({ params }) {
       {blogPostId && (
         <section className="bg-gradient-to-r from-blue-50 to-purple-50 py-6 border-b border-gray-200">
           <div className="container mx-auto px-4">
-            <div className="flex items-center justify-between bg-white rounded-xl p-6 shadow-lg">
-              <div className="flex items-center space-x-4">
+            <div className="flex items-center justify-between flex-col text-left sm:text-left gap-3 md:flex-row bg-white rounded-xl p-6 shadow-lg">
+              <div className="flex items-center space-x-4 flex-col md:flex-row">
                 <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center">
                   <BookOpen className="text-blue-600" size={24} />
                 </div>

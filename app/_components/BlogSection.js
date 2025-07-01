@@ -101,7 +101,14 @@ export default function BlogSection({ blogPosts }) {
                 <div className="flex items-center space-x-1">
                   <Calendar size={14} />
                   <span>
-                    {new Date(post.metadata.date).toLocaleDateString()}
+                    {new Date(post.metadata.formattedDate).toLocaleDateString(
+                      "en-GB",
+                      {
+                        day: "numeric",
+                        month: "short",
+                        year: "numeric",
+                      }
+                    )}
                   </span>
                 </div>
                 <div className="flex items-center space-x-1">

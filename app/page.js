@@ -37,7 +37,7 @@ const features = [
     title: "Financial Calculators",
     description:
       "Advanced calculators to compute returns, maturity amounts, and create personalized investment strategies",
-    link: "/calculators",
+    link: "/calculator",
     color: "from-emerald-400 to-teal-500",
     bgColor: "bg-gradient-to-br from-emerald-50 to-teal-100",
   },

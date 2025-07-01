@@ -42,13 +42,11 @@ export default async function BlogPostPage({ params }) {
                 <div className="flex flex-wrap items-center text-sm text-gray-600 space-x-6">
                   <div className="flex items-center space-x-2">
                     <Calendar size={16} className="text-blue-500" />
-                    <span>
-                      Published:{" "}
-                      {new Date(post.metadata.date).toLocaleDateString(
-                        "en-US",
-                        { year: "numeric", month: "long", day: "numeric" }
-                      )}
-                    </span>
+                    <span>Published:   {new Date(post.metadata.formattedDate).toLocaleDateString("en-GB", {
+    day: "numeric",
+    month: "short",
+    year: "numeric",
+  })}</span>
                   </div>
                   <div className="flex items-center space-x-2">
                     <Clock size={16} className="text-green-500" />

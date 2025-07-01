@@ -1,14 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import {
-  Calculator,
-  PiggyBank,
-  TrendingUp,
-  DollarSign,
-  Percent,
-  Bell,
-} from "lucide-react";
 
 import CalculatorComponent from "@/app/_components/Calculator";
 
@@ -21,7 +13,7 @@ export default function Calculators() {
   const calculators = [
     {
       id: "rd",
-      emoji: "🏦",
+      image: "/post-rd.png", // Placeholder image path
       title: "RD Calculator",
       description:
         "Calculate your Recurring Deposit returns for 5-year tenure with monthly investments",
@@ -32,12 +24,12 @@ export default function Calculators() {
       interestRate: 6.7,
       calculationType: "monthly",
       tenureOptions: [5],
-      minAmount: 10,
+      minAmount: 100,
       maxAmount: 100000,
     },
     {
       id: "td",
-      emoji: "💰",
+      image: "/post-td.png", // Placeholder image path
       title: "TD Calculator",
       description:
         "Calculate Time Deposit returns with flexible tenure options and compound interest",
@@ -45,6 +37,7 @@ export default function Calculators() {
       bgColor: "bg-gradient-to-r from-blue-50 to-cyan-50",
       borderColor: "border-blue-200",
       schemeName: "Time Deposit (TD)",
+      // interestRate here is just a fallback, specific rates per tenure are handled in CalculatorComponent
       interestRate: 6.9,
       calculationType: "compound",
       tenureOptions: [1, 2, 3, 5],
@@ -53,23 +46,23 @@ export default function Calculators() {
     },
     {
       id: "kvp",
-      emoji: "🌾",
+      image: "/post-kvp.png", // Placeholder image path
       title: "KVP Calculator",
       description:
-        "Calculate Kisan Vikas Patra maturity with money doubling feature",
+        "Calculate Kisan Vikas Patra maturity with money doubling feature (Maturity Period: 9 years and 7 months at current 7.5% rate, compounded quarterly)", // Clarified KVP period and compounding
       color: "from-yellow-400 to-orange-500",
       bgColor: "bg-gradient-to-r from-yellow-50 to-orange-50",
       borderColor: "border-yellow-200",
       schemeName: "Kisan Vikas Patra (KVP)",
-      interestRate: 7.5,
+      interestRate: 7.5, // KVP rate is currently 7.5%
       calculationType: "compound",
-      tenureOptions: [10.4],
+      tenureOptions: [9.58], // Approximate years for 9 years 7 months
       minAmount: 1000,
       maxAmount: 450000,
     },
     {
       id: "mis",
-      emoji: "📈",
+      image: "/post-mis.png", // Placeholder image path
       title: "MIS Calculator",
       description:
         "Calculate Monthly Income Scheme returns and monthly payouts",
@@ -85,7 +78,7 @@ export default function Calculators() {
     },
     {
       id: "scss",
-      emoji: "👴",
+      image: "/post-scss.png",
       title: "SCSS Calculator",
       description:
         "Calculate Senior Citizens Savings Scheme returns with quarterly interest",
@@ -101,15 +94,15 @@ export default function Calculators() {
     },
     {
       id: "nsc",
-      emoji: "🏛️",
+      image: "/post-rd.png",
       title: "NSC Calculator",
       description:
-        "Calculate National Savings Certificate returns with tax benefits",
+        "Calculate National Savings Certificate returns with tax benefits (Compounded Annually, Paid at Maturity)", // Clarified NSC compounding
       color: "from-teal-400 to-cyan-500",
       bgColor: "bg-gradient-to-r from-teal-50 to-cyan-50",
       borderColor: "border-teal-200",
       schemeName: "National Savings Certificate (NSC)",
-      interestRate: 6.8,
+      interestRate: 7.7, // NSC rate is 7.7%
       calculationType: "compound",
       tenureOptions: [5],
       minAmount: 1000,
@@ -117,7 +110,7 @@ export default function Calculators() {
     },
     {
       id: "ssa",
-      emoji: "🎓",
+      image: "/post-ssa.png",
       title: "SSA Calculator",
       description:
         "Calculate Sukanya Samriddhi Account returns for girl child education",
@@ -130,10 +123,11 @@ export default function Calculators() {
       tenureOptions: [21],
       minAmount: 250,
       maxAmount: 150000,
+      initialGirlAge: 1, // Default to 1 year for SSA
     },
     {
       id: "maturity-reminder",
-      emoji: "🔔",
+      image: "/post-maturity.png",
       title: "Maturity Reminder Tool",
       description: "Set smart reminders for your investment maturity dates",
       color: "from-indigo-400 to-blue-500",
@@ -158,6 +152,10 @@ export default function Calculators() {
         tenureOptions={calc.tenureOptions}
         minAmount={calc.minAmount}
         maxAmount={calc.maxAmount}
+        // Pass initialGirlAge prop only if it exists
+        {...(calc.initialGirlAge !== undefined && {
+          initialGirlAge: calc.initialGirlAge,
+        })}
       />
     );
   };
@@ -179,7 +177,7 @@ export default function Calculators() {
               />
             </div>
             <h1 className="text-4xl font-bold font-poppins">
-              Financial Calculator
+              Financial Calculators
             </h1>
           </div>
           <p className="text-xl text-orange-100 mb-4 font-inter">
@@ -206,21 +204,42 @@ export default function Calculators() {
             {calculators.map((calc) => (
               <div key={calc.id} className="w-full">
                 <div
-                  className={`${calc.bgColor} ${calc.borderColor} border-2 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 cursor-pointer w-full`}
+                  className={`${calc.bgColor} ${calc.borderColor} border-2 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 cursor-pointer w-full group`} // Added 'group' class here
                   onClick={() => toggleCalculator(calc.id)}
                 >
                   <div className="p-6">
                     <div className="flex items-center space-x-4">
+                      {" "}
+                      {/* Changed items-start back to items-center for vertical centering */}
+                      {/* Image Container with improved styling */}
                       <div
-                        className={`w-16 h-16 bg-gradient-to-r ${calc.color} rounded-xl flex items-center justify-center text-3xl shadow-lg`}
+                        className={`
+                          w-24 h-24 sm:w-32 sm:h-32 lg:w-36 lg:h-36 {/* Adjusted lg size for better proportion */}
+                          bg-white rounded-2xl
+                          border border-white shadow-lg
+                          flex items-center justify-center p-2
+                          transition-transform duration-500 group-hover:scale-105 group-hover:shadow-xl
+                        `}
                       >
-                        {calc.emoji}
+                        <Image
+                          src={calc.image}
+                          alt={calc.title}
+                          width={300} // Keep original width/height for Next.js optimization
+                          height={300} // Keep original width/height for Next.js optimization
+                          quality={80}
+                          priority
+                          className="w-full h-full object-contain" // Make image fill its parent div
+                        />
                       </div>
                       <div className="text-left flex-1">
-                        <h3 className="text-xl font-bold text-gray-800 font-poppins">
+                        <h3 className="text-xl md:text-2xl lg:text-2xl font-bold text-gray-800 font-poppins">
+                          {" "}
+                          {/* Increased heading size */}
                           {calc.title}
                         </h3>
-                        <p className="text-gray-600 text-sm mt-1 font-inter">
+                        <p className="text-gray-600 text-sm md:text-base lg:text-lg mt-1 font-inter">
+                          {" "}
+                          {/* Increased paragraph size */}
                           {calc.description}
                         </p>
                       </div>
