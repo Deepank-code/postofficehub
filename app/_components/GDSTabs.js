@@ -248,7 +248,7 @@ const GDSTabs = ({ notifications }) => {
           </motion.div>
         )}
 
-        {/* {activeTab === "resources" && (
+        {activeTab === "resources" && (
           <motion.div
             key="resources"
             initial="initial"
@@ -266,14 +266,10 @@ const GDSTabs = ({ notifications }) => {
                 <div className="flex items-center gap-3 mb-3 text-red-600">
                   {getResourceIcon(res.format)}
                   <h3 className="text-lg font-semibold text-gray-800">
-               
                     {res.title}
                   </h3>
                 </div>
-                <p className="text-gray-600 text-sm mb-4">
-            
-                  {res.description}
-                </p>
+                <p className="text-gray-600 text-sm mb-4">{res.description}</p>
                 <a
                   href={res.link}
                   target="_blank"
@@ -286,7 +282,7 @@ const GDSTabs = ({ notifications }) => {
               </motion.div>
             ))}
           </motion.div>
-        )} */}
+        )}
 
         {/* {activeTab === "tools" && (
           <motion.div
