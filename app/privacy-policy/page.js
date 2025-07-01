@@ -3,38 +3,38 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Shield, FileText, Globe, Bell, Clock } from "lucide-react"; // Icons for Privacy Policy
-export const metadata = {
-  title: "Privacy Policy | Post Office Hub",
-  description:
-    "Read the Privacy Policy of Post Office Hub to understand how we collect, use, and protect your personal data while you use our Post Office schemes, calculators, and guides.",
-  keywords:
-    "Post Office Hub Privacy Policy, Data Privacy, User Data Protection, India Post, Financial Awareness, Post Office Schemes",
-  openGraph: {
-    title: "Privacy Policy | Post Office Hub",
-    description:
-      "Learn how Post Office Hub handles your data securely while providing financial awareness, post office calculators, and scheme guides.",
-    url: "https://postofficehub.in/privacy-policy",
-    siteName: "Post Office Hub",
-    images: [
-      {
-        url: "https://postofficehub.in/og-privacy-policy.png", // Add your OG image
-        width: 1200,
-        height: 630,
-        alt: "Privacy Policy - Post Office Hub",
-      },
-    ],
-    locale: "en_IN",
-    type: "article",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Privacy Policy | Post Office Hub",
-    description:
-      "Understand how your data is collected, used, and protected by Post Office Hub while accessing calculators and post office schemes.",
-    images: ["https://postofficehub.in/og-privacy-policy.png"], // same image
-    creator: "@PostOfficeHub",
-  },
-};
+// export const metadata = {
+//   title: "Privacy Policy | Post Office Hub",
+//   description:
+//     "Read the Privacy Policy of Post Office Hub to understand how we collect, use, and protect your personal data while you use our Post Office schemes, calculators, and guides.",
+//   keywords:
+//     "Post Office Hub Privacy Policy, Data Privacy, User Data Protection, India Post, Financial Awareness, Post Office Schemes",
+//   openGraph: {
+//     title: "Privacy Policy | Post Office Hub",
+//     description:
+//       "Learn how Post Office Hub handles your data securely while providing financial awareness, post office calculators, and scheme guides.",
+//     url: "https://postofficehub.in/privacy-policy",
+//     siteName: "Post Office Hub",
+//     images: [
+//       {
+//         url: "https://postofficehub.in/og-privacy-policy.png", // Add your OG image
+//         width: 1200,
+//         height: 630,
+//         alt: "Privacy Policy - Post Office Hub",
+//       },
+//     ],
+//     locale: "en_IN",
+//     type: "article",
+//   },
+//   twitter: {
+//     card: "summary_large_image",
+//     title: "Privacy Policy | Post Office Hub",
+//     description:
+//       "Understand how your data is collected, used, and protected by Post Office Hub while accessing calculators and post office schemes.",
+//     images: ["https://postofficehub.in/og-privacy-policy.png"], // same image
+//     creator: "@PostOfficeHub",
+//   },
+// };
 const PrivacyPolicyPage = () => {
   const sectionVariants = {
     hidden: { opacity: 0, y: 20 },
