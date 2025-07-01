@@ -35,7 +35,7 @@ export default function ContactUsPage() {
           structured feedback collection.
         </p>
         <p className="text-lg text-gray-700 leading-relaxed mb-8">
-          Your input is invaluable for enhancing the app's content and user
+          Your input is invaluable for enhancing the app&apos;s content and user
           experience!
         </p>
 
@@ -72,7 +72,7 @@ export default function ContactUsPage() {
                 rel="noopener noreferrer"
                 className="text-blue-600 hover:underline"
               >
-                Google's Privacy Policy
+                Google&apos;s Privacy Policy
               </a>
               .*
             </p>
@@ -90,7 +90,7 @@ export default function ContactUsPage() {
                 General Feedback by Email
               </h3>
               <p className="text-gray-600 text-sm">
-                For general thoughts or app feature suggestions that don't
+                For general thoughts or app feature suggestions that don&apos;t
                 require the form structure, you can email us directly at:
               </p>
               <p className="mt-3 font-semibold text-red-600">

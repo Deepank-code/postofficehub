@@ -132,7 +132,8 @@ const Tracking = () => {
               Real-time Location
             </h3>
             <p className="text-gray-700 text-sm font-inter">
-              Track your parcel’s movement through India Post's network easily.
+              Track your parcel’s movement through India Post&apos;s network
+              easily.
             </p>
           </div>
           <div className="p-6 bg-red-50 rounded-xl shadow hover:shadow-lg transition-transform transform hover:scale-105 border border-red-100 text-center">
