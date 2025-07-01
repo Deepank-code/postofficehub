@@ -4,7 +4,7 @@ excerpt: "A complete overview of the Post Office Senior Citizen Savings Scheme (
 date: "2025-06-30"
 readTime: "5 min read"
 category: "Retirement Schemes"
-image: "/blog/scss-img.png"
+image: "/post-scss.png"
 featured: true
 
 tags:

@@ -6,7 +6,7 @@ readTime: "5 min read"
 category: "Income Schemes"
 featured: true
 
-image: "/blog/mis-img.png"
+image: "/post-mis.png"
 tags: ["MIS", "Monthly Income Scheme", "Post Office", "Savings"]
 ---
 
@@ -93,7 +93,6 @@ The **Post Office Monthly Income Scheme (MIS)** is designed for individuals seek
 ---
 
 Start your **Post Office MIS investment today** to secure a stable, fixed monthly income while preserving your capital with government-backed safety.
+👉 [Check out our MIS Calculator](/calculator)
 
 ---
-
-Let me know if you would like SEO meta tags or an additional **FAQ section** to boost AdSense value and Google Discover eligibility for this page.

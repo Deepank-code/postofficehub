@@ -139,47 +139,52 @@ export const competitorRates = [
 
 export const importantDocuments = [
   {
-    title: "PLI Policy Rules & Regulations",
-    description: "Complete guide to PLI policies, eligibility, and benefits",
-    fileSize: "2.5 MB",
+    title: "PLI form",
+    description: "Postal life insurance form",
+    fileSize: "-",
     type: "PDF",
-    downloadUrl: "#",
+    downloadUrl:
+      "https://drive.google.com/file/d/1meN7rYwiF8LAeX1KXuWdKT4eYMvZR7DG/view?usp=sharing",
   },
   {
-    title: "RPLI Scheme Guidelines",
-    description: "Detailed information about RPLI schemes for rural employees",
-    fileSize: "1.8 MB",
+    title: "RPLI Scheme Insurance form",
+    description: "RPLI schemes for rural employees",
+    fileSize: "-",
     type: "PDF",
-    downloadUrl: "#",
+    downloadUrl:
+      "https://drive.google.com/file/d/1_h2zl0qeM_pyIBQZ44eg7P8E1mnFWvrX/view?usp=sharing",
   },
   {
-    title: "Premium Calculation Tables",
+    title: "Death claim form",
     description: "Age-wise premium calculation tables for all PLI/RPLI plans",
-    fileSize: "3.2 MB",
+    fileSize: "-",
     type: "PDF",
-    downloadUrl: "#",
+    downloadUrl:
+      "https://drive.google.com/file/d/1iveY2M9U1Z0AISgQQ5I5WntQBE4D9fSl/view?usp=sharing",
   },
   {
-    title: "Claim Settlement Process",
-    description: "Step-by-step guide for policy claim settlement",
+    title: "Surrender RPLI/PLI form",
+    description: " policy surrender settlement",
     fileSize: "1.5 MB",
     type: "PDF",
-    downloadUrl: "#",
+    downloadUrl:
+      "https://drive.google.com/file/d/1d75eSJvAZqSMoHuZS9nw0RP0rXohgCZL/view?usp=sharing",
   },
   {
-    title: "Policy Application Forms",
+    title: "Revival Application form",
     description: "Downloadable forms for new policy applications",
     fileSize: "0.8 MB",
     type: "PDF",
-    downloadUrl: "#",
+    downloadUrl:
+      "https://drive.google.com/file/d/17bXFEL1iT4zvXgo4K63OjlB-I6CQDJ9M/view?usp=sharing",
   },
   {
-    title: "Loan Against Policy Guidelines",
-    description:
-      "Rules and procedures for taking loan against PLI/RPLI policies",
-    fileSize: "1.2 MB",
+    title: "Loan Application form",
+    description: "APPLICATION FOR LOAN ON SECURITY OF PLI/RPLI POLICY",
+    fileSize: "-",
     type: "PDF",
-    downloadUrl: "#",
+    downloadUrl:
+      "https://drive.google.com/file/d/14ZRwjzRkzaIYK4mAhr1zLeVymrD7Bg8z/view?usp=sharing",
   },
 ];
 

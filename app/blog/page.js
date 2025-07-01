@@ -6,6 +6,39 @@ import BlogSection from "../_components/BlogSection";
 import { notFound } from "next/navigation";
 
 export const dynamic = "force-dynamic";
+export const metadata = {
+  title:
+    "Post Office Hub Blog - Guides on RD, TD, SSA, GDS & India Post Services",
+  description:
+    "Explore detailed blogs on Post Office schemes (RD, TD, SSA, PPF), GDS corner, tracking, PLI/RPLI insurance, and India Post financial awareness guides on Post Office Hub.",
+  keywords:
+    "Post Office Blog, India Post Guides, GDS Articles, RD Guide, TD Guide, SSA Guide, PPF Guide, Post Office Hub",
+  openGraph: {
+    title: "Post Office Hub Blog - Latest Guides & Updates",
+    description:
+      "Stay updated with the latest articles and guides on India Post services, including RD, TD, SSA, PPF, MIS, GDS salary updates, and tracking tips on Post Office Hub.",
+    url: "https://postofficehub.in/blog",
+    siteName: "Post Office Hub",
+    images: [
+      {
+        url: "https://postofficehub.in/og-blog.png", // replace with your uploaded OG image
+        width: 1200,
+        height: 630,
+        alt: "Post Office Hub Blog",
+      },
+    ],
+    locale: "en_IN",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Post Office Hub Blog - India Post Schemes, GDS, Tracking Guides",
+    description:
+      "Discover guides on India Post schemes, GDS rules, PLI/RPLI insurance, and tracking articles on Post Office Hub for your financial awareness and planning.",
+    images: ["https://postofficehub.in/og-blog.png"],
+    creator: "@PostOfficeHub",
+  },
+};
 
 const POSTS_PER_PAGE = 6;
 
@@ -62,12 +95,12 @@ export default async function BlogPage({ searchParams }) {
               className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
             >
               <div className="h-48 relative overflow-hidden rounded-t-2xl">
-                {post.metadata.image ? (
+                {post.metadata.image && post.metadata.image.startsWith("/") ? (
                   <Image
                     src={post.metadata.image}
                     alt={post.metadata.title}
                     fill
-                    className="object-cover"
+                    className="object-contain"
                   />
                 ) : (
                   <div className="w-full h-full bg-gradient-to-br from-blue-400 to-purple-500" />

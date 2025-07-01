@@ -6,7 +6,7 @@ readTime: "5 min read"
 category: "Savings Schemes"
 featured: true
 
-image: "/blog/rd-img.png"
+image: "/post-rd.png"
 tags: ["RD", "Recurring Deposit", "Post Office", "Savings"]
 ---
 
@@ -71,6 +71,8 @@ You can open **multiple RD accounts** if you wish.
 
 - If the account holder passes away, the nominee or legal heirs can claim the balance by submitting the required documents at the Post Office.
 - The nominee or legal heirs may also continue the RD account till maturity by applying at the concerned Post Office.
+
+👉 [Check out our RD Calculator](/calculator)
 
 ---
 

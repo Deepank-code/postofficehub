@@ -4,7 +4,7 @@ excerpt: "A complete guide to Sukanya Samriddhi Yojana (SSA) under Post Office �
 date: "2025-06-30"
 readTime: "5 min read"
 category: "Savings Schemes"
-image: "/blog/ssa-img.png"
+image: "/post-ssa.png"
 featured: true
 
 tags:
@@ -115,5 +115,6 @@ Permissible after **5 years from account opening** under specific conditions:
 The **Post Office Sukanya Samriddhi Yojana** is a trusted and effective way to invest in your daughter’s future, providing high, tax-free interest with complete capital security under the Government of India.
 
 Start your **SSA investment today** to build a secure future for your daughter with guaranteed, safe returns.
+👉 [Check out our SSA Calculator](/calculator)
 
 ---

@@ -9,15 +9,41 @@ import {
   Code,
   Info,
   UserCheck,
-  Calculator, // Added for Financial Calculator
-  Scale, // Added for Comparison of Interest Rates
-} from "lucide-react"; // Using Lucide icons for visual appeal
+  Calculator,
+  Scale,
+} from "lucide-react";
 
-// Optional: Metadata for SEO. This goes outside the component for App Router.
 export const metadata = {
-  title: "About Post Office Hub - Your Digital Gateway to India Post",
+  title: "About Us - Post Office Hub",
   description:
-    "Learn about Post Office Hub, an independent educational platform providing comprehensive and accurate information on India Post schemes, services, and GDS resources. This app is NOT affiliated with India Post. Your trusted guide for all postal needs.", // Updated description
+    "Learn about Post Office Hub, your trusted source for India Post scheme guides, GDS resources, calculators, and financial literacy tools to empower your postal journey.",
+  keywords:
+    "About Post Office Hub, India Post Guides, Post Office Hub Team, GDS Resources, Postal Financial Literacy",
+  openGraph: {
+    title: "About Us - Post Office Hub",
+    description:
+      "Get to know Post Office Hub, our mission, and how we help you navigate India Post services with ease and clarity.",
+    url: "https://postofficehub.in/about",
+    siteName: "Post Office Hub",
+    images: [
+      {
+        url: "https://postofficehub.in/og-about.png", // replace with your clean About Us OG image
+        width: 1200,
+        height: 630,
+        alt: "About Post Office Hub",
+      },
+    ],
+    locale: "en_IN",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "About Post Office Hub",
+    description:
+      "Post Office Hub helps you understand and use India Post services, from RD and TD to GDS resources, with clear guides and tools.",
+    images: ["https://postofficehub.in/og-about.png"],
+    creator: "@PostOfficeHub",
+  },
 };
 
 export default function AboutUsPage() {

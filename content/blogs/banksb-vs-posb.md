@@ -5,7 +5,7 @@ date: "2025-06-30"
 readTime: "5 min read"
 category: "Savings Schemes"
 tags: ["Post Office", "IPPB", "Savings Account", "Investment", "India Post"]
-image: "/blog/post-office-vs-ippb.jpg"
+image: "/blog/sb-vs-ippb.webp"
 featured: false
 ---
 
@@ -67,9 +67,9 @@ Whichever you choose, **cultivating a savings habit is the first step toward fin
 
 ### Related Articles
 
-- [Post Office Recurring Deposit Guide](./post-office-rd-scheme)
-- [Post Office Time Deposit vs. Fixed Deposit](./post-office-fd-vs-td)
-- [IPPB Services Explained](./ippb-services-guide)
+- [Post Office Recurring Deposit Guide](./rd-scheme)
+- [Post Office Time Deposit vs. Fixed Deposit](./postoffice-td-vs-fd)
+- [IPPB Services Explained](./ippb-guide)
 
 ---
 

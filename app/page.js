@@ -1,22 +1,13 @@
 import Image from "next/image";
 import {
   Calculator,
-  Book,
-  Users,
-  TrendingUp,
   Shield,
-  Bell,
   FileText,
-  AlertTriangle,
   PiggyBank,
   ChartBar,
   UserCheck,
-  CreditCard,
   BookOpen,
-  UsersIcon,
   Package,
-  Search,
-  Truck,
 } from "lucide-react";
 import Link from "next/link";
 const date = new Date();
@@ -102,6 +93,39 @@ const features = [
     bgColor: "bg-gradient-to-br from-yellow-50 to-amber-100",
   },
 ];
+export const metadata = {
+  title: "Post Office Hub - India Post Schemes, Calculators & GDS Corner",
+  description:
+    "Track India Post schemes, use RD, TD, NSC, SSA, and KVP calculators, get interest rate updates, and read financial guides. One-stop Post Office Hub for GDS and citizens.",
+  keywords:
+    "Post Office RD Calculator, TD Calculator, Post Office Interest Rates, PLI, RPLI, India Post Schemes, GDS Corner, Financial Awareness, Post Office Tracking, Post Office Insurance",
+  openGraph: {
+    title: "Post Office Hub - India Post Schemes & Financial Tools",
+    description:
+      "Explore India Post schemes, use financial calculators, and read practical guides for PLI, RPLI, and post office services in one hub.",
+    url: "https://postofficehub.in",
+    siteName: "Post Office Hub",
+    images: [
+      {
+        url: "https://postofficehub.in/og-banner.png",
+        width: 1200,
+        height: 630,
+        alt: "Post Office Hub Banner",
+      },
+    ],
+    locale: "en_IN",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Post Office Hub - India Post Schemes & Financial Tools",
+    description:
+      "Your one-stop Post Office Hub for RD, TD, NSC, PLI, RPLI calculators, interest rate updates, and financial awareness for citizens and GDS employees.",
+    images: ["https://postofficehub.in/og-banner.png"],
+    creator: "@PostOfficeHub",
+  },
+  metadataBase: new URL("https://postofficehub.in"),
+};
 export default function Home() {
   return (
     <main className="bg-white text-gray-800 font-sans">
@@ -110,20 +134,6 @@ export default function Home() {
         <div className="absolute inset-0 bg-gradient-to-br from-red-600 via-orange-500 to-yellow-500"></div>
         <div className="absolute inset-0 bg-black opacity-20"></div>
 
-        {/* Large Background Logo */}
-        <div className="absolute inset-0 flex items-center justify-center">
-          <div className="w-[800px] h-[800px] opacity-7">
-            <Image
-              width={400}
-              height={400}
-              src="/logo.png"
-              alt="Post Office Hub Background"
-              className="w-full h-full object-contain"
-            />
-          </div>
-        </div>
-
-        {/* Decorative Elements */}
         <div className="absolute inset-0">
           <div className="absolute top-20 left-20 w-32 h-32 bg-white opacity-10 rounded-full blur-xl"></div>
           <div className="absolute bottom-32 right-32 w-24 h-24 bg-yellow-300 opacity-20 rounded-full blur-lg"></div>
@@ -133,17 +143,6 @@ export default function Home() {
 
         <div className="container mx-auto px-4 text-center relative z-10">
           {/* Logo in Hero Section */}
-          <div className="mb-8 flex justify-center">
-            <div className="w-30 h-30 md:w-40 md:h-40 rounded-full overflow-hidden bg-white/20 backdrop-blur-sm border border-white/30 p-2 hover:scale-110 transition-transform duration-300">
-              <Image
-                width={200}
-                height={200}
-                src="/post-hero.png"
-                alt="Post Office Hub Logo"
-                className="w-full h-full object-contain"
-              />
-            </div>
-          </div>
 
           <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight font-poppins">
             Your Complete Guide to <br />

@@ -86,7 +86,7 @@ const resources = [
   },
   {
     id: 4,
-    title: "� GDS Salary Calculation Method",
+    title: " GDS Salary Calculation Method",
     type: "article",
     description: "How to calculate GDS salary and allowances accurately.",
     format: "article",
@@ -100,15 +100,6 @@ const resources = [
       "Guidelines outlining professional behavior and ethics for GDS.",
     format: "pdf",
     link: "/downloads/gds-code-of-conduct.pdf",
-  },
-  {
-    id: 6,
-    title: "📊 Monthly Performance Report Template",
-    type: "forms",
-    description:
-      "Standard template for submitting monthly performance reports.",
-    format: "xlsx",
-    link: "/downloads/monthly-performance-report-template.xlsx",
   },
 ];
 
@@ -257,7 +248,7 @@ const GDSTabs = ({ notifications }) => {
           </motion.div>
         )}
 
-        {activeTab === "resources" && (
+        {/* {activeTab === "resources" && (
           <motion.div
             key="resources"
             initial="initial"
@@ -275,14 +266,12 @@ const GDSTabs = ({ notifications }) => {
                 <div className="flex items-center gap-3 mb-3 text-red-600">
                   {getResourceIcon(res.format)}
                   <h3 className="text-lg font-semibold text-gray-800">
-                    {" "}
-                    {/* Changed dark:text-white to text-gray-800 */}
+               
                     {res.title}
                   </h3>
                 </div>
                 <p className="text-gray-600 text-sm mb-4">
-                  {" "}
-                  {/* Changed dark:text-gray-300 to text-gray-600 */}
+            
                   {res.description}
                 </p>
                 <a
@@ -297,7 +286,7 @@ const GDSTabs = ({ notifications }) => {
               </motion.div>
             ))}
           </motion.div>
-        )}
+        )} */}
 
         {/* {activeTab === "tools" && (
           <motion.div

@@ -13,7 +13,51 @@ import { schemes } from "@/data/schemes";
 export async function generateStaticParams() {
   return schemes.map((scheme) => ({ id: scheme.id }));
 }
+export async function generateMetadata({ params }) {
+  const scheme = schemes.find((s) => s.id === params.id);
 
+  if (!scheme) {
+    return {
+      title: "Post Office Scheme - Details | Post Office Hub",
+      description:
+        "Explore detailed guides, interest rates, eligibility, and benefits of various Post Office saving schemes on Post Office Hub.",
+    };
+  }
+
+  const title = `${scheme.shortName} Scheme - Interest Rates, Eligibility & Benefits | Post Office Hub`;
+  const description = `Learn all about the ${scheme.shortName} scheme, including interest rates (${scheme.interestRate}), eligibility, tenure (${scheme.tenure}), and benefits. Plan your investments smartly with Post Office Hub.`;
+  const url = `https://postofficehub.in/schemes/${scheme.id}`;
+  const ogImage = `https://postofficehub.in/og-schemes/${scheme.id}.png`; // place images accordingly
+
+  return {
+    title,
+    description,
+    keywords: `${scheme.shortName} Scheme, Post Office ${scheme.shortName}, India Post ${scheme.shortName} Scheme, Interest Rate, Post Office Hub`,
+    openGraph: {
+      title,
+      description,
+      url,
+      siteName: "Post Office Hub",
+      images: [
+        {
+          url: ogImage,
+          width: 1200,
+          height: 630,
+          alt: `${scheme.shortName} Scheme Guide`,
+        },
+      ],
+      locale: "en_IN",
+      type: "article",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: [ogImage],
+      creator: "@PostOfficeHub",
+    },
+  };
+}
 export default function SchemeDetail({ params }) {
   const scheme = schemes.find((s) => s.id === params.id);
 

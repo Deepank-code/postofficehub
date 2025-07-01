@@ -6,7 +6,7 @@ readTime: "5 min read"
 category: "Investment Schemes"
 featured: true
 
-image: "/blog/td-img.png"
+image: "/post-td.png"
 tags: ["TD", "Time Deposit", "Post Office", "Savings", "Fixed Deposit"]
 ---
 

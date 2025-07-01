@@ -8,9 +8,54 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }) {
   const post = getPostBySlug(params.slug);
+
+  if (!post) {
+    return {
+      title: "Post Not Found - Post Office Hub",
+      description: "The requested blog post was not found on Post Office Hub.",
+    };
+  }
+
+  const title = `${post.metadata.title} | Post Office Hub`;
+  const description =
+    post.metadata.excerpt ||
+    "Read this detailed guide on Post Office Hub for India Post schemes and GDS updates.";
+  const url = `https://postofficehub.in/blog/${post.metadata.slug}`;
+  const image =
+    post.metadata.coverImage || "https://postofficehub.in/og-default.png";
+
   return {
-    title: post?.metadata?.title,
-    description: post?.metadata?.excerpt,
+    title,
+    description,
+    keywords: post.metadata.tags.join(", "),
+    alternates: {
+      canonical: url,
+    },
+    openGraph: {
+      title,
+      description,
+      url,
+      siteName: "Post Office Hub",
+      images: [
+        {
+          url: image,
+          width: 1200,
+          height: 630,
+          alt: post.metadata.title,
+        },
+      ],
+      locale: "en_IN",
+      type: "article",
+      publishedTime: post.metadata.date,
+      authors: [post.metadata.author || "Post Office Hub"],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: [image],
+      creator: "@PostOfficeHub",
+    },
   };
 }
 
@@ -42,11 +87,17 @@ export default async function BlogPostPage({ params }) {
                 <div className="flex flex-wrap items-center text-sm text-gray-600 space-x-6">
                   <div className="flex items-center space-x-2">
                     <Calendar size={16} className="text-blue-500" />
-                    <span>Published:   {new Date(post.metadata.formattedDate).toLocaleDateString("en-GB", {
-    day: "numeric",
-    month: "short",
-    year: "numeric",
-  })}</span>
+                    <span>
+                      Published:{" "}
+                      {new Date(post.metadata.formattedDate).toLocaleDateString(
+                        "en-GB",
+                        {
+                          day: "numeric",
+                          month: "short",
+                          year: "numeric",
+                        }
+                      )}
+                    </span>
                   </div>
                   <div className="flex items-center space-x-2">
                     <Clock size={16} className="text-green-500" />

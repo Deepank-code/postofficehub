@@ -4,7 +4,7 @@ excerpt: "A complete guide to Post Office Kisan Vikas Patra (KVP) — secure you
 date: "2025-06-30"
 readTime: "4 min read"
 category: "Savings Schemes"
-image: "/blog/kvp-img.png"
+image: "/post-kvp.png"
 featured: true
 tags: ["KVP", "Kisan Vikas Patra", "Post Office", "Savings", "Fixed Income"]
 ---
@@ -105,5 +105,7 @@ KVP can be transferred from one person to another under specific circumstances:
 The **Post Office Kisan Vikas Patra (KVP)** is an excellent choice for conservative investors who want their money to grow steadily under government-backed security without worrying about market fluctuations.
 
 Open your **KVP account today** to grow your wealth with guaranteed, stable returns.
+
+👉 [Check out our KVP Calculator](/calculator)
 
 ---

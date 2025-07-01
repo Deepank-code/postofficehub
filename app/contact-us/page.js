@@ -3,9 +3,36 @@ import { Mail, Info, HelpCircle, AlertCircle, FileText } from "lucide-react"; //
 
 // Optional: Metadata for SEO. This goes outside the component for App Router.
 export const metadata = {
-  title: "Contact Post Office Hub - Feedback & Support",
+  title: "Contact Post Office Hub - Send Your Queries & Feedback",
   description:
-    "Provide feedback, suggestions, or report content issues for the Post Office Hub educational app. We do not collect personal information directly.",
+    "Contact Post Office Hub for queries related to India Post schemes, GDS corner, tracking support, insurance guides, calculators, and feedback. We are here to help you with clear guidance and resources.",
+  keywords:
+    "Contact Post Office Hub, India Post Support, GDS Help, Post Office Queries, RD TD SSA PLI RPLI Help, Post Office Hub Contact",
+  openGraph: {
+    title: "Contact Post Office Hub - Get in Touch",
+    description:
+      "Send us your questions or feedback regarding India Post schemes, GDS corner, insurance, tracking, and calculators on Post Office Hub.",
+    url: "https://postofficehub.in/contact",
+    siteName: "Post Office Hub",
+    images: [
+      {
+        url: "https://postofficehub.in/og-contact.png", // Replace with your uploaded OG image
+        width: 1200,
+        height: 630,
+        alt: "Contact Post Office Hub",
+      },
+    ],
+    locale: "en_IN",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Contact Post Office Hub - Queries & Support",
+    description:
+      "Reach out to Post Office Hub for support related to India Post services, GDS help, tracking, calculators, and scheme-related queries.",
+    images: ["https://postofficehub.in/og-contact.png"],
+    creator: "@PostOfficeHub",
+  },
 };
 
 export default function ContactUsPage() {

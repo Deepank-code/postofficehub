@@ -6,7 +6,7 @@ readTime: "4 min read"
 featured: true
 
 category: "Savings Schemes"
-image: "/blog/nsc-img.png"
+image: "/blog/nsc.webp"
 tags:
   [
     "NSC",
@@ -114,5 +114,6 @@ The account/certificate can be transferred to another person in specific cases:
 The **Post Office National Savings Certificate (NSC)** is a smart choice for building your savings over the medium term while enjoying **tax-free interest earnings and capital security**.
 
 Open your NSC today and grow your money safely with assured returns.
+👉 [Check out our NSC Calculator](/calculator)
 
 ---
