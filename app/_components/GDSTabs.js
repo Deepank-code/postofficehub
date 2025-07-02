@@ -157,7 +157,7 @@ const GDSTabs = ({ notifications }) => {
         >
           <Bell size={20} /> Notifications
         </button>
-        <button
+        {/* <button
           onClick={() => setActiveTab("resources")}
           className={`flex items-center gap-2 px-6 py-3 rounded-full text-base font-semibold transition-all duration-300 ${
             activeTab === "resources"
@@ -166,7 +166,7 @@ const GDSTabs = ({ notifications }) => {
           }`}
         >
           <Download size={20} /> Resources
-        </button>
+        </button> */}
         {/* tools button */}
         {/* <button
           onClick={() => setActiveTab("tools")}
@@ -248,7 +248,7 @@ const GDSTabs = ({ notifications }) => {
           </motion.div>
         )}
 
-        {activeTab === "resources" && (
+        {/* {activeTab === "resources" && (
           <motion.div
             key="resources"
             initial="initial"
@@ -282,7 +282,7 @@ const GDSTabs = ({ notifications }) => {
               </motion.div>
             ))}
           </motion.div>
-        )}
+        )} */}
 
         {/* {activeTab === "tools" && (
           <motion.div
