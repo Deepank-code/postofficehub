@@ -1,4 +1,4 @@
-import { X, HelpCircle, Shield, Mail, FileText, Users } from "lucide-react";
+import { HelpCircle, Shield, Mail, Users, PiggyBankIcon } from "lucide-react";
 import {
   Dialog,
   DialogContent,
@@ -24,6 +24,13 @@ const MoreModal = ({ isOpen, onClose }) => {
       color: "bg-green-50 text-green-600",
     },
     {
+      icon: PiggyBankIcon,
+      title: "My Investments",
+      description: "check you post office investments",
+      link: "/my-investments",
+      color: "bg-green-50 text-green-600",
+    },
+    {
       icon: Shield,
       title: "Privacy Policy",
       description: "How we protect your data",
@@ -34,15 +41,15 @@ const MoreModal = ({ isOpen, onClose }) => {
       icon: Mail,
       title: "Contact Us",
       description: "Get in touch with us",
-      link: "/contact",
+      link: "/contact-us",
       color: "bg-orange-50 text-orange-600",
     },
     {
-      icon: FileText,
-      title: "Disclaimer",
-      description: "Important information",
-      link: "/disclaimer",
-      color: "bg-red-50 text-red-600",
+      icon: Mail,
+      title: "About Us",
+      description: "Known us better",
+      link: "/about-us",
+      color: "bg-orange-50 text-orange-600",
     },
   ];
 

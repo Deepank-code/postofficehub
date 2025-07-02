@@ -7,14 +7,18 @@ import {
   Calculator,
   ChevronDown,
   ConciergeBell,
+  MailCheck,
   Menu,
   MessageSquare,
   MoreHorizontal,
   Newspaper,
   Percent,
+  PiggyBankIcon,
   Shield,
+  ShieldCheck,
   TrendingUp,
   User2Icon,
+  UserCheck2Icon,
   X,
 } from "lucide-react";
 import Link from "next/link";
@@ -133,12 +137,31 @@ export default function Header() {
             {isOpenService && (
               <div className="absolute left-0 w-64 bg-white text-gray-800 rounded-md shadow-lg mt-2 p-4 z-50 space-y-4">
                 <Link
+                  href="/my-investments"
+                  className="block hover:text-red-600"
+                  onClick={() => setIsOpenService(false)}
+                >
+                  <div className="flex items-start space-x-2">
+                    <span>
+                      <PiggyBankIcon />
+                    </span>
+                    <div>
+                      <p className="font-semibold">My Schemes</p>
+                      <p className="text-xs text-gray-600">
+                        Explore your Schemes here
+                      </p>
+                    </div>
+                  </div>
+                </Link>
+                <Link
                   href="/insurance"
                   className="block hover:text-red-600"
                   onClick={() => setIsOpenService(false)}
                 >
                   <div className="flex items-start space-x-2">
-                    <span>🛡️</span>
+                    <span>
+                      <ShieldCheck />
+                    </span>
                     <div>
                       <p className="font-semibold">Insurance</p>
                       <p className="text-xs text-gray-600">
@@ -153,7 +176,9 @@ export default function Header() {
                   onClick={() => setIsOpenService(false)}
                 >
                   <div className="flex items-start space-x-2">
-                    <span>📦</span>
+                    <span>
+                      <MailCheck />
+                    </span>
                     <div>
                       <p className="font-semibold">Tracking</p>
                       <p className="text-xs text-gray-600">
@@ -168,7 +193,9 @@ export default function Header() {
                   onClick={() => setIsOpenService(false)}
                 >
                   <div className="flex items-start space-x-2">
-                    <span>👨‍💼</span>
+                    <span>
+                      <UserCheck2Icon />
+                    </span>
                     <div>
                       <p className="font-semibold">GDS Corner</p>
                       <p className="text-xs text-gray-600">
@@ -258,13 +285,9 @@ export default function Header() {
         <div className="md:hidden bg-white/95 backdrop-blur-md px-4 py-4 rounded-b-xl shadow-xl border-t border-red-200 text-sm font-medium space-y-2">
           {[
             { icon: Shield, href: "/insurance", label: "Insurance" },
-            { icon: User2Icon, href: "/gds-corner", label: "GDS Corner" },
-            {
-              icon: Book,
-              href: "/resources",
-              label: "Educational Resources",
-            },
+
             { icon: Newspaper, href: "/blog", label: "Blog" },
+            { icon: User2Icon, href: "/gds-corner", label: "GDS Corner" },
           ].map((item) => {
             let Icon = item.icon;
             return (

@@ -8,7 +8,6 @@ priority: "High"
 description: "GDS Promotion Structure A Step-by-Step Guide to Your Postal Career Growth"
 
 tags: ["GDS", "LDCE", "India Post", "Postal Career"]
-image: "/images/posts/gds-promotion-structure.jpg"
 ---
 
 # GDS Promotion Structure: Step-by-Step Guide to Your Postal Career Growth

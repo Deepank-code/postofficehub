@@ -259,7 +259,7 @@ export default function SchemeDetail({ params }) {
                   </div>
                   <div className="text-center mb-6">
                     <Link
-                      href={`/calculators?scheme=${scheme.id}`}
+                      href={`/calculator`}
                       className="w-full bg-red-600 text-white py-3 px-4 rounded-lg hover:bg-red-700 transition-colors font-medium inline-block"
                     >
                       Calculate Returns

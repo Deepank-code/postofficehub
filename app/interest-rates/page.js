@@ -3,20 +3,22 @@ import { Calendar, TrendingUp, Info } from "lucide-react";
 import { interestRates } from "@/data/schemes";
 import Image from "next/image";
 export const metadata = {
-  title: "Latest Post Office Interest Rates (RD, TD, PPF, SSA) - June 2025 | Post Office Hub",
+  title:
+    "Latest Post Office Interest Rates (RD, TD, PPF, SSA) - June 2025 | Post Office Hub",
   description:
     "Check the latest Post Office interest rates for Recurring Deposit (RD), Time Deposit (TD), PPF, SSA, SCSS, and KVP schemes updated for June 2025. Plan your investments smartly with Post Office Hub.",
   keywords:
     "Post Office Interest Rates, India Post RD Interest Rate, TD Interest Rate, PPF Interest Rate, SSA Interest Rate, SCSS Rate, KVP Interest, Post Office Fixed Deposit, June 2025 Rates",
   openGraph: {
-    title: "Latest Post Office Interest Rates (RD, TD, PPF, SSA) - Post Office Hub",
+    title:
+      "Latest Post Office Interest Rates (RD, TD, PPF, SSA) - Post Office Hub",
     description:
       "Explore updated Post Office interest rates for all saving schemes including RD, TD, PPF, SSA, SCSS, and KVP. Stay informed with Post Office Hub for smarter investment decisions.",
     url: "https://postofficehub.in/interest-rates",
     siteName: "Post Office Hub",
     images: [
       {
-        url: "https://postofficehub.in/og-interest-rates.png", // upload a clean red-theme OG image for this page
+        url: "https://postofficehub.in/post-inste.png", // upload a clean red-theme OG image for this page
         width: 1200,
         height: 630,
         alt: "Post Office Interest Rates June 2025",
@@ -30,7 +32,7 @@ export const metadata = {
     title: "Post Office Interest Rates (RD, TD, PPF, SSA) - June 2025",
     description:
       "View the latest India Post interest rates for RD, TD, PPF, SSA, SCSS, and KVP schemes with Post Office Hub’s updated guide for June 2025.",
-    images: ["https://postofficehub.in/og-interest-rates.png"],
+    images: ["https://postofficehub.in/post-inste.png"],
     creator: "@PostOfficeHub",
   },
 };

@@ -62,16 +62,7 @@ const features = [
     color: "from-rose-400 to-pink-500",
     bgColor: "bg-gradient-to-br from-rose-50 to-pink-100",
   },
-  {
-    icon: BookOpen,
-    icon: "/logo.png",
-    title: "Educational Resources",
-    description:
-      "In-depth guides, investment tips, and financial planning strategies for smart money management",
-    link: "/blog",
-    color: "from-indigo-400 to-blue-500",
-    bgColor: "bg-gradient-to-br from-indigo-50 to-blue-100",
-  },
+
   {
     icon: UserCheck,
     icon: "/post-gdss.png",
@@ -299,7 +290,7 @@ export default function Home() {
           </div>
 
           {/* Updated Footer Disclaimer */}
-          <div className="border-t border-gray-700 pt-6">
+          <div className="border-t border-gray-700 pt-6 pb-10">
             <div className="bg-gray-700 rounded-lg p-4 mb-4">
               <div className="flex items-center justify-center">
                 <div className="text-center text-gray-300">

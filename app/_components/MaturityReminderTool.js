@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Calendar, Bell, Clock, AlertCircle } from "lucide-react";
 
 import {
@@ -20,7 +20,17 @@ const MaturityReminderTool = () => {
   const [amount, setAmount] = useState("");
   const [reminderData, setReminderData] = useState(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
-
+  useEffect(() => {
+    if (Notification.permission !== "granted") {
+      Notification.requestPermission().then((permission) => {
+        if (permission === "granted") {
+          console.log("Notification permission granted!");
+        } else {
+          console.log("Notification permission denied.");
+        }
+      });
+    }
+  }, []);
   const schemeOptions = [
     {
       name: "Recurring Deposit (RD)",
@@ -57,6 +67,22 @@ const MaturityReminderTool = () => {
       name: "National Savings Certificate (NSC)",
       durations: [{ value: "5", label: "5 Years (Fixed)" }],
     },
+    {
+      name: "Postal Life Insurance (PLI)",
+      durations: [
+        { value: "10", label: "10 Years" },
+        { value: "15", label: "15 Years" },
+        { value: "20", label: "20 Years" },
+      ],
+    },
+    {
+      name: "Rural Postal Life Insurance (RPLI)",
+      durations: [
+        { value: "10", label: "10 Years" },
+        { value: "15", label: "15 Years" },
+        { value: "20", label: "20 Years" },
+      ],
+    },
   ];
 
   const calculateMaturityDate = (investmentDate, duration) => {
@@ -78,6 +104,26 @@ const MaturityReminderTool = () => {
     return Math.ceil(diffTime / (1000 * 60 * 60 * 24));
   };
 
+  const calculateTimeLeft = (maturityDate) => {
+    const today = new Date();
+    const maturity = new Date(maturityDate);
+
+    let years = maturity.getFullYear() - today.getFullYear();
+    let months = maturity.getMonth() - today.getMonth();
+    let days = maturity.getDate() - today.getDate();
+
+    if (days < 0) {
+      months--;
+      days += new Date(today.getFullYear(), today.getMonth() + 1, 0).getDate();
+    }
+    if (months < 0) {
+      years--;
+      months += 12;
+    }
+
+    return { years, months, days };
+  };
+
   const selectedScheme = schemeOptions.find(
     (scheme) => scheme.name === schemeName
   );
@@ -91,13 +137,16 @@ const MaturityReminderTool = () => {
 
     const maturityDate = calculateMaturityDate(investmentDate, duration);
     const daysRemaining = calculateDaysRemaining(maturityDate);
+    const timeLeft = calculateTimeLeft(maturityDate);
 
     const data = {
+      id: Date.now(),
       schemeName,
       investmentDate,
       maturityDate,
-      amount,
+      amount: parseFloat(amount),
       daysRemaining,
+      timeLeft,
     };
 
     const existingReminders = JSON.parse(
@@ -108,7 +157,11 @@ const MaturityReminderTool = () => {
       "maturityReminders",
       JSON.stringify(existingReminders)
     );
-
+    if (Notification.permission === "granted") {
+      new Notification("Reminder Saved!", {
+        body: `Your ${schemeName} reminder has been saved successfully.`,
+      });
+    }
     setReminderData(data);
     setIsModalOpen(true);
     setSchemeName("");
@@ -243,13 +296,15 @@ const MaturityReminderTool = () => {
                   </span>
                 </div>
                 <p className="text-sm">
-                  {reminderData.daysRemaining > 0
+                  {reminderData.daysRemaining >= 0
                     ? `${reminderData.daysRemaining} days remaining`
-                    : reminderData.daysRemaining === 0
-                    ? "Matures today!"
                     : `Matured ${Math.abs(
                         reminderData.daysRemaining
                       )} days ago`}
+                </p>
+                <p className="text-sm mt-1">
+                  ⏳{" "}
+                  {`${reminderData.timeLeft.years} years, ${reminderData.timeLeft.months} months, ${reminderData.timeLeft.days} days left`}
                 </p>
               </div>
 
@@ -276,9 +331,7 @@ const MaturityReminderTool = () => {
                 </div>
                 <div className="flex justify-between">
                   <span className="font-medium">Amount:</span>
-                  <span>
-                    ₹{parseFloat(reminderData.amount).toLocaleString("en-IN")}
-                  </span>
+                  <span>₹{reminderData.amount.toLocaleString("en-IN")}</span>
                 </div>
               </div>
 

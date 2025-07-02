@@ -6,7 +6,6 @@ readTime: "5 min read"
 category: "GDS Resources"
 priority: "Medium"
 tags: ["GDS", "Leave Rules", "Post Office", "BPM", "ABPM"]
-image: "/images/blog/gds-leave-guide.png"
 ---
 
 # GDS Leave Rules: A Complete Guide for BPM and ABPM
