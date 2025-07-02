@@ -1,4 +1,11 @@
-import { HelpCircle, Shield, Mail, Users, PiggyBankIcon } from "lucide-react";
+import {
+  HelpCircle,
+  Shield,
+  Mail,
+  Users,
+  PiggyBankIcon,
+  HandshakeIcon,
+} from "lucide-react";
 import {
   Dialog,
   DialogContent,
@@ -45,11 +52,11 @@ const MoreModal = ({ isOpen, onClose }) => {
       color: "bg-orange-50 text-orange-600",
     },
     {
-      icon: Mail,
+      icon: HandshakeIcon,
       title: "About Us",
-      description: "Known us better",
+      description: "Know us better",
       link: "/about-us",
-      color: "bg-orange-50 text-orange-600",
+      color: "bg-green-50 text-green-600",
     },
   ];
 
