@@ -143,16 +143,13 @@ const GDSTabs = ({ notifications }) => {
   };
   return (
     <div className="max-w-6xl mx-auto px-4 py-12">
-      {/* Modern Tab Navigation */}
       <div className="flex flex-wrap justify-center gap-4 mb-10 p-2 bg-white rounded-full shadow-lg border border-gray-200">
-        {" "}
-        {/* Removed dark classes */}
         <button
           onClick={() => setActiveTab("notifications")}
           className={`flex items-center gap-2 px-6 py-3 rounded-full text-base font-semibold transition-all duration-300 ${
             activeTab === "notifications"
               ? "bg-gradient-to-r from-red-600 to-pink-500 text-white shadow-md transform scale-105"
-              : "text-gray-700 hover:bg-gray-100" // Changed dark:text-gray-200 to text-gray-700 and dark:hover:bg-gray-700 to hover:bg-gray-100
+              : "text-gray-700 hover:bg-gray-100"
           }`}
         >
           <Bell size={20} /> Notifications
