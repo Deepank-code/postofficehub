@@ -12,6 +12,7 @@ tags: ["MIS", "Monthly Income Scheme", "Post Office", "Savings"]
 
 ## Post Office Monthly Income Scheme (MIS)
 
+![Post Office Image](/post-mis.png)
 The **Post Office Monthly Income Scheme (MIS)** is designed for individuals seeking **guaranteed, fixed monthly income** with the safety of a government-backed investment. Earn **7.4% per annum**, payable monthly, while preserving your capital securely.
 
 ---

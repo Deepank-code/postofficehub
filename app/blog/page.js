@@ -100,6 +100,8 @@ export default async function BlogPage({ searchParams }) {
                     src={post.metadata.image}
                     alt={post.metadata.title}
                     fill
+                    priority
+                    quality={50}
                     className="object-contain"
                   />
                 ) : (
