@@ -3,13 +3,13 @@ import { getGDSCornerContent } from "@/lib/getGDSCornerContent";
 import markdownToHtml from "@/lib/markdownToHtml";
 import { Calendar, Bell, Tag, Megaphone } from "lucide-react";
 
-// ✅ Use async for static params generation
+
 export async function generateStaticParams() {
   const posts = getGDSCornerContent("notifications");
   return posts.map((post) => ({ slug: post.slug }));
 }
 
-// ✅ Use async + await in generateMetadata
+
 export async function generateMetadata({ params }) {
   const posts = getGDSCornerContent("notifications");
   const post = posts.find((p) => p.slug === params.slug);

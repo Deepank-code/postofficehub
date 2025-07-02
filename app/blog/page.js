@@ -21,7 +21,7 @@ export const metadata = {
     siteName: "Post Office Hub",
     images: [
       {
-        url: "https://postofficehub.in/og-blog.png", // replace with your uploaded OG image
+        url: "https://postofficehub.in/logo.png", // replace with your uploaded OG image
         width: 1200,
         height: 630,
         alt: "Post Office Hub Blog",
@@ -35,7 +35,7 @@ export const metadata = {
     title: "Post Office Hub Blog - India Post Schemes, GDS, Tracking Guides",
     description:
       "Discover guides on India Post schemes, GDS rules, PLI/RPLI insurance, and tracking articles on Post Office Hub for your financial awareness and planning.",
-    images: ["https://postofficehub.in/og-blog.png"],
+    images: ["https://postofficehub.in/logo.png"],
     creator: "@PostOfficeHub",
   },
 };

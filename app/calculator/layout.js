@@ -13,7 +13,7 @@ export const metadata = {
     siteName: "Post Office Hub",
     images: [
       {
-        url: "https://postofficehub.in/og-calculators.png",
+        url: "https://postofficehub.in/post-cal.png",
         width: 1200,
         height: 630,
         alt: "Post Office Calculators - Post Office Hub",
@@ -27,7 +27,7 @@ export const metadata = {
     title: "Post Office Calculators - Calculate RD, TD, SSA, PPF Returns",
     description:
       "Use Post Office Hub's calculators for RD, TD, SSA, PPF, and MIS to plan your savings effectively with accurate maturity and interest calculations.",
-    images: ["https://postofficehub.in/og-calculators.png"],
+    images: ["https://postofficehub.in/post-cal.png"],
     creator: "@PostOfficeHub",
   },
 };

@@ -12,7 +12,7 @@ export const metadata = {
     title: "Contact Post Office Hub - Get in Touch",
     description:
       "Send us your questions or feedback regarding India Post schemes, GDS corner, insurance, tracking, and calculators on Post Office Hub.",
-    url: "https://postofficehub.in/contact",
+    url: "https://postofficehub.in/contact-us",
     siteName: "Post Office Hub",
     images: [
       {

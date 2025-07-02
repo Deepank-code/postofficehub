@@ -23,11 +23,11 @@ export const metadata = {
     title: "About Us - Post Office Hub",
     description:
       "Get to know Post Office Hub, our mission, and how we help you navigate India Post services with ease and clarity.",
-    url: "https://postofficehub.in/about",
+    url: "https://postofficehub.in/about-us",
     siteName: "Post Office Hub",
     images: [
       {
-        url: "https://postofficehub.in/og-about.png", // replace with your clean About Us OG image
+        url: "https://postofficehub.in/logo.png", // replace with your clean About Us OG image
         width: 1200,
         height: 630,
         alt: "About Post Office Hub",
@@ -41,7 +41,7 @@ export const metadata = {
     title: "About Post Office Hub",
     description:
       "Post Office Hub helps you understand and use India Post services, from RD and TD to GDS resources, with clear guides and tools.",
-    images: ["https://postofficehub.in/og-about.png"],
+    images: ["https://postofficehub.in/logo.png"],
     creator: "@PostOfficeHub",
   },
 };

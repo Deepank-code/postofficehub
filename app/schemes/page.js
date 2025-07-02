@@ -14,7 +14,7 @@ export const metadata = {
     siteName: "Post Office Hub",
     images: [
       {
-        url: "https://postofficehub.in/og-banner.png", // replace with your image
+        url: "https://postofficehub.in/post-sche.png", // replace with your image
         width: 1200,
         height: 630,
         alt: "Post Office Schemes Guide",
@@ -28,7 +28,7 @@ export const metadata = {
     title: "Post Office Schemes - RD, TD, NSC, KVP Guides",
     description:
       "Post Office Hub offers complete guides on RD, TD, NSC, KVP, SSA, and PLI/RPLI schemes with latest interest rates.",
-    images: ["https://postofficehub.in/og-banner.png"],
+    images: ["https://postofficehub.in/post-sche.png"],
     creator: "@PostOfficeHub",
   },
 };

@@ -16,7 +16,7 @@ export const metadata = {
     siteName: "Post Office Hub",
     images: [
       {
-        url: "https://postofficehub.in/og-insurance.png", // upload your PLI/RPLI themed OG image
+        url: "https://postofficehub.in/post-insu.png", // upload your PLI/RPLI themed OG image
         width: 1200,
         height: 630,
         alt: "Post Office Insurance PLI RPLI Guide",
@@ -31,7 +31,7 @@ export const metadata = {
       "Post Office Insurance (PLI & RPLI) - Plans & Benefits | Post Office Hub",
     description:
       "Learn everything about Postal Life Insurance (PLI) and Rural Postal Life Insurance (RPLI) including plans, benefits, eligibility, and interest rates at Post Office Hub.",
-    images: ["https://postofficehub.in/og-insurance.png"],
+    images: ["https://postofficehub.in/post-insu.png"],
     creator: "@PostOfficeHub",
   },
 };
