@@ -48,8 +48,18 @@ const InsuranceTabs = () => {
     <div>
       {" "}
       <section className="bg-white border-b">
-        <div className="container mx-auto px-4 ">
-          <div className="flex justify-center space-x-2 overflow-x-auto py-4">
+        <div className="container mx-auto px-4">
+          <div
+            className="
+      flex flex-nowrap md:flex-wrap
+      justify-start md:justify-center
+      gap-2
+      overflow-x-auto md:overflow-visible
+      py-4
+      snap-x snap-mandatory
+      scroll-px-4
+    "
+          >
             {[
               { id: "overview", label: "Overview", icon: Info },
               { id: "plans", label: "Plans & Features", icon: Shield },
@@ -59,11 +69,17 @@ const InsuranceTabs = () => {
               <button
                 key={id}
                 onClick={() => setActiveTab(id)}
-                className={`flex items-center space-x-2 px-4 py-2 rounded-full text-sm font-medium transition-colors border ${
-                  activeTab === id
-                    ? "bg-red-600 text-white border-red-600 shadow"
-                    : "bg-gray-100 text-gray-700 border-gray-200 hover:bg-red-50 hover:border-red-300 hover:text-red-600"
-                }`}
+                className={`
+          flex items-center space-x-2
+          px-4 py-2
+          rounded-full text-sm font-medium
+          transition-colors border snap-start
+          ${
+            activeTab === id
+              ? "bg-red-600 text-white border-red-600 shadow"
+              : "bg-gray-100 text-gray-700 border-gray-200 hover:bg-red-50 hover:border-red-300 hover:text-red-600"
+          }
+        `}
               >
                 <Icon size={16} />
                 <span>{label}</span>

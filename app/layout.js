@@ -2,6 +2,7 @@ import { Geist, Geist_Mono, Montserrat } from "next/font/google";
 import "./globals.css";
 import Header from "./_components/Header";
 import MobileBottomNav from "./_components/MobileBottomNav";
+import ShareButton from "./_components/ShareButton";
 
 const montserrat = Montserrat({
   variable: "--font-montserrat",

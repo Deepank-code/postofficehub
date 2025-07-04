@@ -1,5 +1,6 @@
 @import "tailwindcss";
 @plugin '@tailwindcss/typography';
+
 @keyframes mail-drop {
   0% {
     transform: translateY(-20px);

@@ -2,13 +2,12 @@ import { notFound } from "next/navigation";
 import { getGDSCornerContent } from "@/lib/getGDSCornerContent";
 import markdownToHtml from "@/lib/markdownToHtml";
 import { Calendar, Bell, Tag, Megaphone } from "lucide-react";
-
+import ShareButton from "@/app/_components/ShareButton";
 
 export async function generateStaticParams() {
   const posts = getGDSCornerContent("notifications");
   return posts.map((post) => ({ slug: post.slug }));
 }
-
 
 export async function generateMetadata({ params }) {
   const posts = getGDSCornerContent("notifications");
@@ -29,6 +28,7 @@ export async function generateMetadata({ params }) {
 
 export default async function NotificationPage({ params }) {
   const posts = await getGDSCornerContent("notifications");
+
   const post = posts.find((p) => p.slug === params.slug);
 
   if (!post) {

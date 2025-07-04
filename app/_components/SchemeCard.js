@@ -20,15 +20,55 @@ const SchemeCard = ({
   const schemeDetails = {
     prematureWithdrawal:
       id === "ppf"
-        ? "Not allowed before 15 years"
-        : "Allowed after completion of tenure",
-    requiredForm: `Form ${id.toUpperCase()}-1`,
-    accountType: "Post Office Savings Account",
-    taxBenefit: ["ppf", "nsc", "ssa"].includes(id)
-      ? "Available under 80C"
-      : "No tax benefit",
-    eligibility: "Indian citizens of all ages",
-    maturityPayout: "Direct transfer to linked bank account",
+        ? "Partial withdrawals allowed after 5 years under conditions"
+        : id === "nsc"
+        ? "Premature closure not allowed except on death of account holder or court order"
+        : id === "ssa"
+        ? "Partial withdrawal allowed after the girl child turns 18 or for marriage"
+        : id === "rd"
+        ? "Premature closure allowed after 3 years with interest adjustments"
+        : id === "td"
+        ? "Premature closure allowed after 6 months with reduced interest rate"
+        : "Check specific scheme rules",
+
+    requiredForm:
+      id === "ppf"
+        ? "Form C (withdrawal) / Form B (deposit)"
+        : id === "nsc"
+        ? "No specific form for withdrawal, certificate required"
+        : id === "ssa"
+        ? "Form-2 (partial withdrawal), Form-1 (deposit)"
+        : id === "rd"
+        ? "Form-4 (premature closure), Passbook required"
+        : id === "td"
+        ? "Form for premature closure and passbook"
+        : "Check with post office",
+
+    accountType:
+      id === "ppf" || id === "nsc" || id === "ssa"
+        ? "Post Office Small Savings Scheme"
+        : id === "rd" || id === "td"
+        ? "Post Office Savings Account Linked Scheme"
+        : "Post Office Savings Account",
+
+    taxBenefit:
+      id === "ppf" || id === "nsc" || id === "ssa"
+        ? "Eligible for tax deduction under Section 80C"
+        : id === "td"
+        ? "Eligible for 80C only for 5-year TD"
+        : "No tax benefit",
+
+    eligibility:
+      id === "ssa"
+        ? "Girl child below 10 years with a guardian"
+        : "Indian citizens including minors",
+
+    maturityPayout:
+      id === "ppf" || id === "nsc" || id === "ssa"
+        ? "Direct transfer to linked Post Office Savings or Bank Account upon maturity"
+        : id === "rd" || id === "td"
+        ? "Payable at post office or transfer to linked account upon maturity"
+        : "Direct transfer to linked account",
   };
 
   return (

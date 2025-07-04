@@ -65,13 +65,13 @@ export default function SchemeDetail({ params }) {
 
   const schemeToBlogMap = {
     rd: "rd-scheme",
-    td: "td-guide",
-    ssa: "ssa-guide",
-    nsc: "nsc-guide",
-    mis: "mis-guide",
-    scss: "scss-guide",
-    ppf: "ppf-guide",
-    kvp: "kvp-guide",
+    td: "td-scheme",
+    ssa: "ssa-scheme",
+    nsc: "nsc-scheme",
+    mis: "mis-scheme",
+    scss: "scss-scheme",
+    ppf: "ppf-scheme",
+    kvp: "kvp-scheme",
   };
 
   const blogPostId = schemeToBlogMap[scheme.id];

@@ -1,3 +1,4 @@
+import ShareButton from "@/app/_components/ShareButton";
 import { getAllBlogSlugs, getPostBySlug } from "@/lib/getBlogPosts";
 import markdownToHtml from "@/lib/markdownToHtml";
 import { Calendar, Clock, Tag, Eye } from "lucide-react";
@@ -20,7 +21,7 @@ export async function generateMetadata({ params }) {
   const description =
     post.metadata.excerpt ||
     "Read this detailed guide on Post Office Hub for India Post schemes and GDS updates.";
-  const url = `https://postofficehub.in/blog/${post.metadata.slug}`;
+  const url = `https://postofficehub.in/blog/${post.metadata.slug}`; // Ensure this URL is correct and public
   const image =
     post.metadata.coverImage || "https://postofficehub.in/og-default.png";
 
@@ -62,6 +63,13 @@ export async function generateMetadata({ params }) {
 export default async function BlogPostPage({ params }) {
   const post = getPostBySlug(params.slug);
   const contentHtml = await markdownToHtml(post.content);
+
+  // Define the share URL dynamically based on the current post
+  const shareUrl = `https://postofficehub.in/blog/${post.metadata.slug}`;
+  const shareTitle = `${post.metadata.title} | Post Office Hub`;
+  const shareText =
+    post.metadata.excerpt ||
+    "Check out this insightful post from Post Office Hub!";
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -108,6 +116,12 @@ export default async function BlogPostPage({ params }) {
                     <span>Expert Analysis</span>
                   </div>
                 </div>
+
+                <ShareButton
+                  title={shareTitle}
+                  text={shareText}
+                  url={shareUrl}
+                />
               </div>
             </div>
 
@@ -137,16 +151,16 @@ export default async function BlogPostPage({ params }) {
 
             <div className="p-8">
               <div
-                className="prose prose-lg max-w-none 
-                            prose-headings:text-gray-800 prose-headings:font-bold
-                            prose-h2:text-2xl prose-h2:mt-8 prose-h2:mb-4 prose-h2:border-b prose-h2:border-gray-200 prose-h2:pb-2
-                            prose-h3:text-xl prose-h3:mt-6 prose-h3:mb-3 prose-h3:text-blue-700
-                            prose-p:text-gray-700 prose-p:leading-relaxed prose-p:mb-4
-                            prose-strong:text-gray-800 prose-strong:font-semibold
-                            prose-ul:my-4 prose-li:my-2 prose-li:text-gray-700
-                            prose-table:text-sm prose-table:border-collapse
-                            prose-th:bg-gray-50 prose-th:border prose-th:border-gray-300 prose-th:px-4 prose-th:py-3 prose-th:font-semibold
-                            prose-td:border prose-td:border-gray-300 prose-td:px-4 prose-td:py-3"
+                className="prose prose-lg max-w-none
+                                    prose-headings:text-gray-800 prose-headings:font-bold
+                                    prose-h2:text-2xl prose-h2:mt-8 prose-h2:mb-4 prose-h2:border-b prose-h2:border-gray-200 prose-h2:pb-2
+                                    prose-h3:text-xl prose-h3:mt-6 prose-h3:mb-3 prose-h3:text-blue-700
+                                    prose-p:text-gray-700 prose-p:leading-relaxed prose-p:mb-4
+                                    prose-strong:text-gray-800 prose-strong:font-semibold
+                                    prose-ul:my-4 prose-li:my-2 prose-li:text-gray-700
+                                    prose-table:text-sm prose-table:border-collapse
+                                    prose-th:bg-gray-50 prose-th:border prose-th:border-gray-300 prose-th:px-4 prose-th:py-3 prose-th:font-semibold
+                                    prose-td:border prose-td:border-gray-300 prose-td:px-4 prose-td:py-3"
                 dangerouslySetInnerHTML={{ __html: contentHtml }}
               />
             </div>

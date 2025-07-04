@@ -13,7 +13,6 @@ import Link from "next/link";
 const date = new Date();
 const features = [
   {
-    icon: PiggyBank,
     icon: "/post-sche.png",
     title: "Government Schemes",
     description:
@@ -23,7 +22,6 @@ const features = [
     bgColor: "bg-gradient-to-br from-amber-50 to-orange-100",
   },
   {
-    icon: Calculator,
     icon: "/post-cal.png",
     title: "Financial Calculators",
     description:
@@ -33,7 +31,6 @@ const features = [
     bgColor: "bg-gradient-to-br from-emerald-50 to-teal-100",
   },
   {
-    icon: ChartBar,
     icon: "/post-inste.png",
     title: "Interest Rates",
     description:
@@ -43,7 +40,6 @@ const features = [
     bgColor: "bg-gradient-to-br from-violet-50 to-purple-100",
   },
   {
-    icon: Package,
     icon: "/post-parcell.png",
     title: "Parcel & Consignment Tracking",
     description:
@@ -53,7 +49,6 @@ const features = [
     bgColor: "bg-gradient-to-br from-blue-50 to-cyan-100",
   },
   {
-    icon: Shield,
     icon: "/post-insu.png",
     title: "Insurance (PLI/RPLI)",
     description:
@@ -64,7 +59,6 @@ const features = [
   },
 
   {
-    icon: UserCheck,
     icon: "/post-gdss.png",
     title: "GDS Corner",
     description:
@@ -72,16 +66,6 @@ const features = [
     link: "/gds-corner",
     color: "from-green-400 to-emerald-500",
     bgColor: "bg-gradient-to-br from-green-50 to-emerald-100",
-  },
-  {
-    icon: FileText,
-    icon: "/post-parcell.png",
-    title: "Article Tracking",
-    description:
-      "Track registered articles, money orders, and important documents with comprehensive delivery updates",
-    link: "/article-tracking",
-    color: "from-yellow-400 to-amber-500",
-    bgColor: "bg-gradient-to-br from-yellow-50 to-amber-100",
   },
 ];
 export const metadata = {

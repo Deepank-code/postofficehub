@@ -261,7 +261,7 @@ const InterestRates = () => {
                       Annually
                     </td>
                     <td className="px-6 py-4 text-center text-gray-600">
-                      124 Monthly payouts
+                      9 years and 7 months
                     </td>
                   </tr>
 

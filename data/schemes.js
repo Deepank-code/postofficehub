@@ -127,7 +127,7 @@ export const schemes = [
       "Kisan Vikas Patra is a savings certificate scheme where your money gets doubled in approximately 10 years and 4 months.",
     minAmount: "₹1,000",
     maxAmount: "No Limit",
-    tenure: "124 Months",
+    tenure: "9 years and 7 months",
     interestRate: "7.5%",
     interestRateValue: 7.5,
     icon: "🌾",
@@ -137,7 +137,7 @@ export const schemes = [
       "Minor through guardian",
     ],
     benefits: [
-      "Money doubles in 124 months",
+      "Money doubles in 9 years and 7 months",
       "No maximum limit",
       "Transfer allowed",
       "Nomination available",

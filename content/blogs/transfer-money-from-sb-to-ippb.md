@@ -45,9 +45,9 @@ Once your **IPPB app is active**, you can transfer funds to your POSB account ea
 
 1️⃣ Open the **IPPB Mobile App**.  
 2️⃣ Log in using your MPIN.  
-3️⃣ Navigate to **‘Transfer’ > ‘Transfer to POSB’**.  
-4️⃣ Enter your **POSB account number** and IFSC code (IPOS0000DOP).  
-5️⃣ Enter the transfer amount.  
+3️⃣ In Fund transfer section navigate to **‘More’ > ‘POSB Sweep Out’**.  
+4️⃣ Enter your **Amount** and then continue Button.  
+5️⃣ Enter your MPIN.  
 6️⃣ Confirm and submit.
 
 ✅ Transfers are **instant and free**.
@@ -56,7 +56,18 @@ Once your **IPPB app is active**, you can transfer funds to your POSB account ea
 
 ## How to Transfer Money from POSB to IPPB
 
-Currently, **direct online transfer from POSB to IPPB is not available**.
+### Steps:
+
+1️⃣ Open the **IPPB Mobile App**.  
+2️⃣ Log in using your MPIN.  
+3️⃣ In Fund transfer section navigate to **‘More’ > ‘POSB Sweep In’**.  
+4️⃣ Enter your **Amount** and then continue Button.  
+5️⃣ Enter your MPIN.  
+6️⃣ Confirm and submit.
+
+✅ Transfers are **instant and free**.
+
+**OR**
 
 You can:
 
