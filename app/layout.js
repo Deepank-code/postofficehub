@@ -1,8 +1,10 @@
-import { Geist, Geist_Mono, Montserrat } from "next/font/google";
+import { Montserrat } from "next/font/google";
 import "./globals.css";
 import Header from "./_components/Header";
 import MobileBottomNav from "./_components/MobileBottomNav";
-import ShareButton from "./_components/ShareButton";
+
+import StickyFooterCTA from "./_components/StickyFooterCTA";
+import ConditionalFooter from "./_components/ConditionalFooter";
 
 const montserrat = Montserrat({
   variable: "--font-montserrat",
@@ -53,6 +55,7 @@ export default function RootLayout({ children }) {
       <body className={`${montserrat.variable} `}>
         <Header />
         {children}
+        <ConditionalFooter /> <StickyFooterCTA />
         <MobileBottomNav />
       </body>
     </html>

@@ -35,7 +35,7 @@ const features = [
     title: "Interest Rates",
     description:
       "Updated interest rates for all Post Office schemes with historical data and trend analysis",
-    link: "/rates",
+    link: "/interest-rates",
     color: "from-violet-400 to-purple-500",
     bgColor: "bg-gradient-to-br from-violet-50 to-purple-100",
   },
@@ -100,7 +100,11 @@ export const metadata = {
     creator: "@PostOfficeHub",
   },
   metadataBase: new URL("https://postofficehub.in"),
+  alternates: {
+    canonical: "https://www.postofficehub.in",
+  },
 };
+
 export default function Home() {
   return (
     <main className="bg-white text-gray-800 font-sans">
@@ -290,10 +294,6 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <p className="text-center text-gray-500 text-sm font-inter">
-              © {date.getFullYear()} Post Office Hub. Educational content only.
-              Not affiliated with India Post.
-            </p>
           </div>
         </div>
       </footer>

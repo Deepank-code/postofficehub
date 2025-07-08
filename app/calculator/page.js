@@ -209,9 +209,6 @@ export default function Calculators() {
                 >
                   <div className="p-6">
                     <div className="flex items-center space-x-4">
-                      {" "}
-                      {/* Changed items-start back to items-center for vertical centering */}
-                      {/* Image Container with improved styling */}
                       <div
                         className={`
                           w-24 h-24 sm:w-32 sm:h-32 lg:w-36 lg:h-36 {/* Adjusted lg size for better proportion */}
@@ -224,22 +221,18 @@ export default function Calculators() {
                         <Image
                           src={calc.image}
                           alt={calc.title}
-                          width={300} // Keep original width/height for Next.js optimization
-                          height={300} // Keep original width/height for Next.js optimization
+                          width={300}
+                          height={300}
                           quality={80}
                           priority
-                          className="w-full h-full object-contain" // Make image fill its parent div
+                          className="w-full h-full object-contain"
                         />
                       </div>
                       <div className="text-left flex-1">
                         <h3 className="text-xl md:text-2xl lg:text-2xl font-bold text-gray-800 font-poppins">
-                          {" "}
-                          {/* Increased heading size */}
                           {calc.title}
                         </h3>
                         <p className="text-gray-600 text-sm md:text-base lg:text-lg mt-1 font-inter">
-                          {" "}
-                          {/* Increased paragraph size */}
                           {calc.description}
                         </p>
                       </div>

@@ -27,7 +27,7 @@ export const metadata = {
     siteName: "Post Office Hub",
     images: [
       {
-        url: "https://postofficehub.in/logo.png", // replace with your clean About Us OG image
+        url: "https://postofficehub.in/logo.png",
         width: 1200,
         height: 630,
         alt: "About Post Office Hub",
@@ -65,13 +65,14 @@ export default function AboutUsPage() {
           Our Mission
         </h2>
         <p className="text-lg text-gray-700 leading-relaxed mb-8">
-          At **Post Office Hub**, our core mission is to empower the rural
-          communities of India with essential financial knowledge and easy
-          access to various government schemes. Many people believe India Post
-          is solely for mail posting and delivery; however, it is a **reliable
-          and government-backed investment partner** offering schemes with
-          interest rates that are often **even higher than most well-known
-          banks**. We aim to be the **definitive educational resource**,
+          At <strong>Post Office Hub</strong>, our core mission is to empower
+          the rural communities of India with essential financial knowledge and
+          easy access to various government schemes. Many people believe India
+          Post is solely for mail posting and delivery; however, it is a{" "}
+          <strong>reliable and government-backed investment partner</strong>{" "}
+          offering schemes with interest rates that are often{" "}
+          <strong>even higher than most well-known banks</strong>. We aim to be
+          the <strong>definitive educational resource</strong>
           bridging the gap between official information and the common user,
           fostering financial literacy and enabling access to crucial postal
           services and investment opportunities.
@@ -247,14 +248,6 @@ export default function AboutUsPage() {
               accessible and easy to understand for everyone. Our goal is to
               create valuable tools and resources that benefit the community.
             </p>
-            <p className="text-gray-700 leading-relaxed">
-              For technical inquiries or collaboration opportunities, you can
-              reach out via:
-            </p>
-            <p className="mt-3 font-semibold text-blue-600 flex items-center">
-              <Mail className="inline-block mr-2" size={20} />{" "}
-              developers@postofficehub.com (Conceptual Email)
-            </p>
           </div>
         </div>
 
@@ -278,19 +271,7 @@ export default function AboutUsPage() {
             "
           />
 
-          {/* <div className="relative z-10 p-6 rounded-2xl bg-white flex flex-col sm:flex-row items-center sm:items-start space-y-4 sm:space-y-0 sm:space-x-5">
-           
-            <div className="w-28 h-28 rounded-full overflow-hidden border-4 border-white shadow-md flex-shrink-0">
-              <Image
-                width={120} 
-                height={120}
-                src="/your-profile.jpg" 
-                alt="Deepank Joshi"
-                className="w-full h-full object-cover"
-              />
-            </div>
-
-         
+          <div className="relative z-10 p-6 rounded-2xl bg-white flex flex-col sm:flex-row items-center sm:items-start space-y-4 sm:space-y-0 sm:space-x-5">
             <div className="flex-1 text-center sm:text-left">
               <h3 className="text-2xl font-bold text-gray-800">
                 Deepank Joshi
@@ -309,11 +290,10 @@ export default function AboutUsPage() {
 
               <p className="mt-3 font-semibold text-blue-600 flex items-center justify-center sm:justify-start">
                 <Mail className="inline-block mr-2" size={20} />
-                developers@postofficehub.com
+                postofficehub0@gmail.com
               </p>
 
-          
-              <div className="flex justify-center sm:justify-start space-x-4 mt-4 text-gray-600">
+              {/* <div className="flex justify-center sm:justify-start space-x-4 mt-4 text-gray-600">
                 <a
                   href="https://github.com/your-github" // Replace with your GitHub URL
                   target="_blank"
@@ -380,9 +360,9 @@ export default function AboutUsPage() {
                     <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17-19 11.6 0 0 9.9 1.5 14.5-5.3C19.9 6.2 22 4 22 4z"></path>
                   </svg>
                 </a>
-              </div>
+              </div> */}
             </div>
-          </div> */}
+          </div>
         </div>
 
         {/* --- End Developer Information Section --- */}

@@ -28,12 +28,12 @@ const MoreModal = ({ isOpen, onClose }) => {
       title: "GDS Corner",
       description: "Resources for Gramin Dak Sevaks",
       link: "/gds-corner",
-      color: "bg-green-50 text-green-600",
+      color: "bg-yellow-50 text-yellow-600",
     },
     {
       icon: PiggyBankIcon,
       title: "My Investments",
-      description: "check you post office investments",
+      description: "Check your post office investments",
       link: "/my-investments",
       color: "bg-green-50 text-green-600",
     },
@@ -56,7 +56,7 @@ const MoreModal = ({ isOpen, onClose }) => {
       title: "About Us",
       description: "Know us better",
       link: "/about-us",
-      color: "bg-green-50 text-green-600",
+      color: "bg-pink-50 text-pink-600",
     },
   ];
 

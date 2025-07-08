@@ -56,10 +56,13 @@ export default function ContactUsPage() {
         <p className="text-lg text-gray-700 leading-relaxed mb-6">
           At Post Office Hub, we are dedicated to providing accurate and helpful
           information. <strong>If you encounter any issues</strong> or have
-          feedback, please reach out to us. Since this is an **informational and
-          educational app that does not collect any personal user data
-          directly**, we utilize an external service (Google Forms) for
-          structured feedback collection.
+          feedback, please reach out to us. Since this is an{" "}
+          <strong>
+            informational and educational app that does not collect any personal
+            user data directly
+          </strong>
+          , we utilize an external service (Google Forms) for structured
+          feedback collection.
         </p>
         <p className="text-lg text-gray-700 leading-relaxed mb-8">
           Your input is invaluable for enhancing the app&apos;s content and user
@@ -109,7 +112,7 @@ export default function ContactUsPage() {
               styled by this application.*
             </p>
           </div>
-          {/* Existing Email Options now also take full width */}
+
           <div className="flex flex-col gap-8">
             <div className="bg-red-50 p-6 rounded-lg shadow-sm border border-red-200">
               <HelpCircle className="w-10 h-10 text-red-600 mb-3" />
@@ -122,7 +125,7 @@ export default function ContactUsPage() {
               </p>
               <p className="mt-3 font-semibold text-red-600">
                 <Mail className="inline-block mr-2" size={20} />{" "}
-                feedback@postofficehub.com (Conceptual Email)
+                postofficehub0@gmail.com
               </p>
             </div>
             <div className="bg-red-50 p-6 rounded-lg shadow-sm border border-red-200">
@@ -136,7 +139,7 @@ export default function ContactUsPage() {
               </p>
               <p className="mt-3 font-semibold text-red-600">
                 <Mail className="inline-block mr-2" size={20} />{" "}
-                corrections@postofficehub.com (Conceptual Email)
+                postofficehub0@gmail.com
               </p>
             </div>
           </div>
@@ -156,7 +159,7 @@ export default function ContactUsPage() {
         </p>
         <div className="flex flex-col sm:flex-row justify-center gap-4">
           <a
-            href="https://www.indiapost.gov.in/" // Official India Post Website
+            href="https://www.indiapost.gov.in/"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center bg-blue-600 text-white px-6 py-3 rounded-full text-lg font-semibold hover:bg-blue-700 transition-colors duration-300 shadow-lg transform hover:scale-105"

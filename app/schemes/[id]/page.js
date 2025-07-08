@@ -21,6 +21,9 @@ export async function generateMetadata({ params }) {
       title: "Post Office Scheme - Details | Post Office Hub",
       description:
         "Explore detailed guides, interest rates, eligibility, and benefits of various Post Office saving schemes on Post Office Hub.",
+      alternates: {
+        canonical: "https://postofficehub.in/schemes",
+      },
     };
   }
 
@@ -56,8 +59,12 @@ export async function generateMetadata({ params }) {
       images: [ogImage],
       creator: "@PostOfficeHub",
     },
+    alternates: {
+      canonical: url,
+    },
   };
 }
+
 export default function SchemeDetail({ params }) {
   const scheme = schemes.find((s) => s.id === params.id);
 
