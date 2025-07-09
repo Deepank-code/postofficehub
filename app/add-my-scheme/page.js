@@ -1,17 +1,11 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { PlusCircle, Clock, Bell } from "lucide-react";
+import { PlusCircle, Clock } from "lucide-react";
 import Input from "@/app/_components/_ui/Input";
 import Button from "@/app/_components/_ui/Button";
 import { useRouter } from "next/navigation";
 import toast from "react-hot-toast";
-import {
-  Dialog,
-  DialogContent,
-  DialogHeader,
-  DialogTitle,
-} from "@/app/_components/_ui/dialog";
 
 // Scheme options
 const schemeOptions = [
@@ -75,8 +69,6 @@ export default function AddMySchemePage() {
   const [duration, setDuration] = useState("");
   const [amount, setAmount] = useState("");
   const [note, setNote] = useState("");
-  const [isModalOpen, setIsModalOpen] = useState(false);
-  const [maturityDate, setMaturityDate] = useState("");
   const router = useRouter();
 
   useEffect(() => {
@@ -101,8 +93,8 @@ export default function AddMySchemePage() {
       toast.error("Please fill in all required fields");
       return;
     }
+
     const maturity = calculateMaturityDate(investmentDate, duration);
-    setMaturityDate(maturity);
     const today = new Date();
     const maturityD = new Date(maturity);
     const diffDays = Math.ceil((maturityD - today) / (1000 * 60 * 60 * 24));
@@ -120,18 +112,29 @@ export default function AddMySchemePage() {
       notifiedDates: [],
     };
 
-    const existing = JSON.parse(localStorage.getItem("customSchemes") || "[]");
-    existing.push(newScheme);
-    localStorage.setItem("customSchemes", JSON.stringify(existing));
+    try {
+      const existing = JSON.parse(
+        localStorage.getItem("customSchemes") || "[]"
+      );
+      existing.push(newScheme);
+      localStorage.setItem("customSchemes", JSON.stringify(existing));
 
-    if ("Notification" in window && Notification.permission === "granted") {
-      new Notification("Scheme Added", {
-        body: `${customName} (${schemeName}) added for tracking.`,
-        icon: "/icons/icon-192x192.png",
-      });
+      if ("Notification" in window && Notification.permission === "granted") {
+        new Notification("Scheme Added", {
+          body: `${customName} (${schemeName}) added for tracking.`,
+          icon: "/icons/icon-192x192.png",
+        });
+      }
+
+      toast.success(`Scheme added successfully!`);
+
+      setTimeout(() => {
+        router.push("/my-investments");
+      }, 1000);
+    } catch (error) {
+      console.error("Error saving scheme:", error);
+      toast.error("Something went wrong while saving your scheme.");
     }
-    setIsModalOpen(true);
-    toast.success(`Scheme added successfully`);
   };
 
   const selectedScheme = schemeOptions.find(
@@ -277,7 +280,6 @@ export default function AddMySchemePage() {
           />
         </div>
 
-        {/* Submit Button */}
         <Button
           type="submit"
           className="w-full mb-10 bg-blue-600 hover:bg-blue-700"
@@ -286,30 +288,6 @@ export default function AddMySchemePage() {
           Add Scheme
         </Button>
       </form>
-      {/* 
-      <Dialog open={isModalOpen} onOpenChange={setIsModalOpen}>
-        <DialogContent className="max-w-sm bg-white border border-gray-200 shadow-xl">
-          <DialogHeader>
-            <DialogTitle className="flex items-center space-x-2">
-              <Bell className="text-blue-600" size={24} />
-              <span>Scheme Added Successfully</span>
-            </DialogTitle>
-          </DialogHeader>
-          <p className="text-gray-700 text-center mt-2">
-            Your <strong>{customName}</strong> ({schemeName}) will mature on{" "}
-            <strong>
-              {new Date(maturityDate).toLocaleDateString("en-IN")}
-            </strong>
-            .
-          </p>
-          <Button
-            onClick={() => router.push("/my-investments")}
-            className="w-full bg-blue-600 hover:bg-blue-700 mt-4"
-          >
-            Go to My Investments
-          </Button>
-        </DialogContent>
-      </Dialog> */}
     </div>
   );
 }
