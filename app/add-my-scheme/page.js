@@ -277,7 +277,10 @@ export default function AddMySchemePage() {
         </div>
 
         {/* Submit Button */}
-        <Button type="submit" className="w-full bg-blue-600 hover:bg-blue-700">
+        <Button
+          type="submit"
+          className="w-full mb-10 bg-blue-600 hover:bg-blue-700"
+        >
           <Clock className="mr-2 h-4 w-4" />
           Add Scheme
         </Button>
