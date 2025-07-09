@@ -65,7 +65,7 @@ export default async function BlogPostPage({ params }) {
   const contentHtml = await markdownToHtml(post.content);
 
   // Define the share URL dynamically based on the current post
-  const shareUrl = `https://postofficehub.in/blog/${post.metadata.slug}`;
+  const shareUrl = `https://postofficehub.in/blog/${params.slug}`;
   const shareTitle = `${post.metadata.title} | Post Office Hub`;
   const shareText =
     post.metadata.excerpt ||
