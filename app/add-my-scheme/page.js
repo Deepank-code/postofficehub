@@ -121,10 +121,23 @@ export default function AddMySchemePage() {
       localStorage.setItem("customSchemes", JSON.stringify(existing));
 
       if ("Notification" in window && Notification.permission === "granted") {
-        new Notification("Scheme Added", {
-          body: `${customName} (${schemeName}) added for tracking.`,
-          icon: "/icons/icon-192x192.png",
-        });
+        navigator.serviceWorker
+          .getRegistration()
+          .then((reg) => {
+            if (reg) {
+              reg.showNotification("Scheme Added", {
+                body: `${customName} (${schemeName}) added for tracking.`,
+                icon: "/icons/icon-192x192.png",
+              });
+            } else {
+              console.log(
+                "No Service Worker registration found, skipping notification."
+              );
+            }
+          })
+          .catch((err) => {
+            console.error("Error showing notification:", err);
+          });
       }
 
       toast.success(`Scheme added successfully! Redirecting...`);
