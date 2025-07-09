@@ -113,9 +113,10 @@ export default function AddMySchemePage() {
     };
 
     try {
-      const existing = JSON.parse(
-        localStorage.getItem("customSchemes") || "[]"
-      );
+      let existing = [];
+      const stored = localStorage.getItem("customSchemes");
+      existing = stored ? JSON.parse(stored) : [];
+
       existing.push(newScheme);
       localStorage.setItem("customSchemes", JSON.stringify(existing));
 
@@ -126,11 +127,10 @@ export default function AddMySchemePage() {
         });
       }
 
-      toast.success(`Scheme added successfully!`);
+      toast.success(`Scheme added successfully! Redirecting...`);
 
-      setTimeout(() => {
-        router.push("/my-investments");
-      }, 1000);
+      // Direct navigation without delay
+      router.push("/my-investments");
     } catch (error) {
       console.error("Error saving scheme:", error);
       toast.error("Something went wrong while saving your scheme.");
@@ -164,14 +164,13 @@ export default function AddMySchemePage() {
       </div>
 
       <form onSubmit={handleSubmit} className="space-y-4">
-        {/* Purpose / Custom Name */}
+        {/* Custom Name */}
         <div>
           <label
             htmlFor="customName"
             className="block text-sm font-medium text-gray-700 mb-1"
           >
-            Enter your purpose for this investment (e.g., Daughter&apos;s
-            Education)
+            Enter your purpose for this investment
           </label>
           <Input
             id="customName"
@@ -270,7 +269,7 @@ export default function AddMySchemePage() {
             htmlFor="note"
             className="block text-sm font-medium text-gray-700 mb-1"
           >
-            Add additional notes if needed (optional)
+            Additional notes (optional)
           </label>
           <Input
             id="note"

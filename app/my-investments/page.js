@@ -18,60 +18,85 @@ export default function InvestmentsPage() {
   const [showWarning, setShowWarning] = useState(false);
 
   useEffect(() => {
-    const storedReminders = JSON.parse(
-      localStorage.getItem("maturityReminders") || "[]"
-    );
-    const storedCustomSchemes = JSON.parse(
-      localStorage.getItem("customSchemes") || "[]"
-    );
+    try {
+      const storedRemindersRaw = localStorage.getItem("maturityReminders");
+      const storedCustomSchemesRaw = localStorage.getItem("customSchemes");
 
-    const combined = [...storedReminders, ...storedCustomSchemes];
-    setReminders(combined);
+      const storedReminders = storedRemindersRaw
+        ? JSON.parse(storedRemindersRaw)
+        : [];
+      const storedCustomSchemes = storedCustomSchemesRaw
+        ? JSON.parse(storedCustomSchemesRaw)
+        : [];
 
-    if (!localStorage.getItem("dismissedLocalStorageWarning")) {
-      setShowWarning(true);
-    }
+      const combined = [...storedReminders, ...storedCustomSchemes];
+      setReminders(combined);
 
-    if (Notification.permission !== "granted") {
-      Notification.requestPermission();
-    } else {
-      const today = new Date();
-      combined.forEach((item) => {
-        const maturity = new Date(item.maturityDate);
-        const diffDays = Math.ceil((maturity - today) / (1000 * 60 * 60 * 24));
-        if (diffDays === 0) {
-          new Notification(`Maturity Today: ${item.schemeName}`, {
-            body: `₹${item.amount} matures today.`,
-          });
-        } else if (diffDays === 7) {
-          new Notification(`Upcoming Maturity: ${item.schemeName}`, {
-            body: `₹${item.amount} matures in 7 days.`,
+      if (!localStorage.getItem("dismissedLocalStorageWarning")) {
+        setShowWarning(true);
+      }
+
+      if ("Notification" in window) {
+        if (Notification.permission !== "granted") {
+          Notification.requestPermission();
+        } else {
+          const today = new Date();
+          combined.forEach((item) => {
+            if (!item?.maturityDate) return;
+
+            const maturity = new Date(item.maturityDate);
+            const diffDays = Math.ceil(
+              (maturity - today) / (1000 * 60 * 60 * 24)
+            );
+
+            if (diffDays === 0) {
+              new Notification(`Maturity Today: ${item.schemeName}`, {
+                body: `₹${item.amount} matures today.`,
+              });
+            } else if (diffDays === 7) {
+              new Notification(`Upcoming Maturity: ${item.schemeName}`, {
+                body: `₹${item.amount} matures in 7 days.`,
+              });
+            }
           });
         }
-      });
+      }
+    } catch (error) {
+      console.error("Error loading data:", error);
+      toast.error("Failed to load your investments. Please refresh.");
     }
   }, []);
 
   const handleDelete = (id) => {
-    let updatedReminders = reminders.filter((item) => item.id !== id);
+    try {
+      const updatedReminders = reminders.filter((item) => item.id !== id);
 
-    const updatedMaturityReminders = updatedReminders.filter(
-      (item) => !item.customName
-    );
-    const updatedCustomSchemes = updatedReminders.filter(
-      (item) => item.customName
-    );
+      const updatedMaturityReminders = updatedReminders.filter(
+        (item) => !item.customName
+      );
+      const updatedCustomSchemes = updatedReminders.filter(
+        (item) => item.customName
+      );
 
-    localStorage.setItem(
-      "maturityReminders",
-      JSON.stringify(updatedMaturityReminders)
-    );
-    localStorage.setItem("customSchemes", JSON.stringify(updatedCustomSchemes));
-    toast.success("Deleted");
-    setReminders(updatedReminders);
+      localStorage.setItem(
+        "maturityReminders",
+        JSON.stringify(updatedMaturityReminders)
+      );
+      localStorage.setItem(
+        "customSchemes",
+        JSON.stringify(updatedCustomSchemes)
+      );
+
+      setReminders(updatedReminders);
+      toast.success("Deleted successfully.");
+    } catch (error) {
+      console.error("Error deleting reminder:", error);
+      toast.error("Failed to delete reminder.");
+    }
   };
 
   const calculateTimeLeft = (maturityDate) => {
+    if (!maturityDate) return "N/A";
     const today = new Date();
     const maturity = new Date(maturityDate);
     let years = maturity.getFullYear() - today.getFullYear();
@@ -89,6 +114,7 @@ export default function InvestmentsPage() {
   };
 
   const getBadge = (maturityDate) => {
+    if (!maturityDate) return null;
     const today = new Date();
     const maturity = new Date(maturityDate);
     const diffDays = Math.ceil((maturity - today) / (1000 * 60 * 60 * 24));
@@ -143,10 +169,12 @@ export default function InvestmentsPage() {
           </button>
         </div>
       )}
+
       <div className="flex items-center mb-4 space-x-2">
         <Bell className="text-blue-600" size={24} />
         <h1 className="text-2xl font-bold text-gray-800">Your Investments</h1>
       </div>
+
       {reminders.length === 0 ? (
         <div className="bg-white p-4 rounded shadow text-center text-gray-600">
           No investments saved yet.
@@ -174,7 +202,7 @@ export default function InvestmentsPage() {
                   <span>
                     Investment:{" "}
                     <span className="font-medium text-gray-900">
-                      {item.investmentDate}
+                      {item.investmentDate || "N/A"}
                     </span>
                   </span>
                 </div>
@@ -183,7 +211,7 @@ export default function InvestmentsPage() {
                   <span>
                     Maturity:{" "}
                     <span className="font-medium text-gray-900">
-                      {item.maturityDate}
+                      {item.maturityDate || "N/A"}
                     </span>
                   </span>
                 </div>
@@ -192,7 +220,10 @@ export default function InvestmentsPage() {
                   <span>
                     Amount:{" "}
                     <span className="font-medium text-gray-900">
-                      ₹{parseFloat(item.amount).toLocaleString("en-IN")}
+                      ₹
+                      {item.amount
+                        ? parseFloat(item.amount).toLocaleString("en-IN")
+                        : "N/A"}
                     </span>
                   </span>
                 </div>
@@ -201,7 +232,9 @@ export default function InvestmentsPage() {
                   <span>
                     Time Left:{" "}
                     <span className="font-medium text-gray-900">
-                      {calculateTimeLeft(item.maturityDate)}
+                      {item.maturityDate
+                        ? calculateTimeLeft(item.maturityDate)
+                        : "N/A"}
                     </span>
                   </span>
                 </div>
@@ -218,14 +251,15 @@ export default function InvestmentsPage() {
               className="w-full bg-red-500 text-white hover:bg-red-600 transition-colors"
             >
               Delete
-            </Button>{" "}
+            </Button>
           </div>
         ))
       )}
-      <div className="w-full flex justify-center my-10 ">
+
+      <div className="w-full flex justify-center my-10">
         <Link
           href="/add-my-scheme"
-          className=" bg-gradient-to-r from-blue-500 to-purple-600 text-white text-sm px-4 py-2 rounded-xl hover:from-blue-600 hover:to-purple-700 transition-colors duration-200 shadow-lg"
+          className="bg-gradient-to-r from-blue-500 to-purple-600 text-white text-sm px-4 py-2 rounded-xl hover:from-blue-600 hover:to-purple-700 transition-colors duration-200 shadow-lg"
         >
           Add your schemes
         </Link>
