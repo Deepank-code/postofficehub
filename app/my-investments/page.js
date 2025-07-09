@@ -10,16 +10,22 @@ import {
   AlertTriangle,
   X,
 } from "lucide-react";
+import Link from "next/link";
 
 export default function InvestmentsPage() {
   const [reminders, setReminders] = useState([]);
   const [showWarning, setShowWarning] = useState(false);
 
   useEffect(() => {
-    const stored = JSON.parse(
+    const storedReminders = JSON.parse(
       localStorage.getItem("maturityReminders") || "[]"
     );
-    setReminders(stored);
+    const storedCustomSchemes = JSON.parse(
+      localStorage.getItem("customSchemes") || "[]"
+    );
+
+    const combined = [...storedReminders, ...storedCustomSchemes];
+    setReminders(combined);
 
     if (!localStorage.getItem("dismissedLocalStorageWarning")) {
       setShowWarning(true);
@@ -29,7 +35,7 @@ export default function InvestmentsPage() {
       Notification.requestPermission();
     } else {
       const today = new Date();
-      stored.forEach((item) => {
+      combined.forEach((item) => {
         const maturity = new Date(item.maturityDate);
         const diffDays = Math.ceil((maturity - today) / (1000 * 60 * 60 * 24));
         if (diffDays === 0) {
@@ -45,10 +51,23 @@ export default function InvestmentsPage() {
     }
   }, []);
 
-  const handleDelete = (index) => {
-    const updated = reminders.filter((_, i) => i !== index);
-    setReminders(updated);
-    localStorage.setItem("maturityReminders", JSON.stringify(updated));
+  const handleDelete = (id) => {
+    let updatedReminders = reminders.filter((item) => item.id !== id);
+
+    const updatedMaturityReminders = updatedReminders.filter(
+      (item) => !item.customName
+    );
+    const updatedCustomSchemes = updatedReminders.filter(
+      (item) => item.customName
+    );
+
+    localStorage.setItem(
+      "maturityReminders",
+      JSON.stringify(updatedMaturityReminders)
+    );
+    localStorage.setItem("customSchemes", JSON.stringify(updatedCustomSchemes));
+
+    setReminders(updatedReminders);
   };
 
   const calculateTimeLeft = (maturityDate) => {
@@ -111,8 +130,9 @@ export default function InvestmentsPage() {
         <div className="flex items-start p-4 mb-4 rounded-lg bg-yellow-50 border border-yellow-200 relative">
           <AlertTriangle className="text-yellow-600 mr-2 mt-0.5" size={20} />
           <div className="text-sm text-yellow-800">
-            Data is stored locally in your browser/PWA and may be lost if you
-            clear cache, change devices, or uninstall the app.
+            Your data is saved locally on your device and may be lost if you
+            clear cache, uninstall, or switch devices. Please maintain your own
+            backup if needed.
           </div>
           <button
             onClick={dismissWarning}
@@ -122,27 +142,27 @@ export default function InvestmentsPage() {
           </button>
         </div>
       )}
-
       <div className="flex items-center mb-4 space-x-2">
         <Bell className="text-blue-600" size={24} />
         <h1 className="text-2xl font-bold text-gray-800">Your Investments</h1>
       </div>
-
       {reminders.length === 0 ? (
         <div className="bg-white p-4 rounded shadow text-center text-gray-600">
           No investments saved yet.
         </div>
       ) : (
-        reminders.map((item, index) => (
+        reminders.map((item) => (
           <div
-            key={index}
+            key={item.id}
             className="border rounded-xl p-4 mb-4 shadow bg-white hover:shadow-md transition-shadow"
           >
             <div className="mb-3">
               <div className="flex items-center flex-wrap gap-2 mb-2">
                 <CalendarDays className="text-blue-500" size={20} />
                 <span className="font-semibold text-gray-800">
-                  {item.schemeName}
+                  {item.customName
+                    ? `${item.customName} (${item.schemeName})`
+                    : item.schemeName}
                 </span>
                 {getBadge(item.maturityDate)}
               </div>
@@ -184,18 +204,31 @@ export default function InvestmentsPage() {
                     </span>
                   </span>
                 </div>
+                {item.note && (
+                  <div className="flex items-center space-x-1 sm:col-span-2">
+                    📝
+                    <span className="italic text-gray-800">{item.note}</span>
+                  </div>
+                )}
               </div>
             </div>
-
             <Button
-              onClick={() => handleDelete(index)}
+              onClick={() => handleDelete(item.id)}
               className="w-full bg-red-500 text-white hover:bg-red-600 transition-colors"
             >
               Delete
-            </Button>
+            </Button>{" "}
           </div>
         ))
       )}
+      <div className="w-full flex justify-center mt-10 ">
+        <Link
+          href="/add-my-scheme"
+          className=" bg-gradient-to-r from-blue-500 to-purple-600 text-white text-sm px-4 py-2 rounded-xl hover:from-blue-600 hover:to-purple-700 transition-colors duration-200 shadow-lg"
+        >
+          Add your schemes
+        </Link>
+      </div>
     </div>
   );
 }

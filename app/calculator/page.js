@@ -125,15 +125,6 @@ export default function Calculators() {
       maxAmount: 150000,
       initialGirlAge: 1, // Default to 1 year for SSA
     },
-    {
-      id: "maturity-reminder",
-      image: "/post-maturity.png",
-      title: "Maturity Reminder Tool",
-      description: "Set smart reminders for your investment maturity dates",
-      color: "from-indigo-400 to-blue-500",
-      bgColor: "bg-gradient-to-r from-indigo-50 to-blue-50",
-      borderColor: "border-indigo-200",
-    },
   ];
 
   const toggleCalculator = (id) => {
@@ -141,9 +132,6 @@ export default function Calculators() {
   };
 
   const getCalculatorComponent = (calc) => {
-    if (calc.id === "maturity-reminder") {
-      return <MaturityReminderTool />;
-    }
     return (
       <CalculatorComponent
         schemeName={calc.schemeName}

@@ -360,6 +360,18 @@ const InsuranceTabs = () => {
               <FileText size={24} />
               <span>Important Documents & Forms</span>
             </h2>
+            <p className="text-gray-700 mb-6">
+              Looking for essential post office forms in one place? Here you can
+              easily download RPLI (Rural Postal Life Insurance) maturity forms,
+              PLI (Postal Life Insurance) surrender forms, claim forms, address
+              change forms, and other important documents required for post
+              office services. Whether you need to process your maturity claim,
+              update your nominee details, or apply for a new postal scheme,
+              these forms will save you time and visits to the post office. Each
+              document is clearly listed with its file size and type, ensuring
+              you get exactly what you need for your postal and financial
+              requirements.
+            </p>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               {importantDocuments.map((doc, index) => (
                 <Card key={index} className="hover:shadow-lg transition-shadow">

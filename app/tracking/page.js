@@ -47,45 +47,108 @@ const Tracking = () => {
       {/* Enriched Content Section */}
       <section className="max-w-3xl w-full mb-12 text-left space-y-6">
         <h2 className="text-2xl font-bold text-gray-800 font-poppins">
-          Why Track Your Parcel Online?
+          How to Track Your Parcel Online with India Post
         </h2>
         <p className="text-gray-700 font-inter">
-          Tracking your parcel online helps you stay informed about the current
-          location and status of your shipment without visiting your local post
-          office. It provides peace of mind, estimated delivery dates, and
-          ensures your documents, gifts, and parcels reach their destinations
-          safely.
+          Tracking your parcel online helps you know exactly where your parcel,
+          registered letter, or money order is without going to the post office
+          again and again. You can see when it will arrive, where it is
+          currently, and avoid the stress of waiting blindly.
         </p>
 
         <h3 className="text-xl font-semibold text-gray-800 font-poppins">
-          What Can You Track with India Post?
+          What Types of Articles Can You Track?
         </h3>
+        <p className="text-gray-700 font-inter">
+          India Post allows you to track a wide range of services:
+        </p>
         <ul className="list-disc list-inside text-gray-700 font-inter space-y-1">
-          <li>📦 Speed Post consignments</li>
-          <li>📑 Registered Letters & Articles</li>
-          <li>🎁 Parcels (Domestic and International)</li>
-          <li>📃 Money Orders and Insurance Articles</li>
+          <li> Speed Post consignments (fast delivery parcels and letters)</li>
+          <li> Registered Letters & Articles</li>
+          <li> Parcels (Domestic and International)</li>
+          <li> Money Orders and Insurance Articles</li>
         </ul>
 
         <h3 className="text-xl font-semibold text-gray-800 font-poppins">
-          How to Track Your Parcel
-        </h3>
-        <ol className="list-decimal list-inside text-gray-700 font-inter space-y-1">
-          <li>Find your 13-digit tracking number (e.g., EE123456789IN).</li>
-          <li>
-            Click the “Track Your Parcel Now” button above to open the official
-            India Post tracking page.
-          </li>
-          <li>Enter your tracking number and submit to view the status.</li>
-          <li>Check your parcel’s location, delivery status, and updates.</li>
-        </ol>
-
-        <h3 className="text-xl font-semibold text-gray-800 font-poppins">
-          Common Tracking Statuses
+          Understanding Tracking Numbers: EV, CV, RV, etc.
         </h3>
         <p className="text-gray-700 font-inter">
-          Here are some statuses you may see while tracking:
+          Every India Post article has a unique 13-digit tracking number:
         </p>
+        <ul className="list-disc list-inside text-gray-700 font-inter space-y-1">
+          <li>
+            <strong>EVXXXXXXXXXIN</strong> - Speed Post articles (fast delivery)
+          </li>
+          <li>
+            <strong>CVXXXXXXXXXIN</strong> - Registered Parcels (secure parcels)
+          </li>
+          <li>
+            <strong>RVXXXXXXXXXIN</strong> - Registered Letters (documents and
+            letters)
+          </li>
+          <li>
+            Other prefixes like <strong>EM</strong>, <strong>CP</strong>, and{" "}
+            <strong>RA</strong> may also appear on your tracking number:
+            <ul className="list-disc list-inside ml-5 mt-1 text-gray-700">
+              <li>
+                <strong>EM</strong>: Used for Express Mail and Speed Post
+                articles in some cases.
+              </li>
+              <li>
+                <strong>CP</strong>: Stands for Customs Parcel or Commercial
+                Parcel usually used for international parcels.
+              </li>
+              <li>
+                <strong>RA</strong>: Registered Articles, similar to RV, often
+                used for registered letters or documents.
+              </li>
+            </ul>
+            These prefixes help India Post identify the type of service used for
+            your shipment and determine its delivery speed and handling.
+          </li>
+        </ul>
+        <p className="text-gray-700 font-inter">
+          This helps you easily identify if your article is Speed Post,
+          Registered Post, or Parcel.
+        </p>
+
+        <h3 className="text-xl font-semibold text-gray-800 font-poppins">
+          Step-by-Step: How to Track Your Parcel
+        </h3>
+        <ol className="list-decimal list-inside text-gray-700 font-inter space-y-1">
+          <li>
+            Find your 13-digit tracking number on your receipt (e.g.,
+            EV123456789IN).
+          </li>
+          <li>Click the “Track Your Parcel Now” button on this page.</li>
+          <li>
+            Enter your tracking number in the box provided on the tracking page.
+          </li>
+          <li>
+            Press submit to view the current status and location of your
+            article.
+          </li>
+          <li>Note the expected delivery date and any updates shown.</li>
+        </ol>
+
+        <div className="my-4 w-full">
+          <Image
+            width={800}
+            height={800}
+            src="/ev.webp"
+            quality={50}
+            alt="Screenshot of India Post tracking page showing where to enter your consignment number"
+            className="rounded-lg shadow border"
+          />
+          <p className="text-xs text-gray-500 mt-1">
+            Example: Enter your 13-digit tracking number in the box shown above
+            to track your parcel easily.
+          </p>
+        </div>
+
+        <h3 className="text-xl font-semibold text-gray-800 font-poppins">
+          Common Tracking Statuses You May See
+        </h3>
         <ul className="list-disc list-inside text-gray-700 font-inter space-y-1">
           <li>🛫 Dispatched from Sorting Facility</li>
           <li>🏢 Arrived at Delivery Post Office</li>
@@ -95,26 +158,31 @@ const Tracking = () => {
         </ul>
 
         <h3 className="text-xl font-semibold text-gray-800 font-poppins">
-          Tips for Effective Tracking
+          Tips for Smooth Parcel Tracking
         </h3>
         <ul className="list-disc list-inside text-gray-700 font-inter space-y-1">
-          <li>Double-check your tracking number before submitting.</li>
-          <li>Allow 24–48 hours after dispatch for tracking to get updated.</li>
+          <li>Double-check your tracking number before entering.</li>
           <li>
-            For international parcels, tracking may be delayed due to customs.
+            Tracking updates may take 24–48 hours after booking to appear.
           </li>
           <li>
-            Save your tracking number until delivery is confirmed for safety.
+            For international parcels, tracking updates may be delayed due to
+            customs.
+          </li>
+          <li>
+            Keep your tracking receipt until your parcel is delivered for your
+            records.
           </li>
         </ul>
 
         <h3 className="text-xl font-semibold text-gray-800 font-poppins">
-          Need Help?
+          Need Help with Tracking?
         </h3>
         <p className="text-gray-700 font-inter">
-          If your parcel is delayed or shows an unclear status, visit your
-          nearest post office with your tracking number or call India Post
-          customer care for clarification.
+          If your parcel is delayed or the status is unclear, visit your nearest
+          post office with your tracking number or call India Post customer care
+          for assistance. Tracking online saves you time and keeps you updated
+          without unnecessary visits to the post office.
         </p>
       </section>
 

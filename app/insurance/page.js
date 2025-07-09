@@ -2,24 +2,24 @@ import Image from "next/image";
 import InsuranceTabs from "../_components/InsuranceTabs";
 export const metadata = {
   title:
-    "Post Office Insurance (PLI & RPLI) - Plans, Benefits & Interest Rates | Post Office Hub",
+    "Post Office Insurance (PLI & RPLI) - Plans, Benefits, Interest Rates & Forms | Post Office Hub",
   description:
-    "Explore Post Office Insurance (PLI & RPLI) plans, their interest rates, features, eligibility, and benefits. Get a complete guide on securing your future with government-backed postal insurance schemes.",
+    "Explore Post Office Insurance (PLI & RPLI) plans, interest rates, features, eligibility, and benefits. Download important forms for PLI and RPLI maturity, surrender, claim, and address updates easily at Post Office Hub.",
   keywords:
-    "Post Office Insurance, PLI, RPLI, Postal Life Insurance, Rural Postal Life Insurance, PLI Interest Rate, PLI Plans, RPLI Plans, Post Office Hub",
+    "Post Office Insurance, PLI, RPLI, Postal Life Insurance, Rural Postal Life Insurance, PLI Interest Rate, PLI Plans, RPLI Plans, Post Office Hub, PLI Forms, RPLI Forms, Post Office Forms Download",
   openGraph: {
     title:
-      "Post Office Insurance (PLI & RPLI) - Plans, Benefits & Interest Rates",
+      "Post Office Insurance (PLI & RPLI) - Plans, Benefits, Interest Rates & Forms",
     description:
-      "Discover the benefits, eligibility, and current interest rates of Postal Life Insurance (PLI) and Rural Postal Life Insurance (RPLI) on Post Office Hub.",
+      "Discover benefits, eligibility, and current interest rates of Postal Life Insurance (PLI) and Rural Postal Life Insurance (RPLI). Easily download important PLI/RPLI forms for maturity, surrender, and claims at Post Office Hub.",
     url: "https://postofficehub.in/insurance",
     siteName: "Post Office Hub",
     images: [
       {
-        url: "https://postofficehub.in/post-insu.png", // upload your PLI/RPLI themed OG image
+        url: "https://postofficehub.in/post-insu.png", // your PLI/RPLI themed OG image
         width: 1200,
         height: 630,
-        alt: "Post Office Insurance PLI RPLI Guide",
+        alt: "Post Office Insurance PLI RPLI Guide and Forms Download",
       },
     ],
     locale: "en_IN",
@@ -28,17 +28,17 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Post Office Insurance (PLI & RPLI) - Plans & Benefits | Post Office Hub",
+      "Post Office Insurance (PLI & RPLI) - Plans, Benefits & Forms | Post Office Hub",
     description:
-      "Learn everything about Postal Life Insurance (PLI) and Rural Postal Life Insurance (RPLI) including plans, benefits, eligibility, and interest rates at Post Office Hub.",
+      "Learn about Postal Life Insurance (PLI) and Rural Postal Life Insurance (RPLI) plans, benefits, and rates. Download important post office forms for claims and maturity at Post Office Hub.",
     images: ["https://postofficehub.in/post-insu.png"],
     creator: "@PostOfficeHub",
   },
 };
+
 const Insurance = () => {
   return (
     <div className="min-h-screen bg-gray-50 pb-20 md:pb-0">
-      {/* Page Header */}
       <section
         className="bg-gradient-to-r from-red-600 to-yellow-500
  text-white py-12"

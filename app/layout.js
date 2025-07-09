@@ -5,6 +5,7 @@ import MobileBottomNav from "./_components/MobileBottomNav";
 
 import StickyFooterCTA from "./_components/StickyFooterCTA";
 import ConditionalFooter from "./_components/ConditionalFooter";
+import { Toaster } from "react-hot-toast";
 
 const montserrat = Montserrat({
   variable: "--font-montserrat",
@@ -53,10 +54,12 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <link rel="manifest" href="/manifest.json" />
       <body className={`${montserrat.variable} `}>
+        <Toaster position="top-center" />
         <Header />
         {children}
         <ConditionalFooter /> <StickyFooterCTA />
         <MobileBottomNav />
+        <Toaster />
       </body>
     </html>
   );
