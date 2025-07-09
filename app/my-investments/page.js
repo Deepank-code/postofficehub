@@ -11,6 +11,7 @@ import {
   X,
 } from "lucide-react";
 import Link from "next/link";
+import toast from "react-hot-toast";
 
 export default function InvestmentsPage() {
   const [reminders, setReminders] = useState([]);
@@ -66,7 +67,7 @@ export default function InvestmentsPage() {
       JSON.stringify(updatedMaturityReminders)
     );
     localStorage.setItem("customSchemes", JSON.stringify(updatedCustomSchemes));
-
+    toast.success("Deleted");
     setReminders(updatedReminders);
   };
 
@@ -221,7 +222,7 @@ export default function InvestmentsPage() {
           </div>
         ))
       )}
-      <div className="w-full flex justify-center mt-10 ">
+      <div className="w-full flex justify-center my-10 ">
         <Link
           href="/add-my-scheme"
           className=" bg-gradient-to-r from-blue-500 to-purple-600 text-white text-sm px-4 py-2 rounded-xl hover:from-blue-600 hover:to-purple-700 transition-colors duration-200 shadow-lg"

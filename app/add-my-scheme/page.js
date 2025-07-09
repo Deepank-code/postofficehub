@@ -131,6 +131,7 @@ export default function AddMySchemePage() {
       });
     }
     setIsModalOpen(true);
+    toast.success(`Scheme added successfully`);
   };
 
   const selectedScheme = schemeOptions.find(
@@ -285,7 +286,7 @@ export default function AddMySchemePage() {
           Add Scheme
         </Button>
       </form>
-
+      {/* 
       <Dialog open={isModalOpen} onOpenChange={setIsModalOpen}>
         <DialogContent className="max-w-sm bg-white border border-gray-200 shadow-xl">
           <DialogHeader>
@@ -308,7 +309,7 @@ export default function AddMySchemePage() {
             Go to My Investments
           </Button>
         </DialogContent>
-      </Dialog>
+      </Dialog> */}
     </div>
   );
 }
