@@ -56,8 +56,11 @@ export default function Header() {
           <div className="w-12 h-12 rounded-full overflow-hidden group-hover:scale-110 transition-transform duration-300">
             <Image
               src="/logo.png"
-              width={300}
-              height={300}
+              width={120}
+              height={120}
+              quality={50}
+              priority
+              sizes="48px"
               alt="Post Office Hub Logo"
               className="w-full h-full object-contain bg-white rounded-full"
             />

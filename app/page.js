@@ -1,14 +1,5 @@
 import Image from "next/image";
-import {
-  Calculator,
-  Shield,
-  FileText,
-  PiggyBank,
-  ChartBar,
-  UserCheck,
-  BookOpen,
-  Package,
-} from "lucide-react";
+
 import Link from "next/link";
 const date = new Date();
 const features = [
@@ -260,11 +251,14 @@ export default function Home() {
             <div className="flex items-center justify-center space-x-4 mb-6">
               <div className="w-16 h-16 rounded-full bg-[#F5F5F5] flex items-center justify-center p-2">
                 <Image
-                  width={300}
-                  height={300}
                   src="/logo.png"
                   alt="Post Office Hub Logo"
-                  className="w-full h-full object-contain"
+                  width={192}
+                  height={192}
+                  quality={60}
+                  priority
+                  sizes="48px"
+                  className="w-12 h-12 object-contain"
                 />
               </div>
               <h3 className="text-2xl font-bold font-poppins">
