@@ -194,9 +194,9 @@ export default function Home() {
                     <Image
                       src={feature.icon}
                       alt={feature.title}
-                      width={300}
-                      height={300}
-                      quality={80} // Slightly higher quality for sharper images
+                      width={160} // max display size (lg:w-40)
+                      height={160}
+                      quality={60} // Slightly higher quality for sharper images
                       priority
                       className="w-24 h-24 sm:w-32 sm:h-32 lg:w-40 lg:h-40 object-contain"
                     />
