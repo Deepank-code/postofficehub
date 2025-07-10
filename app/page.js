@@ -254,11 +254,11 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-gray-800 text-white py-12">
+      <footer className="bg-[#0C1A30] text-[#F5F5F5] py-12">
         <div className="container mx-auto px-4">
           <div className="text-center mb-8">
             <div className="flex items-center justify-center space-x-4 mb-6">
-              <div className="w-16 h-16 rounded-full bg-white flex items-center justify-center p-2">
+              <div className="w-16 h-16 rounded-full bg-[#F5F5F5] flex items-center justify-center p-2">
                 <Image
                   width={300}
                   height={300}
@@ -271,19 +271,19 @@ export default function Home() {
                 Post Office Hub
               </h3>
             </div>
-            <p className="text-gray-400 text-lg mb-6 font-inter">
+            <p className="text-gray-300 text-lg mb-6 font-inter">
               भारतीय डाक | Your trusted partner for financial security and
               growth
             </p>
           </div>
 
           {/* Updated Footer Disclaimer */}
-          <div className="border-t border-gray-700 pt-6 pb-10">
-            <div className="bg-gray-700 rounded-lg p-4 mb-4">
+          <div className="border-t border-[#2D4A70] pt-6 pb-10">
+            <div className="bg-[#13294B] rounded-lg p-4 mb-4">
               <div className="flex items-center justify-center">
-                <div className="text-center text-gray-300">
+                <div className="text-center text-gray-200">
                   <p className="text-sm font-inter">
-                    <span className="font-semibold text-blue-400">
+                    <span className="font-semibold text-blue-300">
                       Educational Website:
                     </span>{" "}
                     This is a private educational and promotional website
