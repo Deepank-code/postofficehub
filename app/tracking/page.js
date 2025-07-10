@@ -132,14 +132,18 @@ const Tracking = () => {
         </ol>
 
         <div className="my-4 w-full">
-          <Image
-            width={800}
-            height={800}
-            src="/ev.webp"
-            quality={50}
-            alt="Screenshot of India Post tracking page showing where to enter your consignment number"
-            className="rounded-lg shadow border"
-          />
+          <div className="relative w-full aspect-[16/9] md:aspect-[21/9] rounded-lg shadow border overflow-hidden">
+            <Image
+              src="/Ev.webp"
+              alt="Screenshot of India Post tracking page showing where to enter your consignment number"
+              fill
+              quality={50}
+              sizes="(max-width: 768px) 100vw, 800px"
+              className="object-cover"
+              priority
+            />
+          </div>
+
           <p className="text-xs text-gray-500 mt-1">
             Example: Enter your 13-digit tracking number in the box shown above
             to track your parcel easily.
