@@ -127,7 +127,7 @@ export default function AddMySchemePage() {
             if (reg) {
               reg.showNotification("Scheme Added", {
                 body: `${customName} (${schemeName}) added for tracking.`,
-                icon: "/icons/icon-192x192.png",
+                icon: "/post-rd.webp",
               });
             } else {
               console.log(

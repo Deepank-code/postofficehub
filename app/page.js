@@ -13,7 +13,7 @@ import Link from "next/link";
 const date = new Date();
 const features = [
   {
-    icon: "/post-sche.png",
+    icon: "/post-sche.webp",
     title: "Government Schemes",
     description:
       "Explore comprehensive Post Office savings and investment schemes with detailed eligibility criteria and benefits",
@@ -22,7 +22,7 @@ const features = [
     bgColor: "bg-gradient-to-br from-amber-50 to-orange-100",
   },
   {
-    icon: "/post-cal.png",
+    icon: "/post-cal.webp",
     title: "Financial Calculators",
     description:
       "Advanced calculators to compute returns, maturity amounts, and create personalized investment strategies",
@@ -31,7 +31,7 @@ const features = [
     bgColor: "bg-gradient-to-br from-emerald-50 to-teal-100",
   },
   {
-    icon: "/post-inste.png",
+    icon: "/post-inste.webp",
     title: "Interest Rates",
     description:
       "Updated interest rates for all Post Office schemes with historical data and trend analysis",
@@ -40,7 +40,7 @@ const features = [
     bgColor: "bg-gradient-to-br from-violet-50 to-purple-100",
   },
   {
-    icon: "/post-parcell.png",
+    icon: "/post-parcell.webp",
     title: "Parcel & Consignment Tracking",
     description:
       "Track your parcels, registered articles, and speed post consignments in real-time with detailed status updates",
@@ -49,7 +49,7 @@ const features = [
     bgColor: "bg-gradient-to-br from-blue-50 to-cyan-100",
   },
   {
-    icon: "/post-insu.png",
+    icon: "/post-insu.webp",
     title: "Insurance (PLI/RPLI)",
     description:
       "Comprehensive life insurance coverage with government backing and competitive premium rates",
@@ -59,7 +59,7 @@ const features = [
   },
 
   {
-    icon: "/post-gdss.png",
+    icon: "/post-gdss.webp",
     title: "GDS Corner",
     description:
       "Specialized resources, tools, and support materials for Gramin Dak Sevaks professionals",

@@ -10,7 +10,7 @@ import Image from "next/image";
 const calculatorsData = [
   {
     id: "rd",
-    image: "/post-rd.png",
+    image: "/post-rd.webp",
     title: "RD Calculator",
     description:
       "Calculate your Recurring Deposit returns for a 5-year tenure with monthly investments.",
@@ -24,7 +24,7 @@ const calculatorsData = [
   },
   {
     id: "td",
-    image: "/post-td.png",
+    image: "/post-td.webp",
     title: "TD Calculator",
     description:
       "Calculate Time Deposit returns with flexible tenure options and compound interest.",
@@ -38,7 +38,7 @@ const calculatorsData = [
   },
   {
     id: "kvp",
-    image: "/post-kvp.png",
+    image: "/post-kvp.webp",
     title: "KVP Calculator",
     description:
       "Calculate Kisan Vikas Patra maturity with money doubling feature (Maturity: 9 years 7 months at 7.5% compounded quarterly).",
@@ -52,7 +52,7 @@ const calculatorsData = [
   },
   {
     id: "mis",
-    image: "/post-mis.png",
+    image: "/post-mis.webp",
     title: "MIS Calculator",
     description:
       "Calculate Monthly Income Scheme returns and monthly payouts easily.",
@@ -66,7 +66,7 @@ const calculatorsData = [
   },
   {
     id: "scss",
-    image: "/post-scss.png",
+    image: "/post-scss.webp",
     title: "SCSS Calculator",
     description:
       "Calculate Senior Citizens Savings Scheme returns with quarterly interest.",
@@ -80,7 +80,7 @@ const calculatorsData = [
   },
   {
     id: "nsc",
-    image: "/post-rd.png",
+    image: "/post-rd.webp",
     title: "NSC Calculator",
     description:
       "Calculate National Savings Certificate returns with tax benefits, compounded annually and paid at maturity.",
@@ -94,7 +94,7 @@ const calculatorsData = [
   },
   {
     id: "ssa",
-    image: "/post-ssa.png",
+    image: "/post-ssa.webp",
     title: "SSA Calculator",
     description:
       "Calculate Sukanya Samriddhi Account returns for your daughter's education and marriage.",

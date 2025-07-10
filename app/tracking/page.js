@@ -18,7 +18,7 @@ const Tracking = () => {
         <div className="flex justify-center mb-4">
           <div>
             <Image
-              src={"/post-parcell.png"}
+              src={"/post-parcell.webp"}
               alt={"parcel"}
               width={300}
               height={300}

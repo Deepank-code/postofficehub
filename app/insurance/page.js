@@ -16,7 +16,7 @@ export const metadata = {
     siteName: "Post Office Hub",
     images: [
       {
-        url: "https://postofficehub.in/post-insu.png", // your PLI/RPLI themed OG image
+        url: "https://postofficehub.in/post-insu.webp", // your PLI/RPLI themed OG image
         width: 1200,
         height: 630,
         alt: "Post Office Insurance PLI RPLI Guide and Forms Download",
@@ -47,7 +47,7 @@ const Insurance = () => {
           <div className="flex items-center justify-center flex-col gap-4 space-x-3 mb-4">
             <div>
               <Image
-                src={"/post-parcell.png"}
+                src={"/post-parcell.webp"}
                 alt={"parcel"}
                 width={300}
                 height={300}

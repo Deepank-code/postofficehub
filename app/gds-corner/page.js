@@ -16,7 +16,7 @@ export const metadata = {
     siteName: "Post Office Hub",
     images: [
       {
-        url: "https://postofficehub.in/posts-gdss.png", // Replace with your uploaded OG image
+        url: "https://postofficehub.in/posts-gdss.webp", // Replace with your uploaded OG image
         width: 1200,
         height: 630,
         alt: "GDS Corner - Post Office Hub",
@@ -30,7 +30,7 @@ export const metadata = {
     title: "GDS Corner - Salary, Leave Rules & Tools for GDS BPM/ABPM",
     description:
       "Post Office Hub's GDS Corner provides leave rules, salary details, forms, and helpful tools for Gramin Dak Sevaks (GDS), BPM, and ABPM in India Post.",
-    images: ["https://postofficehub.in/posts-gdss.png"],
+    images: ["https://postofficehub.in/posts-gdss.webp"],
     creator: "@PostOfficeHub",
   },
 };

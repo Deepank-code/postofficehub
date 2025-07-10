@@ -36,7 +36,7 @@ const SchemeSection = () => {
           <div className="m-auto text-center mb-8">
             <div className="flex justify-center align-middle w-full">
               <Image
-                src={"/post-sche.png"}
+                src={"/post-sche.webp"}
                 alt={"finincial calculator"}
                 width={300}
                 height={300}

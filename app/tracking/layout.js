@@ -16,7 +16,7 @@ export const metadata = {
     siteName: "Post Office Hub",
     images: [
       {
-        url: "https://postofficehub.in/post-parcell.png",
+        url: "https://postofficehub.in/post-parcell.webp",
         width: 1200,
         height: 630,
         alt: "Post Office Tracking Guide",
@@ -31,7 +31,7 @@ export const metadata = {
       "Post Office Tracking - Speed Post & Parcel Status | Post Office Hub",
     description:
       "Track your Speed Post, Registered Post, and India Post Parcels with ease. Post Office Hub offers tracking tools and shipment updates for your postal needs.",
-    images: ["https://postofficehub.in/post-parcell.png"],
+    images: ["https://postofficehub.in/post-parcell.webp"],
     creator: "@PostOfficeHub",
   },
   icons: {
