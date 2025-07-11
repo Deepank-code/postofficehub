@@ -13,7 +13,7 @@ tags:
   ]
 
 date: 2025-06-29
-image: "/blog/"
+image: "/blog/mutualfund.webp"
 category: Investment Guides
 ---
 
@@ -22,7 +22,7 @@ category: Investment Guides
 Many young investors are blindly investing in **mutual funds**, assuming they are the best way to build wealth. However, many fail to understand the **market risks** and **volatility** that can lead to sudden losses.
 
 On the other hand, **Post Office schemes like SCSS (Senior Citizen Savings Scheme) and TD (Time Deposit)** are providing **higher, risk-free interest rates** that can outperform many mutual funds when adjusted for risk.
-
+![Sbi](/blog/mutualfund.webp)
 ## The Reality of Mutual Funds
 
 Mutual funds are linked to the stock market, which is affected by:

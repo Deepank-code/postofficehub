@@ -16,6 +16,8 @@ Here’s a clear, easy-to-understand guide to help you decide.
 
 ---
 
+![TD vs FD](/blog/tdvsfd.webp)
+
 ## What is a Post Office Time Deposit?
 
 - Offered by **India Post** under the **Small Savings Schemes**.

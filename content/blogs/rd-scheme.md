@@ -6,7 +6,7 @@ readTime: "5 min read"
 category: "Savings Schemes"
 featured: true
 
-image: "/post-rd.png"
+image: "/post-rd.webp"
 tags: ["RD", "Recurring Deposit", "Post Office", "Savings"]
 ---
 

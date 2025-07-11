@@ -4,7 +4,7 @@ excerpt: "A complete guide to Sukanya Samriddhi Yojana (SSA) under Post Office â
 date: "2025-06-30"
 readTime: "5 min read"
 category: "Savings Schemes"
-image: "/post-ssa.png"
+image: "/post-ssa.webp"
 featured: true
 
 tags:

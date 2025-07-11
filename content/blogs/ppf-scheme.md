@@ -4,7 +4,7 @@ excerpt: "A complete guide to the Post Office Public Provident Fund (PPF) — se
 date: "2025-06-30"
 readTime: "6 min read"
 category: "Savings Schemes"
-image: "/post-cal.png"
+image: "/post-cal.webp"
 featured: true
 
 tags:

@@ -6,7 +6,7 @@ readTime: "5 min read"
 category: "Income Schemes"
 featured: true
 
-image: "/post-mis.png"
+image: "/post-mis.webp"
 tags: ["MIS", "Monthly Income Scheme", "Post Office", "Savings"]
 ---
 

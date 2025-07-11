@@ -22,6 +22,7 @@ featured: true
 # Post Office vs SBI vs HDFC vs ICICI – Best Interest Rates in India (July–September 2025)
 
 Are you confused about where to invest your money for the best returns? Here is a **clear, simple comparison** of **Post Office savings schemes vs SBI, HDFC, and ICICI bank FD and savings rates**, helping you choose the best option for your savings.
+![Sbi](/blog/po-sbi-icici-hdfc.webp)
 
 ---
 

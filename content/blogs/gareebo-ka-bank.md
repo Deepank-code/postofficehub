@@ -21,6 +21,8 @@ While private banks often impose hidden charges and maintain profit-driven struc
 
 ## Why is the Post Office Called 'Gareebo Ka Bank'?
 
+![post office](/blog/gareebo.webp)
+
 ### 1️⃣ Zero Hidden Charges
 
 ✅ No SMS alert charges  
@@ -80,5 +82,6 @@ Whether you are a small saver, a senior citizen, or someone looking for secure, 
 
 ---
 
-_Post Office Hub is committed to educating you about the best financial tools for your savings journey._  
-Explore related guides on **[Post Office RD](#)**, **[IPPB vs POSB](#)**, and **[PPF benefits](#)** to maximize your returns safely.
+_Post Office Hub is committed to educating you about the best financial tools for your savings journey._
+
+<!-- Explore related guides on **[Post Office RD](#)**, **[IPPB vs POSB](#)**, and **[PPF benefits](#)** to maximize your returns safely. -->

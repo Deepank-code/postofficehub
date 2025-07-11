@@ -6,11 +6,12 @@ readTime: "5 min read"
 category: "Investment Schemes"
 featured: true
 
-image: "/post-td.png"
+image: "/post-td.webp"
 tags: ["TD", "Time Deposit", "Post Office", "Savings", "Fixed Deposit"]
 ---
 
 ## Post Office Time Deposit (TD) Scheme
+
 
 Grow your savings confidently with **Post Office Time Deposit (TD)** accounts offering secure, fixed returns. With annual interest payable (calculated quarterly) and investment starting from just ₹1000, TD is a reliable choice for steady growth of your funds.
 

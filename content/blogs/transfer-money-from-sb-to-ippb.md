@@ -21,6 +21,8 @@ Many users often ask:
 
 Here is your **clear, practical guide** on using both accounts effectively.
 
+![IPPB and POSB Transfer Guide](/blog/sb-ippb.webp)
+
 ---
 
 ## Can You Open an IPPB Account Directly from the App?

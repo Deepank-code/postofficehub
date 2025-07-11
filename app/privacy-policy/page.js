@@ -201,12 +201,11 @@ const PrivacyPolicyPage = () => {
             <li>
               By email:{" "}
               <a
-                href="mailto:privacy@postofficehub.com"
+                href="mailto:postofficehub0@gmail.com"
                 className="text-blue-500 hover:underline"
               >
-                privacy@postofficehub.com
-              </a>{" "}
-              (conceptual)
+                postofficehub0@gmail.com
+              </a>
             </li>
             <li>
               By visiting:{" "}
@@ -217,13 +216,6 @@ const PrivacyPolicyPage = () => {
           </ul>
         </motion.section>
       </main>
-
-      <footer className="bg-gray-200 dark:bg-gray-800 py-6 mt-12 text-center text-gray-600 dark:text-gray-400">
-        <div className="container mx-auto px-4">
-          &copy; {new Date().getFullYear()} Post Office Hub. All rights
-          reserved.
-        </div>
-      </footer>
     </div>
   );
 };

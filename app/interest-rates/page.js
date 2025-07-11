@@ -18,7 +18,7 @@ export const metadata = {
     siteName: "Post Office Hub",
     images: [
       {
-        url: "https://postofficehub.in/post-inste.png", // upload a clean red-theme OG image for this page
+        url: "https://postofficehub.in/post-inste.webp", // upload a clean red-theme OG image for this page
         width: 1200,
         height: 630,
         alt: "Post Office Interest Rates June 2025",
@@ -32,7 +32,7 @@ export const metadata = {
     title: "Post Office Interest Rates (RD, TD, PPF, SSA) - June 2025",
     description:
       "View the latest India Post interest rates for RD, TD, PPF, SSA, SCSS, and KVP schemes with Post Office Hub’s updated guide for June 2025.",
-    images: ["https://postofficehub.in/post-inste.png"],
+    images: ["https://postofficehub.in/post-inste.webp"],
     creator: "@PostOfficeHub",
   },
 };
@@ -47,7 +47,7 @@ const InterestRates = () => {
           <div className="flex items-center justify-center flex-col gap-4 mb-4">
             <div>
               <Image
-                src={"/post-inste.png"}
+                src={"/post-inste.webp"}
                 alt={"parcel"}
                 width={300}
                 height={300}
