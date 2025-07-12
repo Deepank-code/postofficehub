@@ -3,6 +3,7 @@
 import { useState } from "react";
 import {
   Book,
+  BotMessageSquare,
   Briefcase,
   Calculator,
   ChevronDown,
@@ -225,12 +226,21 @@ export default function Header() {
             {isOpenMore && (
               <div className="absolute left-0 w-40 bg-white text-gray-800 rounded-md shadow-lg mt-2 p-4 z-50 space-y-4">
                 <Link
+                  href="/faq"
+                  className="flex gap-2 hover:text-red-600 items-center 
+                  "
+                  onClick={() => setIsOpenMore(false)}
+                >
+                  <BotMessageSquare size={16} />
+                  <span>FAQ</span>
+                </Link>
+                <Link
                   href="/privacy-policy"
                   className="flex gap-2 hover:text-red-600"
                   onClick={() => setIsOpenMore(false)}
                 >
                   <Shield size={16} />
-                  Privacy Policy
+                  <span> Privacy Policy</span>
                 </Link>
                 <Link
                   href="/about-us"
@@ -238,7 +248,7 @@ export default function Header() {
                   onClick={() => setIsOpenMore(false)}
                 >
                   <User2Icon size={16} />
-                  About Us
+                  <span> About Us</span>
                 </Link>
                 <Link
                   href="/contact-us"
@@ -246,7 +256,7 @@ export default function Header() {
                   onClick={() => setIsOpenMore(false)}
                 >
                   <MessageSquare size={16} />
-                  Contact Us
+                  <span>Contact Us</span>
                 </Link>
               </div>
             )}
@@ -287,6 +297,7 @@ export default function Header() {
       {menuOpen && (
         <div className="md:hidden bg-white/95 backdrop-blur-md px-4 py-4 rounded-b-xl shadow-xl border-t border-red-200 text-sm font-medium space-y-2">
           {[
+            { icon: Shield, href: "/interest-rates", label: "Interest rates" },
             { icon: Shield, href: "/insurance", label: "Insurance" },
 
             { icon: Newspaper, href: "/blog", label: "Blog" },

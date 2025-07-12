@@ -16,7 +16,7 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "your-domain.com", // replace with your domain
+        hostname: "postofficehub.in",
       },
     ],
   },

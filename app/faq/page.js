@@ -92,6 +92,41 @@ const faqData = [
       "For official inquiries, grievance redressal, or specific questions about your accounts, you should always contact India Post directly through their official website (www.indiapost.gov.in), their customer service helplines, or by visiting your nearest Post Office.",
     category: "General",
   },
+  {
+    id: "11",
+    question: "What is the My Investment section on Post Office Hub?",
+    answer:
+      "The My Investment section on Post Office Hub helps you track and understand your investments in various Post Office schemes like RD, TD, PPF, SCSS, and MIS. It provides clear guidance on calculating maturity, tracking deposits, and planning your financial goals with updated interest rates and rules. Please note: Post Office Hub does not store your personal investment data; all data remains on your device for your privacy.",
+    category: "General",
+  },
+  {
+    id: "12",
+    question: "What Post Office schemes can I track using My Investment?",
+    answer:
+      "You can track and learn about Post Office Recurring Deposit (RD), Time Deposit (TD), Monthly Income Scheme (MIS), Public Provident Fund (PPF), Senior Citizen Savings Scheme (SCSS), and KVP/NSC using the My Investment page on Post Office Hub.",
+    category: "Schemes",
+  },
+  {
+    id: "13",
+    question: "Does Post Office Hub store my investment data?",
+    answer:
+      "No, Post Office Hub prioritizes your privacy. We do not store your personal investment data on our servers. Any data you enter stays on your device or browser for calculation purposes only, ensuring your investment information remains private and secure.",
+    category: "Privacy",
+  },
+  {
+    id: "14",
+    question: "Where is the investment data stored when I use calculators?",
+    answer:
+      "When you use Post Office Hub’s calculators to plan your investments, the data is processed locally on your device or stored in your browser’s local storage if you choose to save your progress. We do not upload, track, or store your data on any server.",
+    category: "Privacy",
+  },
+  {
+    id: "15",
+    question: "Can I get reminders for my Post Office scheme maturity dates?",
+    answer:
+      "Currently, Post Office Hub does not send automated reminders. We recommend manually noting your maturity dates. In the future, we plan to add an offline reminder feature that works in your browser without compromising your privacy.",
+    category: "Schemes",
+  },
 ];
 
 const categories = ["All", ...new Set(faqData.map((faq) => faq.category))];
