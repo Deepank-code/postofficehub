@@ -108,6 +108,11 @@ const calculatorsData = [
     blogLink: "/blog/ssa-scheme",
   },
 ];
+export async function generateStaticParams() {
+  return calculatorsData.map((calc) => ({
+    id: calc.id,
+  }));
+}
 export async function generateMetadata({ params }) {
   const calc = calculatorsData.find((c) => c.id === params.id);
 
