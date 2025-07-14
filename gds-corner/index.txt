@@ -1,0 +1,324 @@
+1:"$Sreact.fragment"
+2:I[69243,["874","static/chunks/874-5c798c497f66b8a3.js","63","static/chunks/63-14df473997ae4074.js","625","static/chunks/625-5c7ad3dc4a3fac80.js","221","static/chunks/221-6d3c43f4e05dfefd.js","146","static/chunks/146-16a3b22ce3a9258b.js","177","static/chunks/app/layout-10ea07c633c62c65.js"],""]
+3:I[13568,["874","static/chunks/874-5c798c497f66b8a3.js","63","static/chunks/63-14df473997ae4074.js","625","static/chunks/625-5c7ad3dc4a3fac80.js","221","static/chunks/221-6d3c43f4e05dfefd.js","146","static/chunks/146-16a3b22ce3a9258b.js","177","static/chunks/app/layout-10ea07c633c62c65.js"],"Toaster"]
+4:I[14943,["874","static/chunks/874-5c798c497f66b8a3.js","63","static/chunks/63-14df473997ae4074.js","625","static/chunks/625-5c7ad3dc4a3fac80.js","221","static/chunks/221-6d3c43f4e05dfefd.js","146","static/chunks/146-16a3b22ce3a9258b.js","177","static/chunks/app/layout-10ea07c633c62c65.js"],"default"]
+5:I[87555,[],""]
+6:I[31295,[],""]
+7:I[33063,["874","static/chunks/874-5c798c497f66b8a3.js","63","static/chunks/63-14df473997ae4074.js","974","static/chunks/app/page-c3903a130b0506da.js"],"Image"]
+8:I[6874,["874","static/chunks/874-5c798c497f66b8a3.js","63","static/chunks/63-14df473997ae4074.js","974","static/chunks/app/page-c3903a130b0506da.js"],""]
+9:I[65645,["874","static/chunks/874-5c798c497f66b8a3.js","63","static/chunks/63-14df473997ae4074.js","625","static/chunks/625-5c7ad3dc4a3fac80.js","221","static/chunks/221-6d3c43f4e05dfefd.js","146","static/chunks/146-16a3b22ce3a9258b.js","177","static/chunks/app/layout-10ea07c633c62c65.js"],"default"]
+a:I[43212,["874","static/chunks/874-5c798c497f66b8a3.js","63","static/chunks/63-14df473997ae4074.js","625","static/chunks/625-5c7ad3dc4a3fac80.js","221","static/chunks/221-6d3c43f4e05dfefd.js","146","static/chunks/146-16a3b22ce3a9258b.js","177","static/chunks/app/layout-10ea07c633c62c65.js"],"default"]
+b:I[542,["874","static/chunks/874-5c798c497f66b8a3.js","63","static/chunks/63-14df473997ae4074.js","625","static/chunks/625-5c7ad3dc4a3fac80.js","221","static/chunks/221-6d3c43f4e05dfefd.js","146","static/chunks/146-16a3b22ce3a9258b.js","177","static/chunks/app/layout-10ea07c633c62c65.js"],"default"]
+c:I[71826,["886","static/chunks/886-a3ad914a5fbe9a47.js","549","static/chunks/app/gds-corner/page-8708522acf58d0ad.js"],"default"]
+10:I[59665,[],"OutletBoundary"]
+13:I[74911,[],"AsyncMetadataOutlet"]
+15:I[59665,[],"ViewportBoundary"]
+17:I[59665,[],"MetadataBoundary"]
+19:I[26614,[],""]
+:HL["/_next/static/css/98f7f7a3cf5dc4d5.css","style"]
+:HL["/_next/static/css/2bedd42797470e16.css","style"]
+d:T83e,
+# Bring Your Own Device (BYOD) Scheme: Simple Explanation
+
+## What is BYOD?
+
+The **Bring Your Own Device (BYOD)** scheme allows post office delivery staff to use their **own smartphones for official delivery work** and receive a monthly payment for using their devices.
+
+---
+
+## Latest Update (2025)
+
+- The **monthly reimbursement has been increased to Rs. 500 per month.**
+  - Rs. 300 for smartphone usage (earlier Rs. 200).
+  - Rs. 200 for data/voice/SMS charges (earlier Rs. 150).
+
+---
+
+## Conditions for Reimbursement
+
+✅ Delivery staff must process **at least 90% of received articles through the mobile app** to get the reimbursement under the BYOD scheme.
+
+✅ The **number of articles delivered will not be considered**; only app processing is mandatory.
+
+✅ Supervisors and staff should be informed to handle all accountable articles through the app to avoid payment issues.
+
+---
+
+## Upcoming Mobile App Requirements
+
+The **Integrated Mobile App (IMA) 2.0** will soon be rolled out under the IT Modernization Project 2.0, requiring **phones with better specifications.**
+
+Minimum revised specifications for devices under the BYOD scheme are shared with divisions to ensure your device remains compatible.
+
+---
+
+## Payment Processing
+
+Divisional Heads are directed to ensure **timely payment under the BYOD scheme** to encourage staff to continue using their devices and to motivate others to join the scheme.
+
+Details of enrolled devices should be shared with the MO Division fortnightly in the prescribed format.
+
+---
+
+## Why BYOD is Important
+
+- Encourages delivery staff to upgrade devices.
+- Ensures faster delivery updates.
+- Helps the Department adopt digital workflows easily.
+
+---
+
+### Summary
+
+- BYOD reimbursement increased to **Rs. 500/month.**
+- Must process **90% of articles using the app.**
+- New app requires upgraded smartphones.
+- Timely payments to be ensured for enrolled staff.
+
+This helps the **Postal Department improve delivery efficiency while ensuring staff receive fair support for using personal smartphones.**
+e:T1551,
+# GDS Leave Rules: A Complete Guide for BPM and ABPM
+
+Gramin Dak Sevaks (GDS) are the backbone of the postal system in India, managing essential postal services in rural and urban areas. Understanding the **leave rules for GDS, including BPM and ABPM, is important for smooth functioning and to avoid salary deductions or service disruptions**.
+
+---
+
+## Types of Leave for GDS
+
+✅ **Paid Leave:**
+
+- GDS are entitled to **20 days of paid leave in a year**, credited as **10 days every 6 months**.
+- If these paid leaves are not utilized within the year, they **will lapse** and **cannot be carried forward** to the next year.
+
+✅ **Unpaid Leave:**
+
+- GDS can also apply for unpaid leave if paid leave balance is exhausted.
+
+✅ **Emergency Leave:**
+
+- GDS can apply for emergency leave.
+- Emergency leave **cannot be granted if the GDS is under put-off duty**.
+- If emergency leave exceeds **two days at a time**, the additional days will either:
+  - Be **adjusted from the paid leave balance**, or
+  - Be treated as **unauthorized absence** if no balance is available.
+
+---
+
+## Leave Approval Authority
+
+The approval process for GDS leave applications depends on the post held:
+
+- **BPM Leave Approval:**
+
+  - The **Senior Superintendent of Post Offices (SSP)** is the sanctioning authority for BPM leave.
+  - The BPM must submit their leave application **through the Inspector of Post Offices (IPO)**, who will forward it to the SSP for approval.
+
+- **ABPM Leave Approval:**
+  - The **Inspector of Post Offices (IPO)** is authorized to sanction leave for ABPM directly.
+  - The ABPM should submit the leave application directly to the IPO.
+
+---
+
+## Substitute Arrangement
+
+During leave, GDS must **arrange a substitute** to handle day-to-day branch operations to ensure uninterrupted services to the public.
+
+- Substitute details including **name, address, and bank account details** should be mentioned in the leave application.
+- Substitute must be physically fit and capable of handling cash and post office operations.
+
+---
+
+## Leave Application Format for BPM
+
+To:  
+The Senior Superintendent of Post Offices,  
+[Division Name] Division,  
+[District], [State].
+
+Through:  
+The Inspector of Post Offices,  
+[Sub Division Name].
+
+Subject: Application for sanction of leave and nomination of substitute.
+
+Respected Sir,
+
+I request sanction of leave as per details below:
+
+Designation: Branch Postmaster (BPM)
+
+Office: [Branch Name], [BO Code]
+
+Nature and period of leave required: Paid Leave for 10 days
+
+Date from which leave is required: [Start Date] to [End Date]
+
+Ground on which leave applied: Personal affairs
+
+Full address while on leave: [Full Address with PIN]
+
+Name, age, and address of the substitute:
+
+Name: [Substitute Name]
+
+Age: [Age]
+
+Address: [Full Address with PIN]
+
+Post Office SB Account Number: [SB Account Number]
+
+I hereby propose Sh./Smt./Kum. [Substitute Name], whose particulars are given above, to work as my substitute during my leave on my responsibility according to the form of the security bond executed by me.
+
+I am aware of the provisions of Rule 7 of the Department of Posts Gramin Dak Sevaks (Conduct and Employment) Rules, 2001 and I will abide by them.
+
+Kindly consider and sanction the leave.
+
+Thanking you.
+
+Yours faithfully,  
+[Your Name]  
+Branch Postmaster, [BO Name]  
+Contact: [Mobile Number]  
+Date: [Date]
+
+---
+
+## Leave Application Format for ABPM
+
+To:  
+The Inspector of Post Offices,  
+[Sub Division Name].
+
+Subject: Application for sanction of leave and nomination of substitute.
+
+Respected Sir,
+
+I request sanction of leave as per details below:
+
+Designation: Assistant Branch Postmaster (ABPM)
+
+Office: [Branch Name], [BO Code]
+
+Nature and period of leave required: Paid Leave for 5 days
+
+Date from which leave is required: [Start Date] to [End Date]
+
+Ground on which leave applied: Medical grounds
+
+Full address while on leave: [Full Address with PIN]
+
+Name, age, and address of the substitute:
+
+Name: [Substitute Name]
+
+Age: [Age]
+
+Address: [Full Address with PIN]
+
+Post Office SB Account Number: [SB Account Number]
+
+I hereby propose Sh./Smt./Kum. [Substitute Name], whose particulars are given above, to work as my substitute during my leave on my responsibility according to the form of the security bond executed by me.
+
+I am aware of the provisions of Rule 7 of the Department of Posts Gramin Dak Sevaks (Conduct and Employment) Rules, 2001 and I will abide by them.
+
+Kindly consider and sanction the leave.
+
+Thanking you.
+
+Yours faithfully,  
+[Your Name]  
+Assistant Branch Postmaster, [BO Name]  
+Contact: [Mobile Number]  
+Date: [Date]
+
+---
+
+## Final Notes
+
+✅ Always **maintain a leave register and track your leave balance**.  
+✅ Ensure your substitute is ready and trained for basic operations.  
+✅ Follow the official channel to avoid delays or rejection of your leave application.  
+✅ Leave should be planned in advance, except in case of emergencies, to ensure services continue for the villagers and customers who rely on the Post Office.
+
+---
+
+If you found this guide helpful, explore other GDS resources and calculators on our [Post Office Hub](https://yourwebsite.com) to make your work easier and informed.
+
+---
+
+**📌 Save this page or bookmark for future leave reference for GDS BPM and ABPM.**
+f:T11ab,
+# GDS Promotion Structure: Step-by-Step Guide to Your Postal Career Growth
+
+## GDS: The Backbone of India Post
+
+Gramin Dak Sevaks (GDS) are the **backbone of the Indian Postal System**, ensuring the reach of postal services to even the **remotest villages and difficult terrains** of India. Whether it’s delivering mail, providing banking services, or handling financial transactions under India Post Payments Bank (IPPB), **GDS employees keep India Post connected to the last mile**.
+
+Many newly joined GDS employees aspire to **grow within the department**, aiming to secure a stable government career while serving the community.
+
+---
+
+## Why Consider Promotions in India Post?
+
+- 📈 **Financial Stability:** Promotions lead to higher pay levels and secure increments.
+- 🎓 **Skill and Role Upgrade:** Moving from GDS to MTS, Postman, PA, or IPO provides learning opportunities and greater responsibilities.
+- 🛡️ **Government Benefits:** Promoted posts offer full-time government employee status with pension benefits and medical facilities.
+- 🏆 **Recognition:** Promotions acknowledge your consistent service and dedication.
+
+---
+
+## How Promotions Happen in India Post
+
+India Post conducts **departmental examinations known as LDCE (Limited Departmental Competitive Examination)**, allowing GDS and lower cadres to get promoted systematically based on **service tenure and educational qualifications**.
+
+Through LDCE, GDS employees can get promoted to **MTS, Postman, Postal Assistant (PA), Inspector of Posts (IPO), and higher roles** while continuing their service without interruption.
+
+---
+
+## Detailed GDS Promotion Table
+
+Here is a clear, easy-to-understand table showing **promotion paths, required service years, educational qualifications, pay levels, and basic pay**:
+
+| Promotion Category                          | Service Requirement | Education      | Pay Level | Basic Pay |
+| ------------------------------------------- | ------------------- | -------------- | --------- | --------- |
+| GDS to MTS                                  | 3 Years             | 10th Grade     | Level – 1 | ₹18,000   |
+| GDS to Postman                              | 5 Years             | 10th Grade     | Level – 3 | ₹21,700   |
+| GDS to PA (Cate-C) – Joined before 17/06/22 | 5 Years             | 12th Grade     | Level – 4 | ₹25,500   |
+| GDS to PA (Cate-C) – Joined after 17/06/22  | 8 Years             | 12th Grade     | Level – 4 | ₹25,500   |
+| MTS to Postman                              | 3 Years             | 12th Grade     | Level – 3 | ₹21,700   |
+| MTS + GDS to Postman                        | 5 Years             | 12th Grade     | Level – 3 | ₹21,700   |
+| MTS to PA (Cate-A)                          | 5 Years             | 12th Grade     | Level – 4 | ₹25,500   |
+| Postman to PA (Cate-A)                      | 3 Years             | Not Applicable | Level – 4 | ₹25,500   |
+| Postman + MTS to PA (Cate-A)                | 5 Years             | Not Applicable | Level – 4 | ₹25,500   |
+| Postman + MTS + GDS to PA (Cate-B)          | 5 Years             | Not Applicable | Level – 4 | ₹25,500   |
+| PA to IPO                                   | 8 Years             | Not Applicable | Level – 7 | ₹44,900   |
+| IPO to SP/AD                                | 5 Years             | Not Applicable | Level – 9 | ₹53,100   |
+
+---
+
+## How to Prepare for LDCE Promotions
+
+✅ **Track Your Service Years:** Know when you become eligible for LDCE.  
+✅ **Complete Your Education:** 12th-grade qualification unlocks promotion to PA and higher posts.  
+✅ **Stay Updated:** Regularly check **India Post circulars and notifications** for LDCE exam announcements.  
+✅ **Study Syllabus:** Focus on postal rules, current affairs, and basic mathematics for LDCE exams.  
+✅ **Stay Consistent:** Good service records can support your promotion eligibility.
+
+---
+
+## Final Thoughts
+
+If you are a **GDS aiming for a stable and secure government career**, focusing on your **promotion journey through LDCE** is the best pathway to growth in India Post. India Post values the hard work of GDS employees, and the department offers systematic promotion structures to ensure you can **grow your career while serving the nation**.
+
+> 📢 **Stay updated with Post Office Hub** for all **LDCE notifications, GDS guides, and resources** to make your promotion journey smooth and informed.
+
+---
+0:{"P":null,"b":"TX1V0VfIEFh5JZh2gn2av","p":"","c":["","gds-corner",""],"i":false,"f":[[["",{"children":["gds-corner",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/98f7f7a3cf5dc4d5.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/2bedd42797470e16.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":[["$","link",null,{"rel":"manifest","href":"/manifest.json"}],["$","body",null,{"className":"__variable_23b06b ","children":[["$","$L2",null,{"async":true,"src":"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1832077776457437","crossOrigin":"anonymous","strategy":"afterInteractive"}],["$","$L3",null,{"position":"top-center"}],["$","$L4",null,{}],["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","div",null,{"className":"flex flex-col items-center justify-center min-h-screen bg-gray-50 text-gray-800 px-4 py-12 text-center","children":[["$","$L7",null,{"src":"/not-found.webp","width":500,"height":500,"alt":"Postman looking confused near a post box, representing page not found","priority":true,"sizes":"(max-width: 640px) 80vw, (max-width: 1024px) 50vw, 400px","className":"w-full max-w-xs md:max-w-sm lg:max-w-sm h-auto mb-6 rounded-4xl"}],["$","h2",null,{"className":"text-2xl md:text-3xl font-semibold text-gray-700 mb-4","children":"Page Not Found"}],["$","p",null,{"className":"text-lg md:text-xl text-gray-600 max-w-md mb-8","children":"Oops! The page you're looking for doesn't exist or has been moved. It might be lost in the mail!"}],["$","$L8",null,{"href":"/","className":"inline-flex items-center bg-red-600 text-white px-8 py-3 rounded-full text-lg font-semibold hover:bg-red-700 transition-colors duration-300 shadow-lg transform hover:scale-105","children":[["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-house w-5 h-5 mr-2","aria-hidden":"true","children":[["$","path","5wwlr5",{"d":"M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"}],["$","path","1d0kgt",{"d":"M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"}],"$undefined"]}],"Go to Homepage"]}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}],["$","$L9",null,{}]," ",["$","$La",null,{}],["$","$Lb",null,{}],["$","$L3",null,{}]]}]]}]]}],{"children":["gds-corner",["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":[["$","div",null,{"className":"min-h-screen bg-white transition-colors duration-300","children":[["$","div",null,{"className":"w-full bg-gradient-to-r from-red-600 to-pink-500 text-white py-12 px-4 text-center shadow-xl","children":[["$","h1",null,{"className":"text-4xl md:text-5xl font-bold mb-4","children":"📬 GDS Corner"}],["$","p",null,{"className":"text-lg max-w-3xl mx-auto","children":"Your one-stop hub for Gramin Dak Sevaks to access official notifications, downloadable resources, and essential tools to stay informed and manage your work efficiently under India Post."}]]}],["$","$Lc",null,{"notifications":[{"slug":"byod-abpm","title":"Bring Your Own Device (BYOD) Scheme ABPM","excerpt":"Learn about the latest BYOD policy for India Post delivery staff. Understand the revised smartphone and data reimbursement, eligibility, minimum requirements, and how to claim it smoothly.","date":"2025-07-02","readTime":"4 min read","category":"Post Office Policies","priority":"High","tags":["BYOD","Post Office","Delivery Staff","GDS","Technology"],"content":"$d"},{"slug":"gds-leave-application","title":"GDS Leave Rules: A Complete Guide for BPM and ABPM","excerpt":"Understand how GDS employees can apply for paid and unpaid leaves, emergency leaves, and the correct leave application process for BPM and ABPM with clear formats.","date":"2025-07-01","readTime":"5 min read","category":"GDS Resources","priority":"Medium","tags":["GDS","Leave Rules","Post Office","BPM","ABPM"],"content":"$e"},{"slug":"gds-promotion-stucture","title":"GDS Promotion Structure","excerpt":"Gramin Dak Sevaks are the backbone of India Post, delivering services in remote areas. Learn how you can get promoted to MTS, Postman, PA, and IPO through LDCE and departmental promotion opportunities.","date":"2025-07-01","readTime":"6 min read","category":"Postal Guides","priority":"High","description":"GDS Promotion Structure A Step-by-Step Guide to Your Postal Career Growth","tags":["GDS","LDCE","India Post","Postal Career"],"content":"$f"}],"resources":[{"slug":"gds-rescource","content":""}]}]]}],null,["$","$L10",null,{"children":["$L11","$L12",["$","$L13",null,{"promise":"$@14"}]]}]]}],{},null,false]},null,false]},[["$","div","l",{"className":"flex flex-col items-center justify-center min-h-screen bg-gradient-to-br from-red-50 to-pink-50 text-gray-800 p-4","children":[["$","div",null,{"className":"relative w-24 h-24 mb-6 flex items-center justify-center","children":[["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":64,"height":64,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-loader-circle animate-spin text-red-600","aria-hidden":"true","children":[["$","path","13zald",{"d":"M21 12a9 9 0 1 1-6.219-8.56"}],"$undefined"]}]," "]}],["$","h2",null,{"className":"text-3xl font-extrabold text-gray-900 mb-2 tracking-wide animate-pulse","children":"Post Office Hub"}],["$","p",null,{"className":"text-xl text-red-700 font-medium","children":"Loading Data..."}]]}],[],[]],false],["$","$1","h",{"children":[null,["$","$1","CIUWUosdvhhd26qimfoMNv",{"children":[["$","$L15",null,{"children":"$L16"}],null]}],["$","$L17",null,{"children":"$L18"}]]}],false]],"m":"$undefined","G":["$19","$undefined"],"s":false,"S":true}
+1a:"$Sreact.suspense"
+1b:I[74911,[],"AsyncMetadata"]
+18:["$","div",null,{"hidden":true,"children":["$","$1a",null,{"fallback":null,"children":["$","$L1b",null,{"promise":"$@1c"}]}]}]
+12:null
+16:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+11:null
+14:{"metadata":[["$","title","0",{"children":"GDS Corner - Tools, Salary, Leave Rules & Resources for GDS BPM/ABPM | Post Office Hub | Post Office Hub"}],["$","meta","1",{"name":"description","content":"Access GDS Corner for Gramin Dak Sevaks (GDS), BPM, and ABPM: salary details, leave rules, tools, forms, and latest updates to simplify your daily India Post work on Post Office Hub."}],["$","meta","2",{"name":"keywords","content":"GDS Corner, GDS BPM, GDS ABPM, Gramin Dak Sevak Salary, GDS Leave Rules, India Post GDS Tools, GDS Forms, GDS Updates, Post Office Hub"}],["$","meta","3",{"property":"og:title","content":"GDS Corner - Tools, Salary, Leave Rules & Resources for GDS BPM/ABPM"}],["$","meta","4",{"property":"og:description","content":"Visit GDS Corner for salary updates, leave rules, forms, and essential tools designed for Gramin Dak Sevaks (GDS), BPM, and ABPM on Post Office Hub."}],["$","meta","5",{"property":"og:url","content":"https://postofficehub.in/gds-corner/"}],["$","meta","6",{"property":"og:site_name","content":"Post Office Hub"}],["$","meta","7",{"property":"og:locale","content":"en_IN"}],["$","meta","8",{"property":"og:image","content":"https://postofficehub.in/posts-gdss.webp"}],["$","meta","9",{"property":"og:image:width","content":"1200"}],["$","meta","10",{"property":"og:image:height","content":"630"}],["$","meta","11",{"property":"og:image:alt","content":"GDS Corner - Post Office Hub"}],["$","meta","12",{"property":"og:type","content":"website"}],["$","meta","13",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","14",{"name":"twitter:creator","content":"@PostOfficeHub"}],["$","meta","15",{"name":"twitter:title","content":"GDS Corner - Salary, Leave Rules & Tools for GDS BPM/ABPM"}],["$","meta","16",{"name":"twitter:description","content":"Post Office Hub's GDS Corner provides leave rules, salary details, forms, and helpful tools for Gramin Dak Sevaks (GDS), BPM, and ABPM in India Post."}],["$","meta","17",{"name":"twitter:image","content":"https://postofficehub.in/posts-gdss.webp"}]],"error":null,"digest":"$undefined"}
+1c:{"metadata":"$14:metadata","error":null,"digest":"$undefined"}

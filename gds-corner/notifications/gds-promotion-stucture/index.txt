@@ -1,0 +1,158 @@
+1:"$Sreact.fragment"
+2:I[69243,["874","static/chunks/874-5c798c497f66b8a3.js","63","static/chunks/63-14df473997ae4074.js","625","static/chunks/625-5c7ad3dc4a3fac80.js","221","static/chunks/221-6d3c43f4e05dfefd.js","146","static/chunks/146-16a3b22ce3a9258b.js","177","static/chunks/app/layout-10ea07c633c62c65.js"],""]
+3:I[13568,["874","static/chunks/874-5c798c497f66b8a3.js","63","static/chunks/63-14df473997ae4074.js","625","static/chunks/625-5c7ad3dc4a3fac80.js","221","static/chunks/221-6d3c43f4e05dfefd.js","146","static/chunks/146-16a3b22ce3a9258b.js","177","static/chunks/app/layout-10ea07c633c62c65.js"],"Toaster"]
+4:I[14943,["874","static/chunks/874-5c798c497f66b8a3.js","63","static/chunks/63-14df473997ae4074.js","625","static/chunks/625-5c7ad3dc4a3fac80.js","221","static/chunks/221-6d3c43f4e05dfefd.js","146","static/chunks/146-16a3b22ce3a9258b.js","177","static/chunks/app/layout-10ea07c633c62c65.js"],"default"]
+5:I[87555,[],""]
+6:I[31295,[],""]
+7:I[33063,["874","static/chunks/874-5c798c497f66b8a3.js","63","static/chunks/63-14df473997ae4074.js","974","static/chunks/app/page-c3903a130b0506da.js"],"Image"]
+8:I[6874,["874","static/chunks/874-5c798c497f66b8a3.js","63","static/chunks/63-14df473997ae4074.js","974","static/chunks/app/page-c3903a130b0506da.js"],""]
+9:I[65645,["874","static/chunks/874-5c798c497f66b8a3.js","63","static/chunks/63-14df473997ae4074.js","625","static/chunks/625-5c7ad3dc4a3fac80.js","221","static/chunks/221-6d3c43f4e05dfefd.js","146","static/chunks/146-16a3b22ce3a9258b.js","177","static/chunks/app/layout-10ea07c633c62c65.js"],"default"]
+a:I[43212,["874","static/chunks/874-5c798c497f66b8a3.js","63","static/chunks/63-14df473997ae4074.js","625","static/chunks/625-5c7ad3dc4a3fac80.js","221","static/chunks/221-6d3c43f4e05dfefd.js","146","static/chunks/146-16a3b22ce3a9258b.js","177","static/chunks/app/layout-10ea07c633c62c65.js"],"default"]
+b:I[542,["874","static/chunks/874-5c798c497f66b8a3.js","63","static/chunks/63-14df473997ae4074.js","625","static/chunks/625-5c7ad3dc4a3fac80.js","221","static/chunks/221-6d3c43f4e05dfefd.js","146","static/chunks/146-16a3b22ce3a9258b.js","177","static/chunks/app/layout-10ea07c633c62c65.js"],"default"]
+d:I[59665,[],"OutletBoundary"]
+10:I[74911,[],"AsyncMetadataOutlet"]
+12:I[59665,[],"ViewportBoundary"]
+14:I[59665,[],"MetadataBoundary"]
+16:I[26614,[],""]
+:HL["/_next/static/css/98f7f7a3cf5dc4d5.css","style"]
+:HL["/_next/static/css/2bedd42797470e16.css","style"]
+0:{"P":null,"b":"TX1V0VfIEFh5JZh2gn2av","p":"","c":["","gds-corner","notifications","gds-promotion-stucture",""],"i":false,"f":[[["",{"children":["gds-corner",{"children":["notifications",{"children":[["slug","gds-promotion-stucture","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/98f7f7a3cf5dc4d5.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/2bedd42797470e16.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":[["$","link",null,{"rel":"manifest","href":"/manifest.json"}],["$","body",null,{"className":"__variable_23b06b ","children":[["$","$L2",null,{"async":true,"src":"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1832077776457437","crossOrigin":"anonymous","strategy":"afterInteractive"}],["$","$L3",null,{"position":"top-center"}],["$","$L4",null,{}],["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","div",null,{"className":"flex flex-col items-center justify-center min-h-screen bg-gray-50 text-gray-800 px-4 py-12 text-center","children":[["$","$L7",null,{"src":"/not-found.webp","width":500,"height":500,"alt":"Postman looking confused near a post box, representing page not found","priority":true,"sizes":"(max-width: 640px) 80vw, (max-width: 1024px) 50vw, 400px","className":"w-full max-w-xs md:max-w-sm lg:max-w-sm h-auto mb-6 rounded-4xl"}],["$","h2",null,{"className":"text-2xl md:text-3xl font-semibold text-gray-700 mb-4","children":"Page Not Found"}],["$","p",null,{"className":"text-lg md:text-xl text-gray-600 max-w-md mb-8","children":"Oops! The page you're looking for doesn't exist or has been moved. It might be lost in the mail!"}],["$","$L8",null,{"href":"/","className":"inline-flex items-center bg-red-600 text-white px-8 py-3 rounded-full text-lg font-semibold hover:bg-red-700 transition-colors duration-300 shadow-lg transform hover:scale-105","children":[["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-house w-5 h-5 mr-2","aria-hidden":"true","children":[["$","path","5wwlr5",{"d":"M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"}],["$","path","1d0kgt",{"d":"M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"}],"$undefined"]}],"Go to Homepage"]}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}],["$","$L9",null,{}]," ",["$","$La",null,{}],["$","$Lb",null,{}],["$","$L3",null,{}]]}]]}]]}],{"children":["gds-corner",["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["notifications",["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slug","gds-promotion-stucture","d"],["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$Lc",null,["$","$Ld",null,{"children":["$Le","$Lf",["$","$L10",null,{"promise":"$@11"}]]}]]}],{},null,false]},null,false]},null,false]},null,false]},[["$","div","l",{"className":"flex flex-col items-center justify-center min-h-screen bg-gradient-to-br from-red-50 to-pink-50 text-gray-800 p-4","children":[["$","div",null,{"className":"relative w-24 h-24 mb-6 flex items-center justify-center","children":[["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":64,"height":64,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-loader-circle animate-spin text-red-600","aria-hidden":"true","children":[["$","path","13zald",{"d":"M21 12a9 9 0 1 1-6.219-8.56"}],"$undefined"]}]," "]}],["$","h2",null,{"className":"text-3xl font-extrabold text-gray-900 mb-2 tracking-wide animate-pulse","children":"Post Office Hub"}],["$","p",null,{"className":"text-xl text-red-700 font-medium","children":"Loading Data..."}]]}],[],[]],false],["$","$1","h",{"children":[null,["$","$1","Qqg1LvXkTYiMrGItsdZ3Gv",{"children":[["$","$L12",null,{"children":"$L13"}],null]}],["$","$L14",null,{"children":"$L15"}]]}],false]],"m":"$undefined","G":["$16","$undefined"],"s":false,"S":true}
+17:"$Sreact.suspense"
+18:I[74911,[],"AsyncMetadata"]
+15:["$","div",null,{"hidden":true,"children":["$","$17",null,{"fallback":null,"children":["$","$L18",null,{"promise":"$@19"}]}]}]
+f:null
+1a:T1352,<h1>GDS Promotion Structure: Step-by-Step Guide to Your Postal Career Growth</h1>
+<h2>GDS: The Backbone of India Post</h2>
+<p>Gramin Dak Sevaks (GDS) are the <strong>backbone of the Indian Postal System</strong>, ensuring the reach of postal services to even the <strong>remotest villages and difficult terrains</strong> of India. Whether it’s delivering mail, providing banking services, or handling financial transactions under India Post Payments Bank (IPPB), <strong>GDS employees keep India Post connected to the last mile</strong>.</p>
+<p>Many newly joined GDS employees aspire to <strong>grow within the department</strong>, aiming to secure a stable government career while serving the community.</p>
+<hr>
+<h2>Why Consider Promotions in India Post?</h2>
+<ul>
+<li>📈 <strong>Financial Stability:</strong> Promotions lead to higher pay levels and secure increments.</li>
+<li>🎓 <strong>Skill and Role Upgrade:</strong> Moving from GDS to MTS, Postman, PA, or IPO provides learning opportunities and greater responsibilities.</li>
+<li>🛡️ <strong>Government Benefits:</strong> Promoted posts offer full-time government employee status with pension benefits and medical facilities.</li>
+<li>🏆 <strong>Recognition:</strong> Promotions acknowledge your consistent service and dedication.</li>
+</ul>
+<hr>
+<h2>How Promotions Happen in India Post</h2>
+<p>India Post conducts <strong>departmental examinations known as LDCE (Limited Departmental Competitive Examination)</strong>, allowing GDS and lower cadres to get promoted systematically based on <strong>service tenure and educational qualifications</strong>.</p>
+<p>Through LDCE, GDS employees can get promoted to <strong>MTS, Postman, Postal Assistant (PA), Inspector of Posts (IPO), and higher roles</strong> while continuing their service without interruption.</p>
+<hr>
+<h2>Detailed GDS Promotion Table</h2>
+<p>Here is a clear, easy-to-understand table showing <strong>promotion paths, required service years, educational qualifications, pay levels, and basic pay</strong>:</p>
+<table>
+<thead>
+<tr>
+<th>Promotion Category</th>
+<th>Service Requirement</th>
+<th>Education</th>
+<th>Pay Level</th>
+<th>Basic Pay</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GDS to MTS</td>
+<td>3 Years</td>
+<td>10th Grade</td>
+<td>Level – 1</td>
+<td>₹18,000</td>
+</tr>
+<tr>
+<td>GDS to Postman</td>
+<td>5 Years</td>
+<td>10th Grade</td>
+<td>Level – 3</td>
+<td>₹21,700</td>
+</tr>
+<tr>
+<td>GDS to PA (Cate-C) – Joined before 17/06/22</td>
+<td>5 Years</td>
+<td>12th Grade</td>
+<td>Level – 4</td>
+<td>₹25,500</td>
+</tr>
+<tr>
+<td>GDS to PA (Cate-C) – Joined after 17/06/22</td>
+<td>8 Years</td>
+<td>12th Grade</td>
+<td>Level – 4</td>
+<td>₹25,500</td>
+</tr>
+<tr>
+<td>MTS to Postman</td>
+<td>3 Years</td>
+<td>12th Grade</td>
+<td>Level – 3</td>
+<td>₹21,700</td>
+</tr>
+<tr>
+<td>MTS + GDS to Postman</td>
+<td>5 Years</td>
+<td>12th Grade</td>
+<td>Level – 3</td>
+<td>₹21,700</td>
+</tr>
+<tr>
+<td>MTS to PA (Cate-A)</td>
+<td>5 Years</td>
+<td>12th Grade</td>
+<td>Level – 4</td>
+<td>₹25,500</td>
+</tr>
+<tr>
+<td>Postman to PA (Cate-A)</td>
+<td>3 Years</td>
+<td>Not Applicable</td>
+<td>Level – 4</td>
+<td>₹25,500</td>
+</tr>
+<tr>
+<td>Postman + MTS to PA (Cate-A)</td>
+<td>5 Years</td>
+<td>Not Applicable</td>
+<td>Level – 4</td>
+<td>₹25,500</td>
+</tr>
+<tr>
+<td>Postman + MTS + GDS to PA (Cate-B)</td>
+<td>5 Years</td>
+<td>Not Applicable</td>
+<td>Level – 4</td>
+<td>₹25,500</td>
+</tr>
+<tr>
+<td>PA to IPO</td>
+<td>8 Years</td>
+<td>Not Applicable</td>
+<td>Level – 7</td>
+<td>₹44,900</td>
+</tr>
+<tr>
+<td>IPO to SP/AD</td>
+<td>5 Years</td>
+<td>Not Applicable</td>
+<td>Level – 9</td>
+<td>₹53,100</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>How to Prepare for LDCE Promotions</h2>
+<p>✅ <strong>Track Your Service Years:</strong> Know when you become eligible for LDCE.<br>
+✅ <strong>Complete Your Education:</strong> 12th-grade qualification unlocks promotion to PA and higher posts.<br>
+✅ <strong>Stay Updated:</strong> Regularly check <strong>India Post circulars and notifications</strong> for LDCE exam announcements.<br>
+✅ <strong>Study Syllabus:</strong> Focus on postal rules, current affairs, and basic mathematics for LDCE exams.<br>
+✅ <strong>Stay Consistent:</strong> Good service records can support your promotion eligibility.</p>
+<hr>
+<h2>Final Thoughts</h2>
+<p>If you are a <strong>GDS aiming for a stable and secure government career</strong>, focusing on your <strong>promotion journey through LDCE</strong> is the best pathway to growth in India Post. India Post values the hard work of GDS employees, and the department offers systematic promotion structures to ensure you can <strong>grow your career while serving the nation</strong>.</p>
+<blockquote>
+<p>📢 <strong>Stay updated with Post Office Hub</strong> for all <strong>LDCE notifications, GDS guides, and resources</strong> to make your promotion journey smooth and informed.</p>
+</blockquote>
+<hr>
+c:["$","div",null,{"className":"min-h-screen bg-gradient-to-br from-[#f8fafc] to-[#e2e8f0] py-10","children":["$","div",null,{"className":"max-w-5xl mx-auto px-4 space-y-8","children":[["$","div",null,{"className":"bg-white rounded-3xl shadow-lg border border-gray-200 overflow-hidden","children":[["$","div",null,{"className":"bg-gradient-to-r from-yellow-400 to-yellow-500 p-8 flex items-start gap-4","children":[["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":40,"height":40,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-megaphone text-white shrink-0","aria-hidden":"true","children":[["$","path","n962bs",{"d":"m3 11 18-5v12L3 14v-3z"}],["$","path","1yl0tm",{"d":"M11.6 16.8a3 3 0 1 1-5.8-1.6"}],"$undefined"]}],["$","div",null,{"children":[["$","h1",null,{"className":"text-2xl md:text-4xl font-extrabold text-white leading-tight","children":"GDS Promotion Structure"}],["$","p",null,{"className":"text-base text-yellow-100 mt-2","children":"Gramin Dak Sevaks are the backbone of India Post, delivering services in remote areas. Learn how you can get promoted to MTS, Postman, PA, and IPO through LDCE and departmental promotion opportunities."}]]}]]}],["$","div",null,{"className":"px-8 py-4 flex flex-wrap gap-6 text-sm text-gray-600 border-b border-gray-100 bg-gray-50","children":[["$","div",null,{"className":"flex items-center gap-2","children":[["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":18,"height":18,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-calendar text-yellow-600","aria-hidden":"true","children":[["$","path","1cmpym",{"d":"M8 2v4"}],["$","path","4m81vk",{"d":"M16 2v4"}],["$","rect","1hopcy",{"width":"18","height":"18","x":"3","y":"4","rx":"2"}],["$","path","8toen8",{"d":"M3 10h18"}],"$undefined"]}],["$","span",null,{"children":"1 July 2025"}]]}],["$","div",null,{"className":"flex items-center gap-2","children":[["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":18,"height":18,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-bell text-yellow-600","aria-hidden":"true","children":[["$","path","vwvbt9",{"d":"M10.268 21a2 2 0 0 0 3.464 0"}],["$","path","11g9vi",{"d":"M3.262 15.326A1 1 0 0 0 4 17h16a1 1 0 0 0 .74-1.673C19.41 13.956 18 12.499 18 8A6 6 0 0 0 6 8c0 4.499-1.411 5.956-2.738 7.326"}],"$undefined"]}],["$","span",null,{"children":"Notification"}]]}]]}],["$","div",null,{"className":"p-8 bg-white","children":["$","div",null,{"className":"prose sm:prose-lg lg:prose-xl max-w-none prose-headings:text-gray-800 prose-headings:font-bold prose-p:text-gray-700 prose-p:leading-relaxed prose-li:my-1 prose-a:text-blue-600 hover:prose-a:text-blue-800 prose-img:rounded-lg","dangerouslySetInnerHTML":{"__html":"$1a"}}]}],["$","div",null,{"className":"px-8 pb-6 flex flex-wrap gap-3 bg-white","children":[["$","span","GDS",{"className":"inline-flex items-center bg-yellow-100 text-yellow-800 text-sm px-4 py-1.5 rounded-full border border-yellow-300","children":[["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":14,"height":14,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-tag mr-1","aria-hidden":"true","children":[["$","path","vktsd0",{"d":"M12.586 2.586A2 2 0 0 0 11.172 2H4a2 2 0 0 0-2 2v7.172a2 2 0 0 0 .586 1.414l8.704 8.704a2.426 2.426 0 0 0 3.42 0l6.58-6.58a2.426 2.426 0 0 0 0-3.42z"}],["$","circle","kqv944",{"cx":"7.5","cy":"7.5","r":".5","fill":"currentColor"}],"$undefined"]}],"#","GDS"]}],["$","span","LDCE",{"className":"inline-flex items-center bg-yellow-100 text-yellow-800 text-sm px-4 py-1.5 rounded-full border border-yellow-300","children":[["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":14,"height":14,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-tag mr-1","aria-hidden":"true","children":[["$","path","vktsd0",{"d":"M12.586 2.586A2 2 0 0 0 11.172 2H4a2 2 0 0 0-2 2v7.172a2 2 0 0 0 .586 1.414l8.704 8.704a2.426 2.426 0 0 0 3.42 0l6.58-6.58a2.426 2.426 0 0 0 0-3.42z"}],["$","circle","kqv944",{"cx":"7.5","cy":"7.5","r":".5","fill":"currentColor"}],"$undefined"]}],"#","LDCE"]}],["$","span","India Post",{"className":"inline-flex items-center bg-yellow-100 text-yellow-800 text-sm px-4 py-1.5 rounded-full border border-yellow-300","children":[["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":14,"height":14,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-tag mr-1","aria-hidden":"true","children":[["$","path","vktsd0",{"d":"M12.586 2.586A2 2 0 0 0 11.172 2H4a2 2 0 0 0-2 2v7.172a2 2 0 0 0 .586 1.414l8.704 8.704a2.426 2.426 0 0 0 3.42 0l6.58-6.58a2.426 2.426 0 0 0 0-3.42z"}],["$","circle","kqv944",{"cx":"7.5","cy":"7.5","r":".5","fill":"currentColor"}],"$undefined"]}],"#","India Post"]}],["$","span","Postal Career",{"className":"inline-flex items-center bg-yellow-100 text-yellow-800 text-sm px-4 py-1.5 rounded-full border border-yellow-300","children":[["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":14,"height":14,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-tag mr-1","aria-hidden":"true","children":[["$","path","vktsd0",{"d":"M12.586 2.586A2 2 0 0 0 11.172 2H4a2 2 0 0 0-2 2v7.172a2 2 0 0 0 .586 1.414l8.704 8.704a2.426 2.426 0 0 0 3.42 0l6.58-6.58a2.426 2.426 0 0 0 0-3.42z"}],["$","circle","kqv944",{"cx":"7.5","cy":"7.5","r":".5","fill":"currentColor"}],"$undefined"]}],"#","Postal Career"]}]]}]]}],["$","div",null,{"className":"text-center text-sm text-gray-500 max-w-2xl mx-auto","children":"For GDS employees: Stay updated with official India Post notifications. Always verify details with your division office or the official India Post website."}]]}]}]
+13:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+e:null
+11:{"metadata":[["$","title","0",{"children":"GDS Promotion Structure | Post Office Hub"}],["$","meta","1",{"name":"description","content":"Gramin Dak Sevaks are the backbone of India Post, delivering services in remote areas. Learn how you can get promoted to MTS, Postman, PA, and IPO through LDCE and departmental promotion opportunities."}],["$","meta","2",{"name":"keywords","content":"Post Office RD Calculator, TD Calculator, NSC, KVP, SSA, PLI, RPLI, GDS Corner, India Post Interest Rates, Financial Awareness, Post Office Schemes, Post Office Tracking"}],["$","meta","3",{"property":"og:title","content":"Post Office Hub - India Post Schemes & Financial Tools"}],["$","meta","4",{"property":"og:description","content":"Explore India Post schemes, financial calculators, PLI/RPLI guides, and track interest rates easily with Post Office Hub."}],["$","meta","5",{"property":"og:url","content":"https://postofficehub.in/"}],["$","meta","6",{"property":"og:site_name","content":"Post Office Hub"}],["$","meta","7",{"property":"og:locale","content":"en_IN"}],["$","meta","8",{"property":"og:image","content":"https://postofficehub.in/og-banner.png"}],["$","meta","9",{"property":"og:image:width","content":"1200"}],["$","meta","10",{"property":"og:image:height","content":"630"}],["$","meta","11",{"property":"og:image:alt","content":"Post Office Hub Banner"}],["$","meta","12",{"property":"og:type","content":"website"}],["$","meta","13",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","14",{"name":"twitter:creator","content":"@PostOfficeHub"}],["$","meta","15",{"name":"twitter:title","content":"Post Office Hub - India Post Schemes & Financial Tools"}],["$","meta","16",{"name":"twitter:description","content":"Your trusted hub for India Post calculators, PLI/RPLI guides, GDS resources, and financial awareness tools for secure planning."}],["$","meta","17",{"name":"twitter:image","content":"https://postofficehub.in/og-banner.png"}]],"error":null,"digest":"$undefined"}
+19:{"metadata":"$11:metadata","error":null,"digest":"$undefined"}
