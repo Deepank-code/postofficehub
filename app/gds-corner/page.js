@@ -34,7 +34,7 @@ export const metadata = {
     creator: "@PostOfficeHub",
   },
 };
-export default function GDSCornerPage() {
+export default async function GDSCornerPage() {
   const notifications = getGDSCornerContent("notifications");
   const resources = getGDSCornerContent("resources");
 
