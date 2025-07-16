@@ -7,115 +7,114 @@ import {
   Video,
   Info,
   Bell,
-  Settings,
   BookOpen,
   Clock,
-  DownloadCloudIcon,
 } from "lucide-react";
 
 import { motion, AnimatePresence } from "framer-motion";
+import Link from "next/link";
 
 const ITEMS_PER_PAGE = 4;
-const notifications = [
-  {
-    id: 1,
-    title: "📢 Salary Revision Notice",
-    priority: "High",
-    description:
-      "All GDS employees are informed about the new salary revision effective from next month. Click to read in detail.",
-    date: "2024-06-25", // Added date for potential sorting/display
-  },
-  {
-    id: 2,
-    title: "🧥 New Uniform Guidelines",
-    priority: "Medium",
-    description:
-      "Instructions on new uniform distribution for GDS staff. Click to view complete guidelines.",
-    date: "2024-06-20",
-  },
-  {
-    id: 3,
-    title: "📆 Annual Leave Application Deadline",
-    priority: "Low",
-    description:
-      "Reminder for submitting your annual leave application before the cutoff date.",
-    date: "2024-06-15",
-  },
-  {
-    id: 4,
-    title: "📈 Performance Review Schedule",
-    priority: "Medium",
-    description:
-      "Details regarding the upcoming annual performance reviews for all GDS staff.",
-    date: "2024-06-10",
-  },
-  {
-    id: 5,
-    title: "💉 Health Camp Announcement",
-    priority: "Low",
-    description:
-      "Free health check-up camp organized for GDS employees and their families.",
-    date: "2024-06-05",
-  },
-];
-const resources = [
-  {
-    id: 1,
-    title: "📄 GDS Leave Application Form",
-    type: "forms",
-    description: "Official form for applying leave as a Gramin Dak Sevak.",
-    format: "pdf",
-    link: "/downloads/gds-leave-application-form.pdf",
-  },
-  {
-    id: 2,
-    title: "📘 Rural Postal Services Guide",
-    type: "guides",
-    description:
-      "Comprehensive guide for providing postal services in rural areas.",
-    format: "pdf",
-    link: "/downloads/rural-postal-services-guide.pdf",
-  },
-  {
-    id: 3,
-    title: "🎥 Digital Services Training Video",
-    type: "training",
-    description: "Step-by-step training on new digital postal services.",
-    format: "video",
-    link: "/videos/digital-services-training.mp4",
-  },
-  {
-    id: 4,
-    title: " GDS Salary Calculation Method",
-    type: "article",
-    description: "How to calculate GDS salary and allowances accurately.",
-    format: "article",
-    link: "/articles/gds-salary-calculation-method",
-  },
-  {
-    id: 5,
-    title: "📜 Code of Conduct for GDS",
-    type: "forms",
-    description:
-      "Guidelines outlining professional behavior and ethics for GDS.",
-    format: "pdf",
-    link: "/downloads/gds-code-of-conduct.pdf",
-  },
-];
+// const notifications = [
+//   {
+//     id: 1,
+//     title: "📢 Salary Revision Notice",
+//     priority: "High",
+//     description:
+//       "All GDS employees are informed about the new salary revision effective from next month. Click to read in detail.",
+//     date: "2024-06-25", // Added date for potential sorting/display
+//   },
+//   {
+//     id: 2,
+//     title: "🧥 New Uniform Guidelines",
+//     priority: "Medium",
+//     description:
+//       "Instructions on new uniform distribution for GDS staff. Click to view complete guidelines.",
+//     date: "2024-06-20",
+//   },
+//   {
+//     id: 3,
+//     title: "📆 Annual Leave Application Deadline",
+//     priority: "Low",
+//     description:
+//       "Reminder for submitting your annual leave application before the cutoff date.",
+//     date: "2024-06-15",
+//   },
+//   {
+//     id: 4,
+//     title: "📈 Performance Review Schedule",
+//     priority: "Medium",
+//     description:
+//       "Details regarding the upcoming annual performance reviews for all GDS staff.",
+//     date: "2024-06-10",
+//   },
+//   {
+//     id: 5,
+//     title: "💉 Health Camp Announcement",
+//     priority: "Low",
+//     description:
+//       "Free health check-up camp organized for GDS employees and their families.",
+//     date: "2024-06-05",
+//   },
+// ];
+// const resources = [
+//   {
+//     id: 1,
+//     title: "📄 GDS Leave Application Form",
+//     type: "forms",
+//     description: "Official form for applying leave as a Gramin Dak Sevak.",
+//     format: "pdf",
+//     link: "/downloads/gds-leave-application-form.pdf",
+//   },
+//   {
+//     id: 2,
+//     title: "📘 Rural Postal Services Guide",
+//     type: "guides",
+//     description:
+//       "Comprehensive guide for providing postal services in rural areas.",
+//     format: "pdf",
+//     link: "/downloads/rural-postal-services-guide.pdf",
+//   },
+//   {
+//     id: 3,
+//     title: "🎥 Digital Services Training Video",
+//     type: "training",
+//     description: "Step-by-step training on new digital postal services.",
+//     format: "video",
+//     link: "/videos/digital-services-training.mp4",
+//   },
+//   {
+//     id: 4,
+//     title: " GDS Salary Calculation Method",
+//     type: "article",
+//     description: "How to calculate GDS salary and allowances accurately.",
+//     format: "article",
+//     link: "/articles/gds-salary-calculation-method",
+//   },
+//   {
+//     id: 5,
+//     title: "📜 Code of Conduct for GDS",
+//     type: "forms",
+//     description:
+//       "Guidelines outlining professional behavior and ethics for GDS.",
+//     format: "pdf",
+//     link: "/downloads/gds-code-of-conduct.pdf",
+//   },
+// ];
 
-const getResourceIcon = (format) => {
-  switch (format) {
-    case "pdf":
-    case "xlsx":
-      return <FileText size={20} />;
-    case "video":
-      return <Video size={20} />;
-    case "article":
-      return <BookOpen size={20} />;
-    default:
-      return <Info size={20} />;
-  }
-};
+// const getResourceIcon = (format) => {
+//   switch (format) {
+//     case "pdf":
+//     case "xlsx":
+//       return <FileText size={20} />;
+//     case "video":
+//       return <Video size={20} />;
+//     case "article":
+//       return <BookOpen size={20} />;
+//     default:
+//       return <Info size={20} />;
+//   }
+// };
 const GDSTabs = ({ notifications }) => {
   const [activeTab, setActiveTab] = useState("notifications");
 
@@ -232,12 +231,14 @@ const GDSTabs = ({ notifications }) => {
                       <Clock size={14} />
                       <span>{formattedDate}</span>
                     </div>
-                    <a
+                    <Link
                       href={`/gds-corner/notifications/${note.slug}/`}
-                      className="inline-block bg-red-600 text-white text-sm px-4 py-2 rounded-full hover:bg-red-700 transition-colors duration-200"
+                      legacyBehavior
                     >
-                      View Details
-                    </a>
+                      <a className="inline-block bg-red-600 text-white text-sm px-4 py-2 rounded-full hover:bg-red-700 transition-colors duration-200">
+                        View Details
+                      </a>
+                    </Link>
                   </div>
                 </motion.div>
               );
