@@ -1,0 +1,154 @@
+1:"$Sreact.fragment"
+2:I[69243,["874","static/chunks/874-5c798c497f66b8a3.js","63","static/chunks/63-14df473997ae4074.js","625","static/chunks/625-5c7ad3dc4a3fac80.js","221","static/chunks/221-6d3c43f4e05dfefd.js","146","static/chunks/146-16a3b22ce3a9258b.js","177","static/chunks/app/layout-10ea07c633c62c65.js"],""]
+3:I[13568,["874","static/chunks/874-5c798c497f66b8a3.js","63","static/chunks/63-14df473997ae4074.js","625","static/chunks/625-5c7ad3dc4a3fac80.js","221","static/chunks/221-6d3c43f4e05dfefd.js","146","static/chunks/146-16a3b22ce3a9258b.js","177","static/chunks/app/layout-10ea07c633c62c65.js"],"Toaster"]
+4:I[14943,["874","static/chunks/874-5c798c497f66b8a3.js","63","static/chunks/63-14df473997ae4074.js","625","static/chunks/625-5c7ad3dc4a3fac80.js","221","static/chunks/221-6d3c43f4e05dfefd.js","146","static/chunks/146-16a3b22ce3a9258b.js","177","static/chunks/app/layout-10ea07c633c62c65.js"],"default"]
+5:I[87555,[],""]
+6:I[31295,[],""]
+7:I[33063,["874","static/chunks/874-5c798c497f66b8a3.js","63","static/chunks/63-14df473997ae4074.js","974","static/chunks/app/page-c3903a130b0506da.js"],"Image"]
+8:I[6874,["874","static/chunks/874-5c798c497f66b8a3.js","63","static/chunks/63-14df473997ae4074.js","974","static/chunks/app/page-c3903a130b0506da.js"],""]
+9:I[65645,["874","static/chunks/874-5c798c497f66b8a3.js","63","static/chunks/63-14df473997ae4074.js","625","static/chunks/625-5c7ad3dc4a3fac80.js","221","static/chunks/221-6d3c43f4e05dfefd.js","146","static/chunks/146-16a3b22ce3a9258b.js","177","static/chunks/app/layout-10ea07c633c62c65.js"],"default"]
+a:I[43212,["874","static/chunks/874-5c798c497f66b8a3.js","63","static/chunks/63-14df473997ae4074.js","625","static/chunks/625-5c7ad3dc4a3fac80.js","221","static/chunks/221-6d3c43f4e05dfefd.js","146","static/chunks/146-16a3b22ce3a9258b.js","177","static/chunks/app/layout-10ea07c633c62c65.js"],"default"]
+b:I[542,["874","static/chunks/874-5c798c497f66b8a3.js","63","static/chunks/63-14df473997ae4074.js","625","static/chunks/625-5c7ad3dc4a3fac80.js","221","static/chunks/221-6d3c43f4e05dfefd.js","146","static/chunks/146-16a3b22ce3a9258b.js","177","static/chunks/app/layout-10ea07c633c62c65.js"],"default"]
+d:I[59665,[],"OutletBoundary"]
+10:I[74911,[],"AsyncMetadataOutlet"]
+12:I[59665,[],"ViewportBoundary"]
+14:I[59665,[],"MetadataBoundary"]
+16:I[26614,[],""]
+:HL["/_next/static/css/98f7f7a3cf5dc4d5.css","style"]
+:HL["/_next/static/css/2bedd42797470e16.css","style"]
+0:{"P":null,"b":"mshMafafBBRlnqVLIHYfQ","p":"","c":["","blog","transfer-money-from-sb-to-ippb",""],"i":false,"f":[[["",{"children":["blog",{"children":[["slug","transfer-money-from-sb-to-ippb","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/98f7f7a3cf5dc4d5.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/2bedd42797470e16.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":[["$","link",null,{"rel":"manifest","href":"/manifest.json"}],["$","body",null,{"className":"__variable_23b06b ","children":[["$","$L2",null,{"async":true,"src":"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1832077776457437","crossOrigin":"anonymous","strategy":"afterInteractive"}],["$","$L3",null,{"position":"top-center"}],["$","$L4",null,{}],["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","div",null,{"className":"flex flex-col items-center justify-center min-h-screen bg-gray-50 text-gray-800 px-4 py-12 text-center","children":[["$","$L7",null,{"src":"/not-found.webp","width":500,"height":500,"alt":"Postman looking confused near a post box, representing page not found","priority":true,"sizes":"(max-width: 640px) 80vw, (max-width: 1024px) 50vw, 400px","className":"w-full max-w-xs md:max-w-sm lg:max-w-sm h-auto mb-6 rounded-4xl"}],["$","h2",null,{"className":"text-2xl md:text-3xl font-semibold text-gray-700 mb-4","children":"Page Not Found"}],["$","p",null,{"className":"text-lg md:text-xl text-gray-600 max-w-md mb-8","children":"Oops! The page you're looking for doesn't exist or has been moved. It might be lost in the mail!"}],["$","$L8",null,{"href":"/","className":"inline-flex items-center bg-red-600 text-white px-8 py-3 rounded-full text-lg font-semibold hover:bg-red-700 transition-colors duration-300 shadow-lg transform hover:scale-105","children":[["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-house w-5 h-5 mr-2","aria-hidden":"true","children":[["$","path","5wwlr5",{"d":"M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"}],["$","path","1d0kgt",{"d":"M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"}],"$undefined"]}],"Go to Homepage"]}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}],["$","$L9",null,{}]," ",["$","$La",null,{}],["$","$Lb",null,{}],["$","$L3",null,{}]]}]]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slug","transfer-money-from-sb-to-ippb","d"],["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$Lc",null,["$","$Ld",null,{"children":["$Le","$Lf",["$","$L10",null,{"promise":"$@11"}]]}]]}],{},null,false]},null,false]},null,false]},[["$","div","l",{"className":"flex flex-col items-center justify-center min-h-screen bg-gradient-to-br from-red-50 to-pink-50 text-gray-800 p-4","children":[["$","div",null,{"className":"relative w-24 h-24 mb-6 flex items-center justify-center","children":[["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":64,"height":64,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-loader-circle animate-spin text-red-600","aria-hidden":"true","children":[["$","path","13zald",{"d":"M21 12a9 9 0 1 1-6.219-8.56"}],"$undefined"]}]," "]}],["$","h2",null,{"className":"text-3xl font-extrabold text-gray-900 mb-2 tracking-wide animate-pulse","children":"Post Office Hub"}],["$","p",null,{"className":"text-xl text-red-700 font-medium","children":"Loading Data..."}]]}],[],[]],false],["$","$1","h",{"children":[null,["$","$1","AsgbgcPbaWpiphWDe67O5v",{"children":[["$","$L12",null,{"children":"$L13"}],null]}],["$","$L14",null,{"children":"$L15"}]]}],false]],"m":"$undefined","G":["$16","$undefined"],"s":false,"S":true}
+17:"$Sreact.suspense"
+18:I[74911,[],"AsyncMetadata"]
+15:["$","div",null,{"hidden":true,"children":["$","$17",null,{"fallback":null,"children":["$","$L18",null,{"promise":"$@19"}]}]}]
+f:null
+1a:I[53489,["953","static/chunks/app/blog/%5Bslug%5D/page-3bca2b24251665c4.js"],"default"]
+1b:T1644,<h2>Introduction</h2>
+<p><strong>India Post Payments Bank (IPPB)</strong> and <strong>Post Office Savings Bank (POSB)</strong> are essential banking services from India Post, helping citizens manage money securely.</p>
+<p>Many users often ask:</p>
+<p>✅ How to <strong>transfer money between IPPB and POSB</strong><br>
+✅ Which account offers <strong>better interest rates</strong><br>
+✅ Whether IPPB can be opened <strong>directly via the app</strong></p>
+<p>Here is your <strong>clear, practical guide</strong> on using both accounts effectively.</p>
+<p><img src="/blog/sb-ippb.webp" alt="IPPB and POSB Transfer Guide"></p>
+<hr>
+<h2>Can You Open an IPPB Account Directly from the App?</h2>
+<p>🚫 <strong>No. You cannot open an IPPB account just by installing the app on your phone.</strong></p>
+<p>Many users think they can open an IPPB account directly using the app, but it <strong>requires visiting your nearest post office or contacting your area postman/GDS agent</strong> for in-person biometric KYC.</p>
+<p>After opening your account at the post office, you can:</p>
+<p>✅ Download the <strong>IPPB Mobile Banking App</strong> (available on Play Store and App Store).<br>
+✅ Register using your <strong>registered mobile number and customer ID</strong> provided at the time of account opening.<br>
+✅ Set your MPIN and start using the app for transfers, DBT management, and digital payments.</p>
+<hr>
+<h2>How to Transfer Money from IPPB to Post Office Savings Account (POSB)</h2>
+<p>Once your <strong>IPPB app is active</strong>, you can transfer funds to your POSB account easily.</p>
+<h3>Steps:</h3>
+<p>1️⃣ Open the <strong>IPPB Mobile App</strong>.<br>
+2️⃣ Log in using your MPIN.<br>
+3️⃣ In Fund transfer section navigate to <strong>‘More’ > ‘POSB Sweep Out’</strong>.<br>
+4️⃣ Enter your <strong>Amount</strong> and then continue Button.<br>
+5️⃣ Enter your MPIN.<br>
+6️⃣ Confirm and submit.</p>
+<p>✅ Transfers are <strong>instant and free</strong>.</p>
+<hr>
+<h2>How to Transfer Money from POSB to IPPB</h2>
+<h3>Steps:</h3>
+<p>1️⃣ Open the <strong>IPPB Mobile App</strong>.<br>
+2️⃣ Log in using your MPIN.<br>
+3️⃣ In Fund transfer section navigate to <strong>‘More’ > ‘POSB Sweep In’</strong>.<br>
+4️⃣ Enter your <strong>Amount</strong> and then continue Button.<br>
+5️⃣ Enter your MPIN.<br>
+6️⃣ Confirm and submit.</p>
+<p>✅ Transfers are <strong>instant and free</strong>.</p>
+<p><strong>OR</strong></p>
+<p>You can:</p>
+<ul>
+<li>Withdraw cash from POSB using a withdrawal slip at your post office.</li>
+<li>Deposit the withdrawn cash into your IPPB account at the post office or via doorstep banking.</li>
+</ul>
+<p>India Post is working towards providing seamless integration in the future.</p>
+<hr>
+<h2>Interest Rates: Which is Better?</h2>
+<table>
+<thead>
+<tr>
+<th>Feature</th>
+<th>IPPB</th>
+<th>POSB</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Interest Rate</strong></td>
+<td>2% p.a.</td>
+<td>4% p.a.</td>
+</tr>
+<tr>
+<td><strong>Deposit Limit</strong></td>
+<td>₹2 lakh max</td>
+<td>No upper limit</td>
+</tr>
+<tr>
+<td><strong>ATM Access</strong></td>
+<td>Not available</td>
+<td>Available</td>
+</tr>
+<tr>
+<td><strong>Online/Mobile Banking</strong></td>
+<td>Fully app-based</td>
+<td>Limited</td>
+</tr>
+<tr>
+<td><strong>Bill Payments &#x26; UPI</strong></td>
+<td>Available</td>
+<td>Not available</td>
+</tr>
+</tbody>
+</table>
+<p>✅ <strong>POSB offers better interest rates</strong>, making it ideal for <strong>savings and investment</strong>.<br>
+✅ <strong>IPPB offers digital convenience and doorstep banking</strong>.</p>
+<hr>
+<h2>Key Benefits of Using Both</h2>
+<p>✅ <strong>IPPB:</strong></p>
+<ul>
+<li>UPI, QR payments, and bill payments.</li>
+<li>Doorstep cash services.</li>
+<li>Track DBT like PM Kisan Samman Nidhi directly.</li>
+<li>Easy digital management.</li>
+</ul>
+<p>✅ <strong>POSB:</strong></p>
+<ul>
+<li>Higher interest rates.</li>
+<li>Access to PPF, RD, TD, SCSS, and other post office schemes.</li>
+<li>ATM and passbook facilities.</li>
+</ul>
+<p>✅ <strong>Using Both:</strong></p>
+<ul>
+<li>Use <strong>IPPB for digital transactions, DBT credits, and daily payments</strong>.</li>
+<li>Transfer savings to <strong>POSB for higher interest and long-term schemes</strong>.</li>
+</ul>
+<hr>
+<h2>FAQs</h2>
+<h3>1️⃣ Can I open an IPPB account just by installing the app?</h3>
+<p>❌ No. You need to visit your nearest post office for KYC to open your IPPB account.</p>
+<h3>2️⃣ Is transferring money from IPPB to POSB instant?</h3>
+<p>✅ Yes, using the IPPB app, transfers are instant and free.</p>
+<h3>3️⃣ Can I send money from POSB to IPPB online?</h3>
+<p>🚫 Not currently. Withdraw from POSB and deposit into IPPB manually.</p>
+<h3>4️⃣ Which account offers better interest rates?</h3>
+<p>POSB offers <strong>4%</strong> while IPPB offers <strong>2%</strong>.</p>
+<h3>5️⃣ Should I use both accounts?</h3>
+<p>✅ Yes. Use <strong>IPPB for digital payments and POSB for savings</strong>.</p>
+<hr>
+<h2>Conclusion</h2>
+<p>By using <strong>IPPB for daily transactions and POSB for savings</strong>, you can:</p>
+<p>✅ Manage your <strong>DBT credits (PM Kisan Samman Nidhi, subsidies, etc.)</strong> easily.<br>
+✅ Enjoy <strong>digital banking convenience</strong> with IPPB.<br>
+✅ Earn <strong>better interest and long-term benefits</strong> with POSB.</p>
+<p>Visit your nearest post office to open your IPPB account, download the app, and manage your Post Office services smarter with <strong>Post Office Hub</strong>.</p>
+<hr>
+<p>✨ For more helpful guides, visit our <a href="/">Post Office Hub</a> to manage your India Post services digitally and securely.</p>
+c:["$","div",null,{"className":"min-h-screen bg-gray-50","children":["$","div",null,{"className":"container mx-auto px-4 py-8","children":["$","div",null,{"className":"max-w-4xl mx-auto","children":[["$","header",null,{"className":"mb-8","children":[["$","div",null,{"className":"mb-4","children":["$","span",null,{"className":"inline-block bg-gradient-to-r from-blue-100 to-purple-100 text-blue-800 text-sm font-semibold px-4 py-2 rounded-full","children":"Post Office Services"}]}],["$","h1",null,{"className":"text-4xl md:text-5xl font-bold text-gray-800 mb-4 leading-tight","children":"How to Transfer Money Between IPPB and Post Office Savings Account: Complete Guide"}],["$","p",null,{"className":"text-xl text-gray-600 mb-6 leading-relaxed","children":"Learn how to transfer money from IPPB to Post Office Savings Account (POSB) and vice versa, compare interest rates, and discover key benefits of using both accounts for your savings."}],["$","div",null,{"className":"bg-white rounded-xl p-6 shadow-sm border border-gray-200 mb-8","children":["$","div",null,{"className":"flex flex-wrap items-center justify-between gap-4","children":[["$","div",null,{"className":"flex flex-wrap items-center text-sm text-gray-600 space-x-6","children":[["$","div",null,{"className":"flex items-center space-x-2","children":[["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":16,"height":16,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-calendar text-blue-500","aria-hidden":"true","children":[["$","path","1cmpym",{"d":"M8 2v4"}],["$","path","4m81vk",{"d":"M16 2v4"}],["$","rect","1hopcy",{"width":"18","height":"18","x":"3","y":"4","rx":"2"}],["$","path","8toen8",{"d":"M3 10h18"}],"$undefined"]}],["$","span",null,{"children":["Published:"," ","30 Jun 2025"]}]]}],["$","div",null,{"className":"flex items-center space-x-2","children":[["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":16,"height":16,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-clock text-green-500","aria-hidden":"true","children":[["$","circle","1mglay",{"cx":"12","cy":"12","r":"10"}],["$","polyline","68esgv",{"points":"12 6 12 12 16 14"}],"$undefined"]}],["$","span",null,{"children":["Reading Time: ","6 min read"]}]]}],["$","div",null,{"className":"flex items-center space-x-2","children":[["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":16,"height":16,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-eye text-purple-500","aria-hidden":"true","children":[["$","path","1nclc0",{"d":"M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0"}],["$","circle","1v7zrd",{"cx":"12","cy":"12","r":"3"}],"$undefined"]}],["$","span",null,{"children":"Expert Analysis"}]]}]]}],["$","$L1a",null,{"title":"How to Transfer Money Between IPPB and Post Office Savings Account: Complete Guide | Post Office Hub","text":"Learn how to transfer money from IPPB to Post Office Savings Account (POSB) and vice versa, compare interest rates, and discover key benefits of using both accounts for your savings.","url":"https://postofficehub.in/blog/transfer-money-from-sb-to-ippb"}]]}]}],["$","div",null,{"className":"flex flex-wrap gap-2 mb-8","children":[["$","span","IPPB",{"className":"inline-flex items-center space-x-1 bg-gradient-to-r from-gray-100 to-gray-200 text-gray-700 text-sm px-3 py-2 rounded-full border border-gray-300 hover:from-blue-50 hover:to-purple-50 hover:text-blue-700 transition-all","children":[["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":12,"height":12,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-tag","aria-hidden":"true","children":[["$","path","vktsd0",{"d":"M12.586 2.586A2 2 0 0 0 11.172 2H4a2 2 0 0 0-2 2v7.172a2 2 0 0 0 .586 1.414l8.704 8.704a2.426 2.426 0 0 0 3.42 0l6.58-6.58a2.426 2.426 0 0 0 0-3.42z"}],["$","circle","kqv944",{"cx":"7.5","cy":"7.5","r":".5","fill":"currentColor"}],"$undefined"]}],["$","span",null,{"children":["#","IPPB"]}]]}],["$","span","POSB",{"className":"inline-flex items-center space-x-1 bg-gradient-to-r from-gray-100 to-gray-200 text-gray-700 text-sm px-3 py-2 rounded-full border border-gray-300 hover:from-blue-50 hover:to-purple-50 hover:text-blue-700 transition-all","children":[["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":12,"height":12,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-tag","aria-hidden":"true","children":[["$","path","vktsd0",{"d":"M12.586 2.586A2 2 0 0 0 11.172 2H4a2 2 0 0 0-2 2v7.172a2 2 0 0 0 .586 1.414l8.704 8.704a2.426 2.426 0 0 0 3.42 0l6.58-6.58a2.426 2.426 0 0 0 0-3.42z"}],["$","circle","kqv944",{"cx":"7.5","cy":"7.5","r":".5","fill":"currentColor"}],"$undefined"]}],["$","span",null,{"children":["#","POSB"]}]]}],["$","span","Post Office Savings",{"className":"inline-flex items-center space-x-1 bg-gradient-to-r from-gray-100 to-gray-200 text-gray-700 text-sm px-3 py-2 rounded-full border border-gray-300 hover:from-blue-50 hover:to-purple-50 hover:text-blue-700 transition-all","children":[["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":12,"height":12,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-tag","aria-hidden":"true","children":[["$","path","vktsd0",{"d":"M12.586 2.586A2 2 0 0 0 11.172 2H4a2 2 0 0 0-2 2v7.172a2 2 0 0 0 .586 1.414l8.704 8.704a2.426 2.426 0 0 0 3.42 0l6.58-6.58a2.426 2.426 0 0 0 0-3.42z"}],["$","circle","kqv944",{"cx":"7.5","cy":"7.5","r":".5","fill":"currentColor"}],"$undefined"]}],["$","span",null,{"children":["#","Post Office Savings"]}]]}],["$","span","Banking",{"className":"inline-flex items-center space-x-1 bg-gradient-to-r from-gray-100 to-gray-200 text-gray-700 text-sm px-3 py-2 rounded-full border border-gray-300 hover:from-blue-50 hover:to-purple-50 hover:text-blue-700 transition-all","children":[["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":12,"height":12,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-tag","aria-hidden":"true","children":[["$","path","vktsd0",{"d":"M12.586 2.586A2 2 0 0 0 11.172 2H4a2 2 0 0 0-2 2v7.172a2 2 0 0 0 .586 1.414l8.704 8.704a2.426 2.426 0 0 0 3.42 0l6.58-6.58a2.426 2.426 0 0 0 0-3.42z"}],["$","circle","kqv944",{"cx":"7.5","cy":"7.5","r":".5","fill":"currentColor"}],"$undefined"]}],["$","span",null,{"children":["#","Banking"]}]]}],["$","span","India Post",{"className":"inline-flex items-center space-x-1 bg-gradient-to-r from-gray-100 to-gray-200 text-gray-700 text-sm px-3 py-2 rounded-full border border-gray-300 hover:from-blue-50 hover:to-purple-50 hover:text-blue-700 transition-all","children":[["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":12,"height":12,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-tag","aria-hidden":"true","children":[["$","path","vktsd0",{"d":"M12.586 2.586A2 2 0 0 0 11.172 2H4a2 2 0 0 0-2 2v7.172a2 2 0 0 0 .586 1.414l8.704 8.704a2.426 2.426 0 0 0 3.42 0l6.58-6.58a2.426 2.426 0 0 0 0-3.42z"}],["$","circle","kqv944",{"cx":"7.5","cy":"7.5","r":".5","fill":"currentColor"}],"$undefined"]}],["$","span",null,{"children":["#","India Post"]}]]}]]}]]}],["$","article",null,{"className":"bg-white rounded-2xl shadow-lg border border-gray-200 overflow-hidden mb-8","children":[["$","div",null,{"className":"bg-gradient-to-r from-blue-50 to-purple-50 p-6 border-b border-gray-200","children":[["$","h2",null,{"className":"text-2xl font-bold text-gray-800 mb-2","children":"Complete Investment Guide"}],["$","p",null,{"className":"text-gray-600","children":"Comprehensive analysis with actionable insights for smart investment decisions"}]]}],["$","div",null,{"className":"p-8","children":["$","div",null,{"className":"prose prose-lg max-w-none   prose-headings:text-gray-800 prose-headings:font-bold   prose-h2:text-2xl prose-h2:mt-8 prose-h2:mb-4 prose-h2:border-b prose-h2:border-gray-200 prose-h2:pb-2   prose-h3:text-xl prose-h3:mt-6 prose-h3:mb-3 prose-h3:text-blue-700   prose-p:text-gray-700 prose-p:leading-relaxed prose-p:mb-4   prose-strong:text-gray-800 prose-strong:font-semibold   prose-ul:my-4 prose-li:my-2 prose-li:text-gray-700   prose-table:text-sm prose-table:border-collapse   prose-th:bg-gray-50 prose-th:border prose-th:border-gray-300 prose-th:px-4 prose-th:py-3 prose-th:font-semibold   prose-td:border prose-td:border-gray-300 prose-td:px-4 prose-td:py-3","dangerouslySetInnerHTML":{"__html":"$1b"}}]}],["$","div",null,{"className":"bg-gray-50 p-6 border-t border-gray-200","children":["$","div",null,{"className":"flex items-center justify-between","children":[["$","div",null,{"className":"text-sm text-gray-600","children":["$","p",null,{"children":"This guide provides comprehensive information for educational purposes. Always consult with financial advisors before making investment decisions."}]}],["$","div",null,{"className":"flex items-center space-x-4","children":[["$","span",null,{"className":"text-sm text-gray-500","children":"Helpful?"}],["$","div",null,{"className":"flex space-x-2","children":[["$","button",null,{"className":"text-green-600 hover:text-green-700 text-sm font-medium","children":"👍 Yes"}],["$","button",null,{"className":"text-red-600 hover:text-red-700 text-sm font-medium","children":"👎 No"}]]}]]}]]}]}]]}]]}]}]}]
+13:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+e:null
+11:{"metadata":[["$","title","0",{"children":"How to Transfer Money Between IPPB and Post Office Savings Account: Complete Guide | Post Office Hub | Post Office Hub"}],["$","meta","1",{"name":"description","content":"Learn how to transfer money from IPPB to Post Office Savings Account (POSB) and vice versa, compare interest rates, and discover key benefits of using both accounts for your savings."}],["$","meta","2",{"name":"keywords","content":"IPPB, POSB, Post Office Savings, Banking, India Post"}],["$","link","3",{"rel":"canonical","href":"https://postofficehub.in/blog/undefined/"}],["$","meta","4",{"property":"og:title","content":"How to Transfer Money Between IPPB and Post Office Savings Account: Complete Guide | Post Office Hub"}],["$","meta","5",{"property":"og:description","content":"Learn how to transfer money from IPPB to Post Office Savings Account (POSB) and vice versa, compare interest rates, and discover key benefits of using both accounts for your savings."}],["$","meta","6",{"property":"og:url","content":"https://postofficehub.in/blog/undefined/"}],["$","meta","7",{"property":"og:site_name","content":"Post Office Hub"}],["$","meta","8",{"property":"og:locale","content":"en_IN"}],["$","meta","9",{"property":"og:image","content":"https://postofficehub.in/og-default.png"}],["$","meta","10",{"property":"og:image:width","content":"1200"}],["$","meta","11",{"property":"og:image:height","content":"630"}],["$","meta","12",{"property":"og:image:alt","content":"How to Transfer Money Between IPPB and Post Office Savings Account: Complete Guide"}],["$","meta","13",{"property":"og:type","content":"article"}],["$","meta","14",{"property":"article:published_time","content":"2025-06-30"}],["$","meta","15",{"property":"article:author","content":"Post Office Hub"}],["$","meta","16",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","17",{"name":"twitter:creator","content":"@PostOfficeHub"}],["$","meta","18",{"name":"twitter:title","content":"How to Transfer Money Between IPPB and Post Office Savings Account: Complete Guide | Post Office Hub"}],["$","meta","19",{"name":"twitter:description","content":"Learn how to transfer money from IPPB to Post Office Savings Account (POSB) and vice versa, compare interest rates, and discover key benefits of using both accounts for your savings."}],["$","meta","20",{"name":"twitter:image","content":"https://postofficehub.in/og-default.png"}]],"error":null,"digest":"$undefined"}
+19:{"metadata":"$11:metadata","error":null,"digest":"$undefined"}
