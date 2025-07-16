@@ -102,19 +102,19 @@ const ITEMS_PER_PAGE = 4;
 //   },
 // ];
 
-// const getResourceIcon = (format) => {
-//   switch (format) {
-//     case "pdf":
-//     case "xlsx":
-//       return <FileText size={20} />;
-//     case "video":
-//       return <Video size={20} />;
-//     case "article":
-//       return <BookOpen size={20} />;
-//     default:
-//       return <Info size={20} />;
-//   }
-// };
+const getResourceIcon = (format) => {
+  switch (format) {
+    case "pdf":
+    case "xlsx":
+      return <FileText size={20} />;
+    case "video":
+      return <Video size={20} />;
+    case "article":
+      return <BookOpen size={20} />;
+    default:
+      return <Info size={20} />;
+  }
+};
 const GDSTabs = ({ notifications }) => {
   const [activeTab, setActiveTab] = useState("notifications");
 
@@ -233,11 +233,9 @@ const GDSTabs = ({ notifications }) => {
                     </div>
                     <Link
                       href={`/gds-corner/notifications/${note.slug}/`}
-                      legacyBehavior
+                      className="inline-block bg-red-600 text-white text-sm px-4 py-2 rounded-full hover:bg-red-700 transition-colors duration-200"
                     >
-                      <a className="inline-block bg-red-600 text-white text-sm px-4 py-2 rounded-full hover:bg-red-700 transition-colors duration-200">
-                        View Details
-                      </a>
+                      View Details
                     </Link>
                   </div>
                 </motion.div>
