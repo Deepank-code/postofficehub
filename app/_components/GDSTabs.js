@@ -233,7 +233,7 @@ const GDSTabs = ({ notifications }) => {
                       <span>{formattedDate}</span>
                     </div>
                     <a
-                      href={`gds-corner/notifications/${note.slug}`} // Replace with actual link
+                      href={`/gds-corner/notifications/${note.slug}/`}
                       className="inline-block bg-red-600 text-white text-sm px-4 py-2 rounded-full hover:bg-red-700 transition-colors duration-200"
                     >
                       View Details
