@@ -47,7 +47,7 @@ export default function Footer() {
         <Link href="/" className="flex space-x-3 group items-start">
           <div className="w-12 h-12 rounded-full overflow-hidden group-hover:scale-110 transition-transform duration-300">
             <Image
-              src="/logo.png"
+              src="/logo.webp"
               width={300}
               height={300}
               alt="Post Office Hub Logo"

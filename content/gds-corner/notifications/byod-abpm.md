@@ -4,7 +4,8 @@ excerpt: "Learn about the latest BYOD policy for India Post delivery staff. Unde
 date: "2025-07-02"
 readTime: "4 min read"
 category: "Post Office Policies"
-priority: "High"
+priority: "Medium"
+description: "Learn about the latest BYOD policy for India Post delivery staff. Understand the revised smartphone and data reimbursement, eligibility, minimum requirements, and how to claim it smoothly."
 tags: ["BYOD", "Post Office", "Delivery Staff", "GDS", "Technology"]
 ---
 

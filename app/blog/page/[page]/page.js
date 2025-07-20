@@ -4,9 +4,8 @@ import Image from "next/image";
 import { Calendar, Clock, ArrowRight, Star } from "lucide-react";
 import { notFound } from "next/navigation";
 
-const POSTS_PER_PAGE = 6;
+const POSTS_PER_PAGE = 9;
 
-// Generate static paths for /blog/page/1, /blog/page/2 ...
 export async function generateStaticParams() {
   const allPosts = await getAllBlogPosts();
   const totalPages = Math.ceil(allPosts.length / POSTS_PER_PAGE);
@@ -28,12 +27,11 @@ export default async function BlogPage({ params }) {
   const page = parseInt(params.page, 10);
 
   if (isNaN(page) || page < 1) {
-    notFound(); // Handle invalid pages gracefully
+    notFound();
   }
 
   const allPosts = await getAllBlogPosts();
 
-  // Sort featured first, then by date
   const sortedPosts = allPosts.sort((a, b) => {
     if (a.metadata.featured === b.metadata.featured) {
       return (
@@ -45,7 +43,7 @@ export default async function BlogPage({ params }) {
 
   const totalPages = Math.ceil(sortedPosts.length / POSTS_PER_PAGE);
   if (page > totalPages) {
-    notFound(); // If page exceeds total pages
+    notFound();
   }
 
   const start = (page - 1) * POSTS_PER_PAGE;

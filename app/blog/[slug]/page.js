@@ -22,8 +22,7 @@ export async function generateMetadata({ params }) {
     post.metadata.excerpt ||
     "Read this detailed guide on Post Office Hub for India Post schemes and GDS updates.";
   const url = `https://postofficehub.in/blog/${post.metadata.slug}`; // Ensure this URL is correct and public
-  const image =
-    post.metadata.coverImage || "https://postofficehub.in/og-default.png";
+  const image = post.metadata.image || "https://postofficehub.in/og-banner.png";
 
   return {
     title,

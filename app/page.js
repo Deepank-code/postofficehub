@@ -185,10 +185,10 @@ export default function Home() {
                     <Image
                       src={feature.icon}
                       alt={feature.title}
-                      width={160} // max display size (lg:w-40)
-                      height={160}
-                      quality={60} // Slightly higher quality for sharper images
-                      priority
+                      width={50}
+                      height={50}
+                      quality={50}
+                      priority={false}
                       className="w-24 h-24 sm:w-32 sm:h-32 lg:w-40 lg:h-40 object-contain"
                     />
                   </div>
@@ -251,13 +251,13 @@ export default function Home() {
             <div className="flex items-center justify-center space-x-4 mb-6">
               <div className="w-16 h-16 rounded-full bg-[#F5F5F5] flex items-center justify-center p-2">
                 <Image
-                  src="/logo.png"
+                  src="/logo.webp"
                   alt="Post Office Hub Logo"
-                  width={192}
-                  height={192}
-                  quality={60}
-                  priority
-                  sizes="48px"
+                  width={48}
+                  height={48}
+                  quality={50}
+                  priority={false}
+                  sizes="(max-width: 640px) 48px, 48px"
                   className="w-12 h-12 object-contain"
                 />
               </div>

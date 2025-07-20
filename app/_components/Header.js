@@ -56,7 +56,7 @@ export default function Header() {
         <Link href="/" className="flex items-center space-x-3 group">
           <div className="w-12 h-12 rounded-full overflow-hidden group-hover:scale-110 transition-transform duration-300">
             <Image
-              src="/logo.png"
+              src="/logo.webp"
               width={120}
               height={120}
               quality={50}

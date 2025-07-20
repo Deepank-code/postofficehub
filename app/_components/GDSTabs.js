@@ -186,7 +186,7 @@ const GDSTabs = ({ notifications }) => {
             exit="exit"
             variants={variants}
             transition={{ duration: 0.3 }}
-            className="grid md:grid-cols-2 lg:grid-cols-2 gap-6"
+            className="grid md:grid-cols-1 lg:grid-cols-1 gap-6"
           >
             {paginatedNotifications.map((note, idx) => {
               const formattedDate = new Date(note.date).toLocaleDateString(
@@ -197,7 +197,7 @@ const GDSTabs = ({ notifications }) => {
                   year: "numeric",
                 }
               );
-              console.log(note.slug);
+
               return (
                 <motion.div
                   key={note.title + note.date + idx}

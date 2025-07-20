@@ -5,6 +5,7 @@ date: "2025-07-01"
 readTime: "5 min read"
 category: "GDS Resources"
 priority: "Medium"
+description: "Understand how GDS employees can apply for paid and unpaid leaves, emergency leaves, and the correct leave application process for BPM and ABPM with clear formats."
 tags: ["GDS", "Leave Rules", "Post Office", "BPM", "ABPM"]
 ---
 
