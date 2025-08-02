@@ -1,5 +1,5 @@
 ---
-title: "Post Office SCSS Scheme Guide"
+title: "The Ultimate 2025 Guide to Post Office SCSS for Seniors"
 excerpt: "A complete overview of the Post Office Senior Citizen Savings Scheme (SCSS) — secure high-interest income for senior citizens with quarterly payouts and tax benefits."
 date: "2025-06-30"
 readTime: "5 min read"

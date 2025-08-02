@@ -2,16 +2,16 @@ import { Montserrat } from "next/font/google";
 import "./globals.css";
 import Header from "./_components/Header";
 import MobileBottomNav from "./_components/MobileBottomNav";
-
 import StickyFooterCTA from "./_components/StickyFooterCTA";
 import ConditionalFooter from "./_components/ConditionalFooter";
 import { Toaster } from "react-hot-toast";
 import Script from "next/script";
+import OneSignalInitializer from "./_components/OneSignalInitilizer";
 
 const montserrat = Montserrat({
   variable: "--font-montserrat",
   subsets: ["latin"],
-  weight: ["400", "700"], // optional: choose the weights you need
+  weight: ["400", "700"],
 });
 
 export const metadata = {
@@ -53,18 +53,24 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <link rel="manifest" href="/manifest.json" />
-      <body className={`${montserrat.variable} `}>
+      <head>
+        {/* PWA Manifest */}
+        <link rel="manifest" href="/manifest.json" />
+     
         <Script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1832077776457437"
           crossOrigin="anonymous"
           strategy="afterInteractive"
         />
+      </head>
+      <body className={`${montserrat.variable}`}>
+        <OneSignalInitializer />
         <Toaster position="top-center" />
         <Header />
         {children}
-        <ConditionalFooter /> <StickyFooterCTA />
+        <ConditionalFooter />
+        <StickyFooterCTA />
         <MobileBottomNav />
         <Toaster />
       </body>

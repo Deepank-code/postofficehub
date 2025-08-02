@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import {
+  Banknote,
   Book,
   BotMessageSquare,
   Briefcase,
@@ -140,6 +141,23 @@ export default function Header() {
             </button>
             {isOpenService && (
               <div className="absolute left-0 w-64 bg-white text-gray-800 rounded-md shadow-lg mt-2 p-4 z-50 space-y-4">
+                {/* <Link
+                  href="/reminder-tool"
+                  className="block hover:text-red-600"
+                  onClick={() => setIsOpenService(false)}
+                >
+                  <div className="flex items-start space-x-2">
+                    <span>
+                      <Banknote size={24} />
+                    </span>
+                    <div>
+                      <p className="font-semibold">My Portfolio</p>
+                      <p className="text-xs text-gray-600">
+                        Explore your investment here..
+                      </p>
+                    </div>
+                  </div>
+                </Link> */}
                 <Link
                   href="/my-investments"
                   className="block hover:text-red-600"
@@ -157,6 +175,7 @@ export default function Header() {
                     </div>
                   </div>
                 </Link>
+
                 <Link
                   href="/insurance"
                   className="block hover:text-red-600"

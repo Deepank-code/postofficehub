@@ -39,6 +39,9 @@ export const metadata = {
     apple: "/apple-touch-icon.png",
   },
   themeColor: "#2563eb",
+  alternates: {
+    canonical: "https://postofficehub.in/tracking",
+  },
 };
 
 export default function TrackingLayout({ children }) {

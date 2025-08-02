@@ -67,9 +67,9 @@ Whichever you choose, **cultivating a savings habit is the first step toward fin
 
 ### Related Articles
 
-- [Post Office Recurring Deposit Guide](./rd-scheme)
-- [Post Office Time Deposit vs. Fixed Deposit](./postoffice-td-vs-fd)
-- [IPPB Services Explained](./ippb-guide)
+- [Post Office Recurring Deposit Guide](../rd-scheme)
+- [Post Office Time Deposit vs. Fixed Deposit](../postoffice-td-vs-fd)
+- [IPPB Services Explained](../ippb-guide)
 
 ---
 

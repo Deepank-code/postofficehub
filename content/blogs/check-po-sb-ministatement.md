@@ -1,5 +1,5 @@
 ---
-title: "How to Check Post Office Savings Account Mini Statement Without Visiting the Post Office"
+title: "I Checked My Post Office Mini‑Statement Without a Visit—Here’s How!"
 excerpt: "Learn step-by-step methods to check your POSB mini statement easily without visiting your post office branch using missed call, SMS, ATM, and mobile banking."
 date: "2025-06-30"
 readTime: "4 min read"

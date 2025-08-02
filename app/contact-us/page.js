@@ -33,6 +33,9 @@ export const metadata = {
     images: ["https://postofficehub.in/og-contact.png"],
     creator: "@PostOfficeHub",
   },
+  alternates: {
+    canonical: "https://postofficehub.in/contact-us/",
+  },
 };
 
 export default function ContactUsPage() {

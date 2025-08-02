@@ -18,7 +18,7 @@ export const metadata = {
     siteName: "Post Office Hub",
     images: [
       {
-        url: "https://postofficehub.in/post-inste.webp", // upload a clean red-theme OG image for this page
+        url: "https://postofficehub.in/post-inste.webp",
         width: 1200,
         height: 630,
         alt: "Post Office Interest Rates June 2025",
@@ -34,6 +34,10 @@ export const metadata = {
       "View the latest India Post interest rates for RD, TD, PPF, SSA, SCSS, and KVP schemes with Post Office Hub’s updated guide for June 2025.",
     images: ["https://postofficehub.in/post-inste.webp"],
     creator: "@PostOfficeHub",
+  },
+
+  alternates: {
+    canonical: "https://postofficehub.in/interest-rates/",
   },
 };
 const InterestRates = () => {
@@ -391,6 +395,102 @@ const InterestRates = () => {
               </ul>
             </div>
           </div>
+        </div>
+        <div className="max-w-2xl mx-auto bg-white rounded-xl shadow-md p-4 my-6 sm:p-6 space-y-4">
+          <h2 className="text-xl sm:text-2xl font-bold text-red-600 mb-2 text-center my-5 py-4">
+            FAQs About Interest Rates
+          </h2>
+
+          <details className="border border-gray-200 rounded-lg p-3">
+            <summary className="font-semibold cursor-pointer">
+              <b>1.</b> What is an interest rate, and how does it affect my
+              investment?
+            </summary>
+            <p className="mt-2 text-gray-700">
+              An interest rate is the percentage your money earns over time when
+              you invest in a scheme or deposit. It’s like a “thank you” payment
+              from the bank or post office for letting them use your money for a
+              while. A higher interest rate means your savings will grow faster.
+            </p>
+          </details>
+
+          <details className="border border-gray-200 rounded-lg p-3">
+            <summary className="font-semibold cursor-pointer">
+              <b> 2.</b> Why do interest rates keep changing?
+            </summary>
+            <p className="mt-2 text-gray-700">
+              Interest rates change because of the economy, inflation, and
+              government policies. When inflation is high, rates may increase to
+              control it, and when the economy slows, rates may reduce to
+              encourage spending and investment.
+            </p>
+          </details>
+
+          <details className="border border-gray-200 rounded-lg p-3">
+            <summary className="font-semibold cursor-pointer">
+              <b> 3.</b> I opened an RD in 2021 at 5.8% during COVID, but now
+              the rate is 6.7%. Will I get the new higher rate?
+            </summary>
+            <p className="mt-2 text-gray-700">
+              No, you will continue to get the{" "}
+              <strong>rate applicable at the time of opening your RD</strong>,
+              which is 5.8% in your case, until maturity. Post office Recurring
+              Deposits lock in the interest rate at the time of investment, even
+              if rates change later.
+            </p>
+          </details>
+
+          <details className="border border-gray-200 rounded-lg p-3">
+            <summary className="font-semibold cursor-pointer">
+              <b> 4.</b> What if I open a new RD now at 6.7%?
+            </summary>
+            <p className="mt-2 text-gray-700">
+              If you open a new RD today, you will get the current interest rate
+              of 6.7% locked in for the entire 5-year tenure, even if rates go
+              up or down in the future.
+            </p>
+          </details>
+
+          <details className="border border-gray-200 rounded-lg p-3">
+            <summary className="font-semibold cursor-pointer">
+              <b> 5.</b> I opened a TD at 6.6%, but the new rate is 7.1%. Will
+              my TD interest increase?
+            </summary>
+            <p className="mt-2 text-gray-700">
+              No, the post office Time Deposit (TD) interest rate is also locked
+              at the time of opening. If you opened at 6.6%, you will continue
+              to get 6.6% until maturity, even if the rates increase later. To
+              get the new 7.1%, you would need to open a fresh TD at the current
+              rate.
+            </p>
+          </details>
+
+          <details className="border border-gray-200 rounded-lg p-3">
+            <summary className="font-semibold cursor-pointer">
+              <b> 6.</b> I have an MIS account at 7.4%, but now the rate is
+              7.7%. Will my monthly interest increase automatically?
+            </summary>
+            <p className="mt-2 text-gray-700">
+              No, under the Post Office Monthly Income Scheme (MIS), the
+              interest rate is fixed when you open the account and remains the
+              same throughout the 5-year tenure. If you opened it at 7.4%, you
+              will continue to get that rate monthly. To get the new higher rate
+              of 7.7%, you would need to open a new MIS account with fresh
+              investment.
+            </p>
+          </details>
+
+          <details className="border border-gray-200 rounded-lg p-3">
+            <summary className="font-semibold cursor-pointer">
+              <b> 7.</b> How often do post office interest rates change?
+            </summary>
+            <p className="mt-2 text-gray-700">
+              Post office interest rates are reviewed and may change every
+              quarter (three months) based on government decisions and market
+              conditions. Always check the latest rates before making a new
+              investment.
+            </p>
+          </details>
         </div>
       </section>
     </div>

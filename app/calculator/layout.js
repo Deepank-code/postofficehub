@@ -9,7 +9,7 @@ export const metadata = {
     title: "Post Office Calculators - RD, TD, SSA, PPF Tools",
     description:
       "Free online calculators for Post Office RD, TD, SSA, PPF, MIS, and other India Post schemes on Post Office Hub. Plan your investments with accurate interest calculations.",
-    url: "https://postofficehub.in/calculators",
+    url: "https://postofficehub.in/calculators/",
     siteName: "Post Office Hub",
     images: [
       {
@@ -29,6 +29,9 @@ export const metadata = {
       "Use Post Office Hub's calculators for RD, TD, SSA, PPF, and MIS to plan your savings effectively with accurate maturity and interest calculations.",
     images: ["https://postofficehub.in/post-cal.webp"],
     creator: "@PostOfficeHub",
+  },
+  alternates: {
+    canonical: "https://postofficehub.in/calculators/",
   },
 };
 

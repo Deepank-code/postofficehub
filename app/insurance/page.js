@@ -34,6 +34,9 @@ export const metadata = {
     images: ["https://postofficehub.in/post-insu.png"],
     creator: "@PostOfficeHub",
   },
+  alternates: {
+    canonical: "https://postofficehub.in/insurance/",
+  },
 };
 
 const Insurance = () => {

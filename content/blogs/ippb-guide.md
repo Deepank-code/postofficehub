@@ -11,7 +11,7 @@ featured: true
 
 ## What is IPPB?
 
-**India Post Payments Bank (IPPB)** is a government-owned payments bank under India Post, created to offer **easy, affordable, and secure banking services across India**, especially in villages and remote areas through the post office network.
+**India Post Payments Bank (IPPB)** is a Fully government-owned payments bank under India Post, created to offer **easy, affordable, and secure banking services across India**, especially in villages and remote areas through the post office network through GDS .
 
 Launched on **September 1, 2018**, IPPB brings **digital banking and doorstep services** to your fingertips, reducing the need to visit physical branches frequently.
 

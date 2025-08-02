@@ -185,9 +185,10 @@ export default function Home() {
                     <Image
                       src={feature.icon}
                       alt={feature.title}
-                      width={50}
-                      height={50}
-                      quality={50}
+                      width={160}
+                      height={160}
+                      quality={90}
+                      sizes="(max-width: 640px) 96px, (max-width: 1024px) 128px, 160px"
                       priority={false}
                       className="w-24 h-24 sm:w-32 sm:h-32 lg:w-40 lg:h-40 object-contain"
                     />

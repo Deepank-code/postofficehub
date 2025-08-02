@@ -33,6 +33,9 @@ export const metadata = {
     images: ["https://postofficehub.in/posts-gdss.webp"],
     creator: "@PostOfficeHub",
   },
+  alternates: {
+    canonical: "https://postofficehub.in/gds-corner/",
+  },
 };
 export default async function GDSCornerPage() {
   const notifications = getGDSCornerContent("notifications");

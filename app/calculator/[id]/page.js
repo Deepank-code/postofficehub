@@ -123,7 +123,7 @@ export async function generateMetadata({ params }) {
     };
   }
 
-  const pageUrl = `https://postofficehub.in/calculator/${calc.id}`;
+  const pageUrl = `https://postofficehub.in/calculator/${calc.id}/`;
   const imageUrl = `https://postofficehub.in${calc.image}`;
 
   return {
@@ -152,6 +152,9 @@ export async function generateMetadata({ params }) {
       description: calc.description,
       images: [imageUrl],
       creator: "@PostOfficeHub",
+    },
+    alternates: {
+      canonical: pageUrl,
     },
   };
 }

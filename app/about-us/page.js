@@ -44,6 +44,9 @@ export const metadata = {
     images: ["https://postofficehub.in/logo.png"],
     creator: "@PostOfficeHub",
   },
+  alternates: {
+    canonical: "https://postofficehub.in/about-us/",
+  },
 };
 
 export default function AboutUsPage() {
@@ -252,115 +255,54 @@ export default function AboutUsPage() {
         </div>
 
         {/* Developer Profile Card */}
-        <div className="relative w-full max-w-2xl mx-auto group transition-transform duration-300 hover:scale-[1.015] mb-8">
-          {/* Animated Gradient Border */}
-          <div className="absolute inset-0 rounded-2xl p-[2px] bg-gradient-to-br from-pink-400 via-yellow-400 to-purple-500 z-0">
-            <div className="w-full h-full rounded-[inherit] bg-white" />{" "}
-            {/* Removed dark mode for background */}
-          </div>
-
-          {/* Animated Gradient Glow */}
+        <div className="relative w-full max-w-2xl mx-auto mb-8 group">
+          {/* Subtle Glow Gradient with hover brightening */}
           <div
             className="
-            absolute inset-0 rounded-2xl 
-            bg-[linear-gradient(130deg,#a077ff,#ff3ec8,#ffc107,#a077ff)]
-            bg-[length:200%_200%] animate-glow
-            blur-2xl opacity-40 z-[-1]
-            transition-opacity duration-300
-            group-hover:opacity-70
-            "
+      absolute -inset-1
+      rounded-[22px]
+      bg-gradient-to-br from-pink-400 via-yellow-400 to-purple-500
+      blur-xl opacity-30
+      group-hover:opacity-60
+      transition-opacity duration-300
+      z-0
+      pointer-events-none
+    "
           />
 
-          <div className="relative z-10 p-6 rounded-2xl bg-white flex flex-col sm:flex-row items-center sm:items-start space-y-4 sm:space-y-0 sm:space-x-5">
-            <div className="flex-1 text-center sm:text-left">
-              <h3 className="text-2xl font-bold text-gray-800">
-                Deepank Joshi
-              </h3>
-              <p className="text-pink-600 font-medium text-base mb-1">
-                Full Stack Developer & Creator of Post Office Hub
-              </p>
-              <p className="text-gray-700 text-sm mb-2">
-                Post Office Hub is developed with passion to make complex
-                government information accessible to everyone. My goal is to
-                build reliable, user-friendly tools that empower the community.
-              </p>
-              <p className="text-gray-700 text-sm">
-                For technical inquiries or collaboration, contact:
-              </p>
-
-              <p className="mt-3 font-semibold text-blue-600 flex items-center justify-center sm:justify-start">
-                <Mail className="inline-block mr-2" size={20} />
-                postofficehub0@gmail.com
-              </p>
-
-              {/* <div className="flex justify-center sm:justify-start space-x-4 mt-4 text-gray-600">
-                <a
-                  href="https://github.com/your-github" // Replace with your GitHub URL
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="hover:text-black transition duration-200"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    className="lucide lucide-github"
-                  >
-                    <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.2c3.5 0 4.1-1.6 4.1-3.6 0-1.2-.5-2.2-1.2-3 0 0-1-2.2-1.6-3.2 0 0-1.4 0-2.3.6 0 0-1.4-.4-2.8-.4-1.4 0-2.8.4-2.8.4-.6 1-1.6 3.2-1.6 3.2-.7.8-1.2 1.8-1.2 3 0 2 0 3.6 4.1 3.6a4.8 4.8 0 0 0-1 3.2v4"></path>
-                    <path d="M9 18c-3.1 0-5-2.5-5-5s1.9-5 5-5"></path>
-                  </svg>
-                </a>
-                <a
-                  href="https://linkedin.com/in/your-linkedin" // Replace with your LinkedIn URL
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="hover:text-blue-600 transition duration-200"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    className="lucide lucide-linkedin"
-                  >
-                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
-                    <rect width="4" height="12" x="2" y="9"></rect>
-                    <circle cx="4" cy="4" r="2"></circle>
-                  </svg>
-                </a>
-                <a
-                  href="https://twitter.com/your-twitter" // Replace with your Twitter URL
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="hover:text-sky-500 transition duration-200"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    className="lucide lucide-twitter"
-                  >
-                    <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17-19 11.6 0 0 9.9 1.5 14.5-5.3C19.9 6.2 22 4 22 4z"></path>
-                  </svg>
-                </a>
-              </div> */}
+          {/* Gradient Border */}
+          <div
+            className="
+    relative z-10
+    bg-gradient-to-br from-pink-400 via-yellow-400 to-purple-500
+    p-[2px] rounded-2xl
+  "
+          >
+            {/* Card Content */}
+            <div className="bg-white rounded-[inherit] p-6 sm:p-8 shadow-lg">
+              <div className="flex flex-col sm:flex-row items-center sm:items-start text-center sm:text-left space-y-4 sm:space-y-0 sm:space-x-5">
+                <div className="flex-1">
+                  <h3 className="text-2xl font-bold text-gray-800">
+                    Deepank Joshi
+                  </h3>
+                  <p className="text-pink-600 font-medium text-base mb-1">
+                    Full Stack Developer & Creator of Post Office Hub
+                  </p>
+                  <p className="text-gray-700 text-sm mb-2">
+                    Post Office Hub is developed with passion to make complex
+                    government information accessible to everyone. My goal is to
+                    build reliable, user-friendly tools that empower the
+                    community.
+                  </p>
+                  <p className="text-gray-700 text-sm">
+                    For technical inquiries or collaboration, contact:
+                  </p>
+                  <p className="mt-3 font-semibold text-blue-600 flex items-center justify-center sm:justify-start">
+                    <Mail className="inline-block mr-2" size={20} />
+                    postofficehub0@gmail.com
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>

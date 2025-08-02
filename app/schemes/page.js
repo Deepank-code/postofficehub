@@ -31,6 +31,9 @@ export const metadata = {
     images: ["https://postofficehub.in/post-sche.webp"],
     creator: "@PostOfficeHub",
   },
+  alternates: {
+    canonical: "https://postofficehub.in/schemes/",
+  },
 };
 export default function Scheme() {
   return (

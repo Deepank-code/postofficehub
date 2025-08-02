@@ -1,5 +1,5 @@
 ---
-title: "Post Office TD Scheme Guide"
+title: "Earn 7.5% Risk-Free: Why Post Office TD Wins Over Banks(Guide)"
 excerpt: "A complete overview of the Post Office Time Deposit (TD) scheme — fixed returns, flexible tenure options, and tax-saving benefits."
 date: "2025-06-30"
 readTime: "5 min read"
@@ -11,7 +11,6 @@ tags: ["TD", "Time Deposit", "Post Office", "Savings", "Fixed Deposit"]
 ---
 
 ## Post Office Time Deposit (TD) Scheme
-
 
 Grow your savings confidently with **Post Office Time Deposit (TD)** accounts offering secure, fixed returns. With annual interest payable (calculated quarterly) and investment starting from just ₹1000, TD is a reliable choice for steady growth of your funds.
 

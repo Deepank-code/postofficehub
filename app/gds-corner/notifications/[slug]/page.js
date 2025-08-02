@@ -2,7 +2,8 @@ import { notFound } from "next/navigation";
 import { getGDSCornerContent } from "@/lib/getGDSCornerContent";
 import markdownToHtml from "@/lib/markdownToHtml";
 import { Calendar, Bell, Tag, Megaphone } from "lucide-react";
-import ShareButton from "@/app/_components/ShareButton";
+
+const baseUrl = "https://postofficehub.in";
 
 export async function generateStaticParams() {
   const posts = getGDSCornerContent("notifications");
@@ -17,18 +18,38 @@ export async function generateMetadata({ params }) {
     return {
       title: "Notification Not Found - Post Office Hub",
       description: "The notification you are looking for does not exist.",
+      alternates: {
+        canonical: `${baseUrl}/gds-corner/notifications`,
+      },
     };
   }
 
+  const url = `${baseUrl}/gds-corner/notifications/${params.slug}/`;
+
   return {
     title: post.title,
-    description: post.excerpt,
+    description: post.excerpt || "Get the latest India Post and GDS updates.",
+    alternates: {
+      canonical: url,
+    },
+    openGraph: {
+      title: post.title,
+      description: post.excerpt || "",
+      url,
+      siteName: "Post Office Hub",
+      locale: "en_IN",
+      type: "article",
+    },
+    twitter: {
+      card: "summary",
+      title: post.title,
+      description: post.excerpt || "",
+    },
   };
 }
 
 export default async function NotificationPage({ params }) {
   const posts = await getGDSCornerContent("notifications");
-
   const post = posts.find((p) => p.slug === params.slug);
 
   if (!post) {

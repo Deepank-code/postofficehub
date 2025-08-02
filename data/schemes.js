@@ -4,9 +4,9 @@ export const schemes = [
     title: "Recurring Deposit Account",
     shortName: "RD",
     description:
-      "Save regularly with monthly deposits and earn attractive interest on your savings.",
+      "If you want to save regularly with monthly deposits and earn attractive interest on your savings Recurring Deposit is for you.",
     detailedDescription:
-      "Post Office Recurring Deposit Account allows you to save a fixed amount every month for a period of 5 years and earn attractive interest on your deposits.",
+      "Post Office Recurring Deposit Account allows you to save a fixed amount every month for a period of 5 years and earn attractive interest on your deposits you don't have to worry about market tends if it's going up and down.",
     minAmount: "₹100",
     maxAmount: "No Limit",
     tenure: "5 Years",
@@ -34,14 +34,14 @@ export const schemes = [
     title: "Time Deposit Account",
     shortName: "TD",
     description:
-      "Fixed deposit scheme with guaranteed returns for 1 to 5 years tenure.",
+      "Fixed Deposit scheme with guaranteed returns for a tenure of 1 to 5 years, requiring just a one-time investment.",
     detailedDescription:
-      "Post Office Time Deposit Account is a fixed deposit scheme where you can invest a lump sum amount for a fixed period and earn guaranteed returns.",
+      "The Post Office Time Deposit Account is a fixed deposit scheme where you can invest a lump sum amount for a fixed period and earn guaranteed returns with government-backed interest rates. You can open unlimited accounts under this scheme, making it a flexible and secure option for your savings.",
     minAmount: "₹1,000",
     maxAmount: "No Limit",
     tenure: "1-5 Years",
-    interestRate: "6.9%",
-    interestRateValue: 6.9,
+    interestRate: "7.5%",
+    interestRateValue: 7.5,
     icon: "🏦",
     eligibility: [
       "Any individual can open the account",
@@ -51,6 +51,7 @@ export const schemes = [
     benefits: [
       "Higher interest than savings account",
       "Flexible tenure options",
+      "Invest in Lumpsum no monthly deposit headache",
       "Premature withdrawal allowed",
       "Loan facility available",
     ],
@@ -63,7 +64,8 @@ export const schemes = [
     id: "mis",
     title: "Monthly Income Scheme",
     shortName: "MIS",
-    description: "Get monthly income with a one-time investment for 5 years.",
+    description:
+      "Get monthly income with a one-time investment for 5 years with Post office you can earn attractive monthly fixed income",
     detailedDescription:
       "Post Office Monthly Income Scheme provides monthly income to investors through a one-time investment for a period of 5 years.",
     minAmount: "₹1,500",

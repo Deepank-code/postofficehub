@@ -21,7 +21,7 @@ export async function generateMetadata({ params }) {
   const description =
     post.metadata.excerpt ||
     "Read this detailed guide on Post Office Hub for India Post schemes and GDS updates.";
-  const url = `https://postofficehub.in/blog/${post.metadata.slug}`; // Ensure this URL is correct and public
+  const url = `https://postofficehub.in/blog/${post.metadata.slug}/`;
   const image = post.metadata.image || "https://postofficehub.in/og-banner.png";
 
   return {
@@ -60,10 +60,9 @@ export async function generateMetadata({ params }) {
 }
 
 export default async function BlogPostPage({ params }) {
-  const post = getPostBySlug(params.slug);
+  const post = await getPostBySlug(params.slug);
   const contentHtml = await markdownToHtml(post.content);
 
-  // Define the share URL dynamically based on the current post
   const shareUrl = `https://postofficehub.in/blog/${params.slug}`;
   const shareTitle = `${post.metadata.title} | Post Office Hub`;
   const shareText =

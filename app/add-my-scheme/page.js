@@ -6,8 +6,8 @@ import Input from "@/app/_components/_ui/Input";
 import Button from "@/app/_components/_ui/Button";
 import { useRouter } from "next/navigation";
 import toast from "react-hot-toast";
+import { initDB, setReminder } from "@/lib/indexedDB";
 
-// Scheme options
 const schemeOptions = [
   {
     name: "Recurring Deposit (RD)",
@@ -75,6 +75,7 @@ export default function AddMySchemePage() {
     if ("Notification" in window && Notification.permission !== "granted") {
       Notification.requestPermission();
     }
+    initDB();
   }, []);
 
   const calculateMaturityDate = (date, duration) => {
@@ -87,7 +88,7 @@ export default function AddMySchemePage() {
     return maturity.toISOString().split("T")[0];
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     if (!customName || !schemeName || !investmentDate || !duration || !amount) {
       toast.error("Please fill in all required fields");
@@ -113,12 +114,7 @@ export default function AddMySchemePage() {
     };
 
     try {
-      let existing = [];
-      const stored = localStorage.getItem("customSchemes");
-      existing = stored ? JSON.parse(stored) : [];
-
-      existing.push(newScheme);
-      localStorage.setItem("customSchemes", JSON.stringify(existing));
+      await setReminder(newScheme);
 
       if ("Notification" in window && Notification.permission === "granted") {
         navigator.serviceWorker
@@ -129,20 +125,12 @@ export default function AddMySchemePage() {
                 body: `${customName} (${schemeName}) added for tracking.`,
                 icon: "/post-rd.webp",
               });
-            } else {
-              console.log(
-                "No Service Worker registration found, skipping notification."
-              );
             }
           })
-          .catch((err) => {
-            console.error("Error showing notification:", err);
-          });
+          .catch((err) => console.error("Error showing notification:", err));
       }
 
       toast.success(`Scheme added successfully! Redirecting...`);
-
-      // Direct navigation without delay
       router.push("/my-investments");
     } catch (error) {
       console.error("Error saving scheme:", error);
@@ -177,7 +165,6 @@ export default function AddMySchemePage() {
       </div>
 
       <form onSubmit={handleSubmit} className="space-y-4">
-        {/* Custom Name */}
         <div>
           <label
             htmlFor="customName"
@@ -193,7 +180,6 @@ export default function AddMySchemePage() {
           />
         </div>
 
-        {/* Scheme Selection */}
         <div>
           <label
             htmlFor="schemeName"
@@ -219,7 +205,6 @@ export default function AddMySchemePage() {
           </select>
         </div>
 
-        {/* Investment Date */}
         <div>
           <label
             htmlFor="investmentDate"
@@ -235,7 +220,6 @@ export default function AddMySchemePage() {
           />
         </div>
 
-        {/* Duration */}
         <div>
           <label
             htmlFor="duration"
@@ -259,7 +243,6 @@ export default function AddMySchemePage() {
           </select>
         </div>
 
-        {/* Amount */}
         <div>
           <label
             htmlFor="amount"
@@ -276,7 +259,6 @@ export default function AddMySchemePage() {
           />
         </div>
 
-        {/* Note */}
         <div>
           <label
             htmlFor="note"

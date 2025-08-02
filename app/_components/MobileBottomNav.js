@@ -8,6 +8,7 @@ import {
   Calculator,
   PackageSearch,
   MoreHorizontal,
+  BellRing,
 } from "lucide-react";
 import MoreModal from "./MoreModal";
 import { useState } from "react";
@@ -17,6 +18,7 @@ const navItems = [
   { name: "Schemes", href: "/schemes", icon: Book },
   { name: "Calculator", href: "/calculator", icon: Calculator },
   { name: "Tracking", href: "/tracking", icon: PackageSearch },
+  // { name: "Portfolio", href: "/reminder-tool", icon: BellRing },
   {
     name: "More",
     href: "",

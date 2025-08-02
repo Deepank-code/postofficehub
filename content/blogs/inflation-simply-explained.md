@@ -1,5 +1,5 @@
 ---
-title: "What is Inflation? And How You Can Save Money by Investing in Post Office High-Interest Schemes"
+title: "Inflation Wiping Out Your Savings? 4 Post Office Schemes That Beat It!"
 excerpt: "Inflation eats away your money's value each year. Learn what inflation is, how it affects your daily life, and how you can protect your savings using Post Office high-interest schemes."
 date: "2025-07-19"
 readTime: "5 min read"

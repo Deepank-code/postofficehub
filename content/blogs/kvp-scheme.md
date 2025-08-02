@@ -1,5 +1,5 @@
 ---
-title: "Post Office KVP Scheme Guide"
+title: "PDouble Your Money in 115 Months: Why KVP’s 7.5% Rate Is a Goldmine!"
 excerpt: "A complete guide to Post Office Kisan Vikas Patra (KVP) — secure your investment with guaranteed doubling in 115 months at 7.5% interest, under a safe government-backed scheme."
 date: "2025-06-30"
 readTime: "4 min read"

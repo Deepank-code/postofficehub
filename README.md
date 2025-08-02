@@ -26,7 +26,7 @@ A **Progressive Web App and Web Platform** providing **postal calculators, schem
 
 ## 🌐 Live Demo
 
-🔗 [Post Office Hub App](https://www.postofficehub.in/)
+🔗 [Post Office Hub App](https://postofficehub.in/)
 
 ---
 
@@ -37,3 +37,4 @@ git clone https://github.com/YourUsername/post-office-hub.git
 cd post-office-hub
 npm install
 npm run dev
+```

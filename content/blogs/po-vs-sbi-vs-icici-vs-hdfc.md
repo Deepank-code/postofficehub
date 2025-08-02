@@ -1,5 +1,5 @@
 ---
-title: "Post Office vs SBI vs HDFC vs ICICI: Best Interest Rates in India (July 2025)"
+title: "Shock Alert: SBI, HDFC & ICICI FD Rates Compared — Post Office Comes Out on Top!"
 excerpt: "Confused where to invest for the best returns? This simple comparison of Post Office, SBI, HDFC, and ICICI interest rates helps you decide where your money will grow safely and steadily in 2025."
 date: "2025-06-30"
 readTime: "6 min read"

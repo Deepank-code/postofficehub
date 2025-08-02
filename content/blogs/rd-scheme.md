@@ -1,5 +1,5 @@
 ---
-title: "Post Office RD Scheme Guide"
+title: "Stop Wasting Money: How to Maximize Returns with PO RD "
 excerpt: "A complete overview of the Post Office Recurring Deposit (RD) scheme — save small amounts every month and grow your savings securely."
 date: "2025-06-26"
 readTime: "5 min read"

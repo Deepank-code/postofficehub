@@ -22,14 +22,14 @@ export async function generateMetadata({ params }) {
       description:
         "Explore detailed guides, interest rates, eligibility, and benefits of various Post Office saving schemes on Post Office Hub.",
       alternates: {
-        canonical: "https://postofficehub.in/schemes",
+        canonical: "https://postofficehub.in/schemes/",
       },
     };
   }
 
   const title = `${scheme.shortName} Scheme - Interest Rates, Eligibility & Benefits | Post Office Hub`;
   const description = `Learn all about the ${scheme.shortName} scheme, including interest rates (${scheme.interestRate}), eligibility, tenure (${scheme.tenure}), and benefits. Plan your investments smartly with Post Office Hub.`;
-  const url = `https://postofficehub.in/schemes/${scheme.id}`;
+  const url = `https://postofficehub.in/schemes/${scheme.id}/`;
   const ogImage = `https://postofficehub.in/og-schemes/${scheme.id}.webp`; // place images accordingly
 
   return {
